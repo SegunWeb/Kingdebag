@@ -198,7 +198,7 @@ collections:
 
       - { label: "5_section_image", name: "five_img", widget: "image" }
       - { label: "5_section_alt", name: "five_img_alt", widget: "string" }
-      - { label: "5_section_id", name: "idVideo", widget: "string" }
+      - { label: "5_section_id", name: "five_video", widget: "string" }
 
       - { label: "6_section_name", name: "sixth_title", widget: "string" }
       - { label: "6_section_title", name: "sixth_desc", widget: "string" }
@@ -254,7 +254,7 @@ collections:
     files:
       - label: "Setting section video"
         name: "setting_section_video"
-        file: "/_data/biz_strategy/presentation.json"
+        file: "/_data/biz_strategy/performance.json"
         fields:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
