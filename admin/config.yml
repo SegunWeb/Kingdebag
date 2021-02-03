@@ -198,7 +198,7 @@ collections:
 
       - { label: "5_section_image", name: "five_img", widget: "image" }
       - { label: "5_section_alt", name: "five_img_alt", widget: "string" }
-      - { label: "5_section_id", name: "five_id_video", widget: "string" }
+      - { label: "5_section_id", name: "idVideo", widget: "string" }
 
       - { label: "6_section_name", name: "sixth_title", widget: "string" }
       - { label: "6_section_title", name: "sixth_desc", widget: "string" }
@@ -220,6 +220,7 @@ collections:
         options: ["homes"]
 
 
+  # Our pages e.g. Works
   - label: "Home Page Setting"
     name: "home_page_setting"
     editor:
@@ -233,7 +234,40 @@ collections:
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
 
 
+  - label: "Home Page ALT Setting"
+    name: "home_page_alt_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/homepage/presentation.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
 
 
+  - label: "Biz & Strategy Page Setting"
+    name: "biz_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/biz_strategy/presentation.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
 
 
+  - label: "Basic cont Page Setting"
+    name: "basic_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/basic_cont/basic_video.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "img", widget: "image" }
