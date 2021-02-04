@@ -230,12 +230,8 @@ collections:
         name: "Homepage Setting"
         file: "/_data/homepage_alt.json"
         fields:
-          - label: ID video
-            name: "id_video"
-            widget: "string"
-          - label: Previe Image
-            name: "imgPreview"
-            widget: "image"
+          - { label: "ID video", name: "id_video", widget: "string" }
+          - { label: "Preview Image", name: "imgPreview", widget: "image" }
 
       - label: "Homepage_alt Setting"
         name: "Homepage_alt Setting"
