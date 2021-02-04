@@ -1,0 +1,29 @@
+{
+  "first_title": "Building a better worlD",
+  "first_desc": "Our mission is to accelerate a net zero emissions built environment with the wellbeing of people and planet at its heart. ",
+  "first_img": "/src/image/homepage_alt/mission_img_first.jpg",
+  "first_text_btn": "VIEW REFURBISHMENT",
+  "first_href_btn": "/story",
+
+  "second_img_one": "/src/image/homepage_alt/mission_second_left.jpg",
+  "second_img_two": "/src/image/homepage_alt/mission_second_right.jpg",
+  "second_text_btn": "VIEW CIRCULARITY",
+  "second_href_btn": "/story",
+  "second_text_btn_two": "VIEW INNOVATION",
+  "second_href_btn_two": "/story",
+  "second_desc": "Sandaec\ntintem doloresequis\nsoluptionem volupta sequi quiat\nmillenita soloreperro\ncon eossi optaqui\nvelenectur sam /\nProduct: Dri-Design\nPerforated with\nQuadCore™ KarrierCero\ncus.",
+
+  "three_img_one": "/src/image/homepage_alt/mission_three_left.jpg",
+  "three_img_two": "/src/image/homepage_alt/mission_three_right.jpg",
+  "three_text_btn": "VIEW CARBON IN CONSTRUCTION",
+  "three_href_btn": "/story",
+  "three_text_btn_two": "VIEW CHANGING LIFESTYLES",
+  "three_href_btn_two": "/story",
+
+
+  "mobile_img_one": "/src/image/homepage_alt/mobile/mission_one.jpg",
+  "mobile_img_two": "/src/image/homepage_alt/mobile/mission_two.jpg",
+  "mobile_img_three": "/src/image/homepage_alt/mobile/mission_three.jpg",
+  "mobile_img_four": "/src/image/homepage_alt/mobile/mission_four.jpg",
+  "mobile_img_five": "/src/image/homepage_alt/mobile/mission_five.jpg"
+}

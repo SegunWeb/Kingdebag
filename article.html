@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  article.meta.meta_title }}</title>
+    <meta name="description" content="{{article.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/article.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include postslist/main_article.html %}
+    {% include postslist/article_items.html %}
+
+</main>
+{% include component/footer_small.html %}
+
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/article.js" %}
+
+
+
+
+</body>
+</html>

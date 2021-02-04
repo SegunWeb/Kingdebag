@@ -1,0 +1,38 @@
+<section class="slider_biz_strategy" >
+    <div class="slider_biz_strategy_contaier wrapper">
+        <div class="container slider_biz_strategy_title_text">
+            <p class="slider_biz_strategy_info">{{biz_strategy.slider_biz_strategy.info}}</p>
+            <h2 class="slider_biz_strategy_title">{{biz_strategy.slider_biz_strategy.title}}</h2>
+        </div>
+
+        <div class="slider">
+            <div class="slider-list">
+                <div class="slider_img  slider_biz_strategy_box slider-track">
+                    {% for item in biz_strategy.slider_biz_strategy.slide %}
+                    <div>
+                        <div class="item slider_biz_strategy_item slide">
+                            <div class="slider_biz_strategy_item_wrap">
+                                <div class="slider_biz_strategy_item_img">
+                                    <img src="{{item.img}}" alt="slide">
+                                    <a href="#">{{item.hover_text}}</a>
+                                </div>
+                            </div>
+                            <div class="slider_biz_strategy_item_desc">
+                                <p>{{item.title_slide}}</p>
+                                <p>{{item.text}} </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="slider-arrows">
+                <button type="button" class="prev">&larr;</button>
+                <button type="button" class="next">&rarr;</button>
+            </div>
+        </div>
+    </div>
+
+
+</section>

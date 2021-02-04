@@ -1,0 +1,40 @@
+{
+  "title": "Over 80% of a residential building’s energy needs are from heating & cooling",
+  "desc": "Energy efficient building envelopes are key to reducing energy consumption.",
+
+  "bubles": [
+    {
+      "perc": "5%",
+      "text": "Cooking",
+      "desc": "Energy efficient building <br> envelopes are key to <br> reducing energy <br> consumption.",
+      "id": "b-one"
+    },
+    {
+      "perc": "13%",
+      "text": "Water heating",
+
+      "id": "b-two"
+    },
+    {
+      "perc": "2%",
+      "text": "Lighting",
+
+      "id": "b-three"
+    },
+    {
+      "perc": "12%",
+      "text": "Electrical Appliances",
+
+      "id": "b-four"
+    },
+    {
+      "perc": "68%",
+      "text": "Electrical Appliances",
+
+      "id": "b-five"
+    }
+  ]
+
+
+
+}

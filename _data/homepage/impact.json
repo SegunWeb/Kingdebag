@@ -1,0 +1,40 @@
+{
+  "title": "Our Impact 2020",
+  "desc": "Sandaec tintem di soluptionem volupta sequi quiat millenita solorep con eossi optaqui velenectur sam. ",
+  "btn_text": "CARBON IN CONSTRUCTION",
+  "btn_href": "/story",
+  "decor_img": "/src/image/homepage/impact.jpg",
+  "decor_img_mob": "/src/image/homepage/mobile/impact_mob.jpg",
+  "decor_text": "Hungary APZ Test Track,\nZalaegerszeg / Insulated\nPanels Dri-Design\nRainscreen Facade IPN\nKarrier Panel",
+
+  "card": [
+    {
+      "info_img": "/src/image/icons/air.svg",
+      "info_title": "172m tonnes",
+      "info_desc": "172 million tonnes of\nCO2 will be saved over the life of our insulation systems sold in 2019",
+      "info_title_two": "17 years",
+      "info_desc_two": "Enough to power\na major airline\nfor 17 years."
+    },
+    {
+      "info_img": "/src/image/icons/shower.svg",
+      "info_title": "75bn litres",
+      "info_desc": "Over 75 billion litres\nof rainwater has been\nharvested by our\nrainwater systems",
+      "info_title_two": "50m",
+      "info_desc_two": "Enough water\nto fill 50 million\nbaths"
+    },
+    {
+      "info_img": "/src/image/icons/bottle.svg",
+      "info_title": "385m",
+      "info_desc": "In 2019 alone we\nupcycled 385 million\nwaste plastic bottles.",
+      "info_title_two": "600 pITCHES",
+      "info_desc_two": "Enough recycled bottles to fill over\n600 football pitches."
+    },
+    {
+      "info_img": "/src/image/icons/sun.svg",
+      "info_title": "385m",
+      "info_desc": "The capacity\nto create 9 billion lumens of natural light annually through\nour daylighting systems.",
+      "info_title_two": "1m",
+      "info_desc_two": "Enough to light\nup 1 million homes"
+    }
+  ]
+}

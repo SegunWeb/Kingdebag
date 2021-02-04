@@ -1,0 +1,94 @@
+// pagination
+.pagination {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mq(sm) {
+    margin-top: 50px;
+  }
+}
+.pagination_box {
+  display: flex;
+}
+.pagination_items {
+  @extend .flex_center;
+
+  & > li {
+    list-style: none
+  }
+}
+.pagination_num {
+  font-family: $brownLight;
+  font-size: $fontSizeLG - 4px;
+  color: $grayPag;
+  width: 59px;
+  height: 59px;
+  border-radius: 100px;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+
+  @include mq(sm){
+    width: 39px;
+    height: 39px;
+    font-size: $fontSizeLG - 12px;
+  }
+
+  &:hover {
+    color: $blue;
+    background-color: $greenLight;
+    box-sizing: border-box;
+    border: 1px solid $blue;
+  }
+   & > span {
+     position: absolute;
+     left: 50%;
+     top: 48%;
+     transform: translate(-50%, -50%);
+   }
+}
+
+.pagination_num.active {
+  color: $blue;
+  background-color: $greenLight;
+  box-sizing: border-box;
+  border: 1px solid $blue;
+
+  & > span {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:before {
+    display: none !important;
+  }
+}
+
+
+.pagination_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  cursor: pointer;
+
+  @include mq(sm) {
+    margin: 0 10px;
+  }
+
+  & > img {
+    transform: rotate(180deg);
+    width: 40px;
+    height: auto;
+  }
+
+  &_left {
+    transform: rotate(0deg) !important;
+  }
+}
+

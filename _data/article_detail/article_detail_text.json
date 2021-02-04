@@ -1,0 +1,20 @@
+{
+  "title": "Etiam in ex imperdiet justo tincidunt egestas. ",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero, vitae commodo nunc quam et ligula. Ut nec ipsum sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non. Dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. ",
+  "title_list": "Etiam in ex imperdiet justo tincidunt egestas. ",
+
+  "list": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "text": "Maecenas varius tortor nibh, sit amet tempor nibh finibus et."
+    },
+    {
+      "text": "Aenean eu enim justo. Vestibulum aliquam hendrerit molestie."
+    },
+    {
+      "text": "Mauris malesuada nisi sit amet augue accumsan tincidunt."
+    }
+  ]
+}

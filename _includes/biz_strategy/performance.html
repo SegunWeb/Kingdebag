@@ -1,0 +1,36 @@
+<section class="performance wrapper">
+
+    <div class="active_video">
+        <div class="close_video"></div>
+        <div class="video_size" id="youtube">
+            <iframe src="https://www.youtube.com/embed/{{ biz_strategy.performance.id_video }}?enablejsapi=1&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="perf_container">
+        <div class="perf_media">
+            <div class="perf_media__image">
+                <img src="{{ biz_strategy.performance.imgPreview }}" alt="preview">
+                <span class="button_play">{{biz_strategy.performance.btnPlay | svgContents }}</span>
+            </div>
+        </div>
+        <div class="perf_description">
+
+            <div class="perf_text">
+                <div class="perf_text__title">
+                    <h2>{{biz_strategy.performance.title}}</h2>
+                </div>
+                <div class="perf_text__description">
+                    <p>{{biz_strategy.performance.desc}}</p>
+                </div>
+                <div class="perf_text__author">
+                    <p>{{biz_strategy.performance.author}}</p>
+                </div>
+                <div class="perf_text__link">
+                    <a href="{{biz_strategy.performance.link_href}}">{{biz_strategy.performance.link_text}}</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

@@ -1,0 +1,10 @@
+{
+  "description": "Annual Report 2020",
+  "background": "/src/image/homepage_alt/bg_video.jpg",
+  "background_video": "/src/image/homepage_alt/video_bg/video_main.mov",
+  "background_mob": "/src/image/homepage_alt/mobile/main_bg_mobile.jpg",
+  "title": "Building a better world",
+  "info": "<strong>Kingspan</strong>  has committed to recycling <strong>1 billion</strong> plastic bottles each year for use in its insulation products by 2025.",
+  "btn_title": "Our Circular Innovations",
+  "btn_href": "/story"
+}

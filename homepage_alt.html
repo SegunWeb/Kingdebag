@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  homepage_alt.meta.meta_title }}</title>
+    <meta name="description" content="{{homepage_alt.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/homepage.css"/>
+
+</head>
+<body>
+
+{% include component/header.html %}
+<main>
+    {% include homepage/main.html %}
+    {% include homepage/presentation.html %}
+    {% include homepage/mission.html %}
+    {% include homepage/impact.html %}
+    {% include homepage/financial.html %}
+    {% include homepage/business.html %}
+</main>
+{% include component/footer.html %}
+
+
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/homepage.js" %}
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+//generic
+@import "../generic/fonts";
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/general";
+@import "../generic/slider";
+
+//elements
+@import "../component/button";
+@import "../component/header";
+@import "../component/footer";
+@import "../component/pagination";
+
+// items page
+@import "items/main_article";
+@import "items/items_article";

@@ -1,0 +1,29 @@
+.breadcrumbs {
+  font-family: $brownLight;
+  font-size: $fontSizeSM;
+  line-height: 1.3;
+
+  @include mq(sm) {
+    font-size: $fontSizeSM - 4px;
+  }
+
+  & > a {
+    margin-right: 20px;
+    color: $blue;
+  }
+
+  & > a:first-child {
+    position: relative;
+
+    &:before {
+      content: "/";
+      position: absolute;
+      right: -15px;
+      color: $yellow;
+    }
+  }
+
+  & > a:last-child {
+    font-weight: bold;
+  }
+}

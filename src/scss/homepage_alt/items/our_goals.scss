@@ -1,0 +1,150 @@
+.our_goals {
+  position: relative;
+  margin-top: 33%;
+
+  @include mq(xxl) {
+    margin-top: 30%;
+  }
+  @include mq(md) {
+    padding-top: 23%;
+  }
+  @include mq(sm){
+    padding-top: 40%;
+  }
+  @include mq(xs){
+    padding-top: 80%;
+  }
+
+}
+.our_goals_container {
+  position: relative;
+}
+.our_goals_title {
+  transform: rotate(-90deg);
+  font-size: $fontSizeLG + 4px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  color: $black;
+  font-family: $brownLight;
+
+
+  @include mq(lg) {
+    left: 2%;
+    top: 95px;
+  }
+  @include mq(md) {
+    left: -1%;
+  }
+  @include mq(sm) {
+    left: 3%;
+  }
+
+  @include mq(xs) {
+    left: -3%;
+    font-size: $fontSizeLG - 12px;
+    top: 55px;
+  }
+  @include mq(xxs) {
+    left: -15px;
+  }
+
+
+  &:before {
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: $black;
+    position: absolute;
+    top: 51%;
+    left: -130px;
+  }
+
+}
+.our_goals_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+
+  @include mq(md) {
+    flex-direction: column;
+  }
+}
+
+.our_goals_item {
+  margin-left: 5%;
+  max-width: 410px;
+
+  @include mq(xxl) {
+    width: 22%;
+  }
+  @include mq(md) {
+    margin: 0 auto 60px auto;
+    width: 100%;
+  }
+  @include mq(sm) {
+    margin: 0 0 40px auto;
+    width: 100%;
+  }
+  @include mq(xs) {
+    width: 72%;
+  }
+}
+
+.our_goals_item_name {
+  text-transform: uppercase;
+  color: $black;
+  font-family: $nimbus;
+  font-size: $fontSizeSM + 2px;
+}
+
+.our_goals_item_img {
+  margin: 24px 0 45px 0;
+  width: 427px;
+
+  @include mq(xxl){
+    width: 320px;
+  }
+
+  @include mq(lg) {
+    margin: 10px 5px 45px 0;
+    width: 100%;
+  }
+  @include mq(sm) {
+    margin-bottom: 26px;
+  }
+}
+
+.our_goals_item_desc_title {
+  font-size: $fontSizeMD;
+  line-height: 1.3;
+  font-weight: bold;
+
+}
+
+.our_goals_item_desc_desc {
+  color: $black;
+  font-size: $fontSizeSM;
+  margin: 10px 0 30px 0;
+  font-family: $brownLight;
+  line-height: 1.3;
+
+  @include mq(lg) {
+    font-size: $fontSizeSM;
+  }
+
+}
+.our_goals_item_desc {
+  margin-right: 5px;
+}
+
+.our_goals_item_desc_link {
+  color: $green;
+  position: relative;
+  font-family: $brownBold;
+  text-transform: uppercase;
+
+
+}

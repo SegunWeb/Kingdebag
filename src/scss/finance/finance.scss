@@ -1,0 +1,23 @@
+//generic
+@import "../generic/fonts";
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/general";
+@import "../generic/slick";
+@import "../generic/slider_graph";
+
+//elements
+@import "../component/button";
+@import "../component/header";
+@import "../component/footer";
+@import "../component/back_to_top";
+
+// items page
+@import "items/main_finance";
+@import "items/financial";
+@import "items/conversion_finance";
+@import "items/article_finance";
+@import "items/testimonials";
+@import "items/better";
+@import "items/report";
+@import "items/graph";

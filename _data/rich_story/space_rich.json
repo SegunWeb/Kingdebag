@@ -1,0 +1,20 @@
+{
+  "title": "Kingspans Impact on the Refurbishment Space",
+  "title_text": "Our Impact",
+
+  "img_one":  "/src/image/rich_story/space.jpg",
+  "one_text": "The energy consumption of buildings is a leading contributor to carbon emissions and therefore global warming.",
+
+  "img_two":  "/src/image/rich_story/space2.jpg",
+  "two_text": "The energy consumption of buildings is a leading contributor to carbon emissions and therefore global warming.",
+
+  "img_three":  "/src/image/rich_story/space3.jpg",
+  "three_text": "The energy consumption of buildings is a leading contributor to carbon emissions and therefore global warming.",
+
+  "title_desc_one": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "desc_one": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit..",
+  "title_desc_two": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "desc_two": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+  "title_desc_three": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "desc_three": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit."
+}

@@ -1,0 +1,148 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100%;
+  max-width: 100%;
+  color: $blue;
+  font-size: $fontSizeXS;
+  font-family: $brown;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  @include mq(xxl) {
+
+  }
+}
+.filter {
+  position: relative;
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, .3);
+    position: absolute;
+  }
+}
+
+.filter_mobile {
+  position: relative;
+  @include mq(sm) {
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(0,0,0, .3);
+      position: absolute;
+    }
+  }
+
+}
+
+.title_font {
+  font-size: $fontSizeXl;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl - 20px;
+  }
+  @include mq(lg) {
+    font-size: $fontSizeXl - 40px;
+  }
+  @include mq(sm) {
+    font-size: $fontSizeXl - 32px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXl - 32px;
+  }
+}
+.title_font_spec {
+  font-size: $fontSizeXl;
+  font-family: $nimbus;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl - 8px;
+  }
+
+  @include mq(lg) {
+    font-size: $fontSizeXl - 30px;
+  }
+
+  @include mq(sm) {
+    font-size: $fontSizeXl - 35px;
+  }
+}
+.mobile_img {
+  @include mq(md) {
+    width: 600px;
+  }
+}
+.scroll-hidden {
+  overflow: hidden !important;
+  height: 100vh;
+}
+.button_font {
+  font-family: $nimbusNew;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+//---- extends ----
+.elem_center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  @include mq(sm) {
+    width: 92%;
+  }
+}
+
+.context_box_left {
+  margin-left: 15%;
+}
+
+.info_page_title {
+  @extend .title_font;
+  font-weight: bold;
+}
+.info_page_desc {
+  font-family: $brownLight;
+  font-size: $fontSizeMD - 2px;
+  color: $black;
+  margin-top: 60px;
+}
+.info_page_wrap {
+  width: 90%;
+  margin: 200px auto;
+
+  @include mq(md) {
+    margin-top: 100px;
+  }
+}
+
+

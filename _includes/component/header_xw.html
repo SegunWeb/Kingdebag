@@ -1,0 +1,34 @@
+<header id="header" class="header">
+  <div class="header_container wrapper">
+    <div class="header_navigation">
+      <div class="header_logo">
+        <a class="mobile_logo" href="/">
+          {{ header.logo | svgContents }}
+        </a>
+        <a class="logo_head" href="/">
+          {{ header.logo_w | svgContents }}
+        </a>
+      </div>
+        <nav class="header_menu">
+          <div class="mobile_box">
+            <span class="header_burger">{{ header.burger_w | svgContents }}</span>
+            <span class="header_close">{{ header.close | svgContents }}</span>
+          </div>
+
+          <ul class="header_menu__list">
+            {% for item in header.menu %}
+            <li class="header_menu__item">
+              <a class="header_menu__item_link header_menu__item_link__white" href="{{item.link_href}}">{{item.link_name}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+    </div>
+    <div class="header_report">
+      <a class="button_header-report" href="{{header.download_file}}" download>
+        download<br>
+        report
+      </a>
+    </div>
+  </div>
+</header>

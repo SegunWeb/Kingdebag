@@ -1,0 +1,159 @@
+.report {
+  margin: 160px auto;
+
+  @include mq(sm) {
+    margin: 30px auto;
+  }
+}
+
+.report_container {
+  max-width: 1393px;
+  margin: 0 auto;
+}
+.report_wrapper {
+  max-width: 1228px;
+}
+.report_title_box {
+  margin-bottom: 52px;
+
+  @include mq(sm){
+    margin-bottom: 40px;
+  }
+}
+.report_title {
+  font-size: $fontUp;
+  font-weight: bold;
+
+  @include mq(sm) {
+    font-size: $fontUp - 12px;
+  }
+}
+.report_content_wrapper {
+  position: relative;
+  border: 1px solid $grayLight;
+
+  &:before {
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 88px;
+    background-color: $blue;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+}
+.report_content_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 48px;
+
+  @include mq(xs) {
+    margin: 0 10px;
+  }
+}
+.report_name_box {
+  @include mq(sm) {
+    max-width: 200px;
+    padding-right: 10px;
+  }
+
+  & > div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.report_name {
+  color: $black;
+  font-size: $fontSizeSM;
+  align-items: flex-start;
+
+  @include mq(xs) {
+    font-size: $fontSizeSM - 4px;
+  }
+}
+.report_name_title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.report_name_desc {
+   font-family: $brownLight;
+}
+.report_data_box {
+  display: flex;
+  margin-top: -88px;
+  position: relative;
+  z-index: 9;
+}
+.report_data {
+  width: 174px;
+
+  @include mq(md) {
+    width: 110px;
+  }
+  @include mq(xs) {
+    width: 80px;
+  }
+}
+.report_data_box > .report_data:nth-child(2n) > .report_data_info {
+  background-color: $white;
+}
+.report_data_box > .report_data:nth-child(2n) > .report_data_info > .report_info {
+  font-family: $brownLight;
+}
+
+.report_data_info {
+  background-color: $greenLight;
+  color: $black;
+  font-size: $fontSizeSM;
+
+  @include mq(xs) {
+    font-size: $fontSizeSM - 4px;
+  }
+}
+
+.report_year_info, .report_info_title, .report_info_desc {
+  font-family: $brown;
+  font-weight: bold;
+  text-align: right;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.report_year_info {
+  background-color: $blue;
+  color: $white;
+  font-size: $fontSizeSM + 4px;
+
+  @include mq(sm) {
+    font-size: $fontSizeSM;
+  }
+}
+
+.report_name,
+.report_year_info,
+.report_info {
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.report_year_num,
+.report_info_title,
+.report_name_title {
+  padding-bottom: 5px;
+}
+.report_info_desc, .report_year_value {
+  padding-top: 8px;
+}
+
+.report_info_rev {
+  border-bottom: 1px solid $green;
+}
+.report_info_oper {
+  border-bottom: 3px solid $green;
+
+  &_wrap {
+    border-bottom: 1px solid $green;
+  }
+}

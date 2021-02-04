@@ -1,0 +1,22 @@
+//generic
+@import "../generic/fonts";
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/general";
+@import "../generic/video";
+
+//elements
+@import "../component/button";
+@import "../component/header";
+@import "../component/footer";
+@import "../component/breadcrumbs";
+
+// items page
+@import "items/main_article_detail";
+@import "items/article_detail_section_two";
+@import "items/article_detail_img";
+@import "items/article_detail_small_img";
+@import "items/testimonials_article_detail";
+@import "items/better_article_detail";
+@import "items/article_detail_video";
+@import "items/article_detail_text";

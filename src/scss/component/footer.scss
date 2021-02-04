@@ -1,0 +1,299 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer_report {
+  margin: 120px 0;
+  background: url("../image/footer_bg.svg") no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  right: -25%;
+  width: 75%;
+  padding: 45px 50px;
+
+  @include mq(xxl) {
+    background-position: -90px;
+  }
+
+  @include mq(lg) {
+    margin: 80px 0;
+  }
+
+  @include mq(md) {
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(90deg, $white 22%, $backgroundGreenLight 20%);
+  }
+
+  @include mq(sm) {
+    padding: 40px 0;
+    margin: 0 auto 40px auto;
+  }
+
+}
+
+.footer_report_title {
+  position: absolute;
+  left: -28%;
+  top: 0;
+
+  @include mq(xxl) {
+    left: -30%;
+  }
+
+  @include mq(md) {
+    position: relative;
+    left: 0;
+    margin-bottom: 40px;
+  }
+  @include mq(sm) {
+    width: 92%;
+    margin: 0 auto 30px auto;
+  }
+
+
+
+}
+.report_year_footer {
+  font-size: $specSizeFooter;
+  font-family: $nimbus;
+  margin-bottom: 20px;
+
+  @include mq(lg) {
+    font-size: $specSizeFooter - 15px;
+  }
+
+}
+.report_title_footer {
+  @extend .title_font;
+
+}
+.footer_report_file {
+  width: 920px;
+  margin: 0;
+  margin-left: auto;
+
+  @include mq(xxl) {
+    width: 700px;
+  }
+  @include mq(md) {
+    width: 90%;
+    margin: 0 auto;
+  }
+  @include mq(sm) {
+    width: 92%;
+  }
+}
+.report_file_download {
+  display: flex;
+  justify-content: center;
+}
+
+.report_file_title {
+  font-family: $nimbus;
+  font-size: $fontSizeSM;
+  @include mq(xs) {
+    font-size: $fontSizeSM - 2px;
+  };
+}
+.report_file_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+
+}
+.file_box {
+  background-color: $white;
+  padding: 25px 15px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  width: 454px;
+
+  @include mq(xxl) {
+    width: 49%;
+  }
+
+  @include mq(md) {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid $gray;
+  }
+  @include mq(sm) {
+    width: 100%;
+  }
+}
+.file_info_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.file_name {
+  font-weight: bold;
+  font-size: $specSizeSM;
+}
+.file_size {
+  font-weight: initial;
+  font-size: $fontSizeSM;
+  margin: 0 20px;
+  font-family: $brownLight;
+}
+
+
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+
+  @include mq(md) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer_section_left {
+  @include mq(md) {
+    order: 1;
+  }
+}
+
+.footer_section_right {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.footer_menu {
+  display: flex;
+  align-items: center;
+
+  @include mq(md) {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding: 5px 0;
+    font-family: $brownBold;
+
+    & > a {
+
+      color: $blue;
+    }
+    &:nth-child(2n) {
+      border-left: 1px solid $yellow;
+      border-right: 1px solid $yellow;
+      margin: 0 17px;
+      padding: 5px 10px;
+    }
+  }
+
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 20px 0 ;
+  color: $black;
+  font-family: $brownLight;
+
+  @include mq(md) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXS;
+  }
+  @include mq(xxs) {
+    font-size: $fontSizeXS - 2px;
+  }
+
+  &__copy {
+    padding-right: 120px;
+    position: relative;
+
+    @include mq(md) {
+      padding: 0;
+      margin-bottom: 10px;
+      margin-left: -45px;
+    }
+
+    &:before{
+      content: '';
+      position: absolute;
+      right: 28px;
+      top: 50%;
+      width: 60px;
+      height: 1px;
+      background-color: $gray;
+
+      @include mq(md) {
+        display: none;
+      }
+    };
+  }
+}
+.footer_back_link {
+  display: flex;
+}
+.link_back {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  margin-right: 30px;
+  font-family: $brownLight;
+
+  &__icon {
+    margin-right: 5px;
+  }
+  &__text {
+    position: relative;
+    padding-bottom: 5px;
+    color: $blue;
+
+    @include mq(xs) {
+      font-size: $fontSizeXS;
+    }
+    @include mq(xxs) {
+      font-size: $fontSizeXS - 3px;
+    }
+  }
+
+  &__text:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: $blue;
+    height: 1px;
+    width: 100%;
+  }
+}
+
+.footer_socials {
+
+  @include mq(md) {
+    display: none;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+}

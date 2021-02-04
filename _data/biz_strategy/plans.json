@@ -1,0 +1,58 @@
+{
+  "title": "Global Expansion Plans",
+  "info_title": "159 Global Manufacturing Facilities",
+  "info_desc": "The globalization of Kingspan is at the heart of our ongoing strategy and is central to our mission towards a sustainable future.",
+  "place_title": "Sweden",
+  "place_text": "Kooltherm® Facility",
+  "map_img": "/src/image/biz_strategy/Map.png",
+  "map_img_mob": "/src/image/biz_strategy/Map_mobile.png",
+  "close": "/src/image/icons/close.svg",
+
+  "year": [
+    {
+      "text": "2020"
+    },
+    {
+      "text": "2021"
+    },
+    {
+      "text": "2022"
+    }
+  ],
+
+  "info": [
+    {
+      "name": "AlphaCore Line",
+      "img": "/src/image/biz_strategy/Oval1.svg"
+    },
+    {
+      "name": "Industrial Insulation",
+      "img": "/src/image/biz_strategy/Oval2.svg"
+    },
+    {
+      "name": "Kooltherm Facility",
+      "img": "/src/image/biz_strategy/Oval3.svg"
+    },
+    {
+      "name": "K-Roc Panel Line",
+      "img": "/src/image/biz_strategy/Oval4.svg"
+    },
+    {
+      "name": "Light & Air Facility",
+      "img": "/src/image/biz_strategy/Oval5.svg"
+    },
+    {
+      "name": "New Panel Line",
+      "img": "/src/image/biz_strategy/Oval6.svg"
+    },
+    {
+      "name": "PIR Panel Line",
+      "img": "/src/image/biz_strategy/Oval7.svg"
+    },
+    {
+      "name": "QuadCore Panel Line",
+      "img": "/src/image/biz_strategy/Oval8.svg"
+    }
+
+  ]
+}

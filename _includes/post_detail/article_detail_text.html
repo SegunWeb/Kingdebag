@@ -1,0 +1,24 @@
+<section class="article_detail_text">
+    <div class="container wrapper">
+        <div class="article_detail_text_container">
+            <div class="article_detail_text_box">
+                <p class="article_detail_text_title">{{sixth_title}}</p>
+                <p class="article_detail_text_info">{{sixth_desc}}</p>
+            </div>
+            <div>
+                <p class="article_detail_text_title">{{ sixth_title_list}}</p>
+                <div class="article_detail_text_list_box">
+                    <ul class="article_detail_text_list">
+                        {% for item in sixth_list %}
+                        <li class="article_detail_text_item">
+                            <span class="article_detail_text_item_text">
+                                {{item}}
+                            </span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

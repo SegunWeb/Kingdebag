@@ -1,0 +1,42 @@
+<section class="article_items">
+    <div class="container wrapper ">
+        <div class="article_container">
+            <div class="article_wrap">
+                {% for item in article.items_article.data_array %}
+                <div class="article_item_box">
+                    <div class="article_item_img_box">
+                        <img class="article_item_img" src="{{item.img_article}}" alt="img">
+                    </div>
+                    <div class="article_items_wrap">
+                        <div class="article_item_data">
+                            <p class="article_item_data_title article_item_data_text">{{item.data_title}}</p>
+                            <p class="article_item_data_info article_item_data_text">{{item.data_info}}</p>
+                        </div>
+                        <div class="article_item_text">
+                            <h2 class="article_item_text_title">{{item.text_title}}</h2>
+                            <p class="article_item_text_desc">{{item.text_info}}</p>
+                        </div>
+                        <div class="article_item_button_box">
+                            <a class="button_lg" href="{{item.btn_href}}">{{item.btn_text}}</a>
+                        </div>
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+            <div class="pagination">
+                <div class="pagination_box">
+                    <div class="pagination_items">
+                        <p class="pagination_num"><span>1</span></p>
+                        <p class="pagination_num"><span>2</span></p>
+                        <p class="pagination_num"><span>3</span></p>
+                        <p class="pagination_num"><span>4</span></p>
+                    </div>
+                    <div class="pagination_arrow">
+                        {{ article.items_article.arrows | svgContents }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

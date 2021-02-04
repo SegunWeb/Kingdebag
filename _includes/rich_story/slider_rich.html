@@ -1,0 +1,133 @@
+<section class="slider_rich" >
+    <div class="slider_rich_contaier wrapper">
+        <div class="container slider_rich_title_text">
+            <p class="slider_rich_title">{{rich_story.slider_rich.title}}</p>
+            <p class="slider_rich_year">{{rich_story.slider_rich.year}}</p>
+        </div>
+
+        <div class="slider">
+            <div class="slider-list">
+                <div class="slider_img slider_rich_box slider-track">
+                    {% for item in rich_story.slider_rich.slide %}
+                    <div>
+                        <div class="slider_rich_item slide">
+                            <div class="slider_rich_item_wrap">
+                                <div class="slider_rich_item_img">
+                                    <img src="{{item.img}}" alt="slide">
+                                    <a href="#">{{item.hover_text}}</a>
+                                </div>
+                            </div>
+                            <div class="slider_rich_item_desc">
+                                <p>{{item.title_slide}}</p>
+                                <p>{{item.text}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- slider info --->
+    {% for info in rich_story.slider_rich.slider_info %}
+    <div id="{{ info.id}}"  class="slider_item_info_box">
+
+        <div class="slider_item_info_cont">
+            <div class="slider_info_static_text">
+                <p class="static_text_l">{{ rich_story.slider_rich.title}}</p>
+                <p class="static_text_r">{{ rich_story.slider_rich.year}}</p>
+            </div>
+            <div class="slider_item_info_close">
+                <p>close <span>{{ rich_story.slider_rich.close | svgContents }}</span></p>
+            </div>
+        </div>
+
+
+
+        <div class="slider_info_wrap">
+
+                <div id="slide_one" class="box_for_slide">
+                    <div class="slider_item_info_static">
+                        <div class="slider_inf_static_desc">
+                            <h2 class="static_desc_title">{{info.slide_title}}</h2>
+                            <p class="static_desc_de">{{info.slide_desc}}</p>
+                            <div class="static_desc_text">
+                                <p>{{info.slide_text_t}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide_two" class="box_for_slide">
+                    <div class="slider_item_info_slide">
+                        <div class="slider_item_info_img">
+                            <img class="slide_img" src="{{info.slide_img_one}}" alt="img">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide_three" class="box_for_slide">
+                    <div class="slider_item_info_slide">
+                        <div class="slider_item_info_img">
+                            <img class="slide_img" src="{{info.slide_img_two}}" alt="img">
+                        </div>
+                        <div class="slider_item_info_text">
+                            <p class="slide_text">{{info.slide_img_text_two}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide_four" class="box_for_slide">
+                    <div class="slider_item_info_slide">
+                        <div class="slider_item_info_img">
+                            <img class="slide_img" src="{{info.slide_img_three}}" alt="img">
+                        </div>
+                        <div class="slider_item_info_text slider_item_info_text_four ">
+                            <p class="slide_text_slide_four">{{info.slide_img_text_three}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide_five" class="box_for_slide">
+                    <div class="slider_item_info_slide slider_item_info_slide_five">
+                        <p class="slide_text slide_text_five">{{info.slide_img_text_four}}</p>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+<!--            <div class="slider_info_wrap">-->
+<!--                {% for info_img in info.slide_img_arr %}-->
+<!--                <div>-->
+<!--                    <div class="slider_item_info_static">-->
+<!--                        <div class="slider_inf_static_desc">-->
+<!--                            <h2 class="static_desc_title">{{info.slide_title}}</h2>-->
+<!--                            <p class="static_desc_de">{{info.slide_desc}}</p>-->
+<!--                            <div class="static_desc_text">-->
+<!--                                <p>{{info.slide_text_t}}</p>-->
+<!--                                <p>{{info.slide_text_t}}</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="slider_item_info_slide">-->
+<!--                        <div class="slider_item_info_img">-->
+<!--                            <img class="slide_img" src="{{info_img.slide_img}}" alt="img">-->
+<!--                        </div>-->
+<!--                        <div class="slider_item_info_text">-->
+<!--                            <p class="slide_text">{{info_img.slide_img_text}}</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                {% endfor %}-->
+<!--            </div>-->
+
+
+
+    </div>
+    {% endfor %}
+
+
+</section>

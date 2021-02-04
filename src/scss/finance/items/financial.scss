@@ -1,0 +1,229 @@
+.financial {
+  position: relative;
+  margin: 120px auto 0 auto;
+
+  @include mq(sm) {
+    margin-top: 50px;
+  }
+
+}
+.financial_title {
+  @extend .title_font;
+  margin: 0 auto;
+  position: relative;
+  left: -5px;
+  max-width: 1450px;
+
+
+}
+
+.financial_section_card {
+  background-color: $blue;
+  padding-bottom: 120px;
+  position: relative;
+}
+.financial_card {
+  max-width: 935px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+
+.financial_data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: $white;
+
+  @include mq(md) {
+    width: 90%;
+    margin: 0 auto;
+  }
+  @include mq(sm) {
+    width: 96%;
+  }
+
+  &_box {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 50px 30px 22px 40px;
+    border: 1px solid $gray;
+    display: flex;
+    justify-content: space-between;
+
+    @include mq(md) {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    @include mq(sm) {
+      padding: 12px;
+    }
+  }
+}
+.data_title {
+  font-size: $fontSizeSM;
+  font-family: $nimbus;
+
+  @include mq(xs) {
+    font-size: $fontSizeSM - 6px;
+  }
+}
+.data_box_up {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.data_up {
+  font-size: $fontUp;
+  font-family: $nimbus;
+  @include mq(sm) {
+    font-size: $fontUp - 15px;
+  }
+  @include mq(xs) {
+    font-size: $fontUp - 26px;
+  }
+}
+.data_img {
+  transform: rotate(90deg);
+
+  @include mq(sm) {
+    & > svg {
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+
+}
+.data_percent {
+  font-size: $specSizeXS;
+}
+.data_info {
+  font-size: $specSizeXS;
+  margin-top: 20px;
+  font-family: $nimbus;
+
+  @include mq(sm) {
+    font-size: $specSizeXS - 4px;
+  }
+}
+.financial_right_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+
+  @include mq(sm) {
+    align-items: flex-end;
+    margin: 0;
+  }
+
+}
+
+.financial_card_text {
+  max-width: 330px;
+  margin-top: 20px;
+  font-size: $fontSizeSM;
+  color: $white;
+  font-family: $brownLight;
+  line-height: 1.2;
+
+  @include mq(md) {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  @include mq(sm) {
+    width: 92%;
+  }
+}
+.financial_button {
+  position: absolute;
+  bottom: -40px;
+  right: -2%;
+
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+  }
+  @include mq(sm) {
+    width: 92%;
+    margin: 0 auto;
+  }
+}
+
+.financial_button__desktop {
+  width: 472px;
+}
+
+.financial_button_mobile {
+  &__show {
+    display: none;
+    @include mq(sm) {
+      display: flex;
+      justify-content: space-between;
+
+      &>p:first-child {
+        padding: 0 25px;
+      }
+    }
+  }
+  &__hide {
+    display: flex;
+    @include mq(sm) {
+      display: none;
+    }
+  }
+}
+
+.financial_graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1450px;
+  margin: 0 auto 100px auto;
+
+  &__hide {
+    display: block;
+    @include mq(sm) {
+      display: none;
+    }
+  }
+  &__show {
+    display: none;
+    @include mq(sm) {
+      display: block;
+    }
+  }
+}
+
+.financial_switch_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin:  70px auto 20px auto;
+  max-width: 1450px;
+
+  @include mq(lg) {
+    margin-top: 45px;
+  }
+  @include mq(sm) {
+    margin-top: 30px;
+    padding: 20px 0;
+  }
+}
+.switch_title {
+  font-family: $nimbus;
+  text-transform: uppercase;
+  font-size: $specSizeMD;
+  text-shadow: 2px 4px 2px rgba(150, 150, 150, 0.20);
+  @include mq(xs) {
+    font-size: $specSizeMD - 10px;
+  }
+
+}

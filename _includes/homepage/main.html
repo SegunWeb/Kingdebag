@@ -1,0 +1,28 @@
+<section class="main_home" >
+
+<div id="video-bg">
+    <video width="100%" id="vid" height="auto" preload="auto" autoplay="autoplay" muted="muted"
+           loop="loop" poster="{{homepage.main.background}}">
+        <source src="{{homepage.main.background_video}}" type="video/mp4">
+    </video>
+</div>
+
+
+  <div class="container main_container wrapper">
+      <div class="main_info">
+          <p class="main_info__desc">{{homepage.main.description}}</p>
+          <h1 class="main_info__title animate__fadeIn">{{homepage.main.title}}</h1>
+          <p class="main_info__info">{{homepage.main.info}}</p>
+      </div>
+
+
+
+      <div class="main_button_box">
+          <div class="button_box">
+              <a class="button_xl" href="{{homepage.main.btn_href}}">{{homepage.main.btn_title}}</a>
+          </div>
+      </div>
+
+
+  </div>
+</section>

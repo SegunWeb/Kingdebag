@@ -1,0 +1,39 @@
+<section class="article_items">
+    <div class="container wrapper ">
+        <div class="article_container " id="jobs-wrapper">
+            <div class="article_wrap jobs-list ">
+                {% for post in collections.homes  %}
+                <div  class="job-result row article_item_box hide">
+
+                        <div class="article_item_img_box">
+                            <img class="article_item_img" src="{{post.data.bg_img_post}}" alt="post_bg_img">
+                        </div>
+                        <div class="article_items_wrap">
+                            <div class="article_item_data">
+                                <p class="article_item_data_title article_item_data_text">{{post.data.data_title}}</p>
+                                <p class="article_item_data_info article_item_data_text">{{post.data.data_info}}</p>
+                            </div>
+                            <div class="article_item_text">
+                                <h2 class="article_item_text_title">{{ post.data.title }}</h2>
+                                <p class="article_item_text_desc">{{ post.data.first_desc }}</p>
+                            </div>
+                            <div class="article_item_button_box">
+                                <a class="button_lg" href="{{ post.url | url }}">{{article.items_article.btn_text}}</a>
+                            </div>
+                        </div>
+
+
+                </div>
+                {% endfor %}
+
+
+            </div>
+            <div class="pagination">
+            <div class="jobs-pagination pagination_box">
+                <ul class="pagination_items"></ul>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</section>

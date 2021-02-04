@@ -1,0 +1,62 @@
+<section class="plans">
+     <div class="plans_title_box container wrapper">
+         <h2 class="plans_title">{{biz_strategy.plans.title}}</h2>
+     </div>
+
+    <div class="plans_info_box">
+        <div class="container wrapper plans_info_wrap">
+            <div class="plans_info_box_content">
+                <p class="plans_info_title">{{biz_strategy.plans.info_title}}</p>
+                <p class="plans_info_desc">{{biz_strategy.plans.info_desc}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="plans_map">
+        <div class="wrapper">
+            <div class="plans_year_box">
+                    <div class="plans_year">
+                        {% for item_info in biz_strategy.plans.year %}
+                        <div class="plans_year_info">
+                            <p class="plans_year_info_text">{{item_info.text}}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+            </div>
+            <div class="plans_map_img_box">
+                <div class="plans_map_img">
+                    <div class="plans_map_img_desc">
+                        <img src="{{ biz_strategy.plans.map_img }}" alt="map">
+
+                    </div>
+                    <div class="plans_map_img_mob">
+                        <img src="{{ biz_strategy.plans.map_img_mob }}" alt="map">
+
+                    </div>
+                </div>
+
+
+                <div class="plans_map_place_box">
+                    <p class="plans_map_place_close">
+                        {{ biz_strategy.plans.close | svgContents }}
+                    </p>
+                    <p class="plans_map_place_title">{{biz_strategy.plans.place_title}}</p>
+                    <p class="plans_map_place_desc">{{biz_strategy.plans.place_text}}</p>
+                </div>
+            </div>
+            <div class="plans_map_info_box">
+                <ul class="plans_map_info_list">
+                    {% for item in biz_strategy.plans.info %}
+                    <li class="plans_map_info_item">
+                        <p class="plans_map_info_elem">
+                            <span>{{ item.img | svgContents }}</span>
+                            {{item.name}}
+                        </p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>

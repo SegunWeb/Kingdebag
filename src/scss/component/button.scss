@@ -1,0 +1,509 @@
+.button_header-report {
+  background-color: $green;
+  text-align: center;
+  padding: 64px 35px;
+  color: $white;
+  text-transform: uppercase;
+  @extend .button_font;
+
+  @include mq(xxl) {
+    padding: 64px 15px;
+  }
+  @include mq(lg) {
+    padding: 25px 15px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXS - 2px;
+    padding: 25px 7px;
+  }
+}
+
+.button_box {
+  position: relative;
+  width: 440px;
+  @include mq(sm) {
+    width: 372px;
+  }
+  @include mq(xs) {
+    width: 100%;
+  }
+}
+
+.button_xl {
+  @extend .flex_center;
+  @extend .button_font;
+  height: 80px;
+  width: 380px;
+  background-color: $green;
+  color: $white;
+  transition: .3s;
+
+  @include mq(xxl) {
+    height: 60px;
+  }
+
+  @include mq(sm) {
+    height: 90px;
+    width: 335px;
+  }
+
+  @include mq(xs) {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  &:hover {
+    transition: .6s;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+    box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 80px;
+    background-color: $white;
+    height: 1px;
+
+    @include mq(sm) {
+      width: 50px;
+    }
+
+    @include mq(xs) {
+      width: 20px;
+    }
+  }
+}
+
+.button_lg {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 312px;
+  padding-left: 30px;
+  background-color: $green;
+  color: $white;
+  position: relative;
+  @extend .button_font;
+  transition: .3s;
+
+  @include mq(sm) {
+    width: 92%;
+    margin: 0 auto;
+    padding-left: 15px;
+  }
+
+
+  &:hover {
+    transition: .6s;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+    box-shadow: 5px 5px 0px 0px rgba(10,155,141,1);
+  }
+
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    width: 80px;
+    background-color: $white;
+    height: 1px;
+  }
+
+  &__white {
+    background-color: $white;
+    color: $blue;
+    justify-content: center;
+    padding-left: 0;
+    transition: .3s;
+
+    &:hover {
+      transition: .6s;
+      -webkit-box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+      -moz-box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+      box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+    }
+
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -60px;
+      width: 80px;
+      background-color: $yellow;
+      height: 1px;
+    }
+  }
+
+  &__blue {
+    background-color: $blue;
+    color: $white;
+    justify-content: center;
+    padding-left: 0;
+    width: 380px;
+    transition: .3s;
+
+    @include mq(sm) {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    &:hover {
+      transition: .6s;
+      -webkit-box-shadow: 5px 5px 0px 0px rgba(2, 57, 116, 1);
+      -moz-box-shadow: 5px 5px 0px 0px rgba(2, 57, 116, 1);
+      box-shadow: 5px 5px 0px 0px rgba(2, 57, 116, 1);
+
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -60px;
+      width: 80px;
+      background-color: $white;
+      height: 1px;
+    }
+  }
+
+    &__blue-light {
+
+      @include mq(sm) {
+        position: relative;
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: -30px !important;
+          width: 60px !important;
+          background-color: $white;
+          height: 1px;
+        }
+      }
+    }
+
+
+}
+.button_play {
+  @extend .elem_center;
+  cursor: pointer;
+
+  @include mq(sm) {
+    & > svg {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+
+.button_download {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 300px;
+  background-color: $blue;
+  color: $white;
+  position: relative;
+  @extend .button_font;
+  transition: .3s;
+  justify-content: center;
+  font-size: $fontSizeMD - 2px;
+
+  @include mq(sm) {
+    width: 100%;
+  }
+
+  & > span {
+    margin: 10px;
+  }
+
+  &:hover {
+    transition: .6s;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(2,57,116,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(2,57,116,1);
+    box-shadow: 5px 5px 0px 0px rgba(2,57,116,1);
+  }
+
+  &__white {
+    background-color: $white;
+    color: $blue;
+    justify-content: center;
+    padding-left: 0;
+    transition: .3s;
+    width: 380px;
+
+    &:hover {
+      transition: .6s;
+      -webkit-box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+      -moz-box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+      box-shadow: 5px 5px 0px 0px rgba(216,216,216,1);
+    }
+
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -60px;
+      width: 80px;
+      background-color: $yellow;
+      height: 1px;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+// check radio ----------------------
+.radio-button {
+  cursor: pointer;
+  padding-right: 25px;
+}
+input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 11px 23px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.radio-button__input {
+  opacity: 0;
+  position: absolute;
+}
+
+.radio-button__control {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+  vertical-align: middle;
+  background-color: inherit;
+  color: $blue;
+  border: 2px solid $blue;
+  border-radius: 24px;
+
+
+  @include mq(sm) {
+    width: 40px;
+    height: 38px;
+  }
+}
+
+.radio-button__input:checked+.radio-button__control:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background-color: $blue;
+  border-radius: 29px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  @include mq(xxl) {
+    width: 21px;
+    height: 21px;
+  }
+
+  @include mq(sm) {
+    width: 28px;
+    height: 28px;
+  }
+}
+.check_wrapper {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-button__input:checked+.radio-button__control {
+  border-color: $blue;
+}
+
+.radio-button__control {
+  transform: scale(0.75);
+  position: relative;
+}
+
+
+// switch
+
+.button {
+  position: relative;
+  top: 50%;
+  width: 190px;
+  height: 45px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+  background-color: #eee;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.17);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.17);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.17);
+
+  @include mq(sm) {
+    width: 140px;
+    height: 35px;
+    margin: 0px auto 0 auto;
+
+  }
+}
+
+.button.r, .button.r .layer
+{
+  border-radius: 100px;
+}
+
+.button.b2
+{
+  border-radius: 2px;
+}
+
+.checkbox
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs
+{
+  z-index: 2;
+}
+
+.layer
+{
+  width: 100%;
+  background-color: #F7F7F7;
+  transition: 0.3s ease all;
+  z-index: 1;
+
+  &:before {
+    content: "2020";
+    color: #000000;
+    opacity: .5;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1.8;
+    padding: 10px 0px 10px 36px;
+    z-index: 1;
+    @include mq(sm) {
+      line-height: 1.2;
+      padding: 10px 0 10px 24px;
+    }
+    @include mq(xs){
+      line-height: 1.3;
+    }
+  }
+
+  &:after {
+    content: "2019";
+    color: #979797;
+    opacity: .5;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.8;
+    padding: 10px 36px 10px 0;
+    z-index: 1;
+    @include mq(sm) {
+      line-height: 1.2;
+      padding: 10px 24px 10px 0;
+    }
+    @include mq(xs){
+      line-height: 1.3;
+    }
+  }
+}
+
+/* Button 1 */
+#button-1 .knobs:before
+{
+  content: '2020';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 94px;
+  height: 24px;
+  color: #051829;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8;
+  padding: 9px 4px;
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 100px;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.17);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.17);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.17);
+  z-index: 2;
+
+  @include mq(sm) {
+    width: 60px;
+    height: 15px;
+    line-height: 1.2;
+  }
+  @include mq(xs){
+    line-height: 1.3;
+  }
+}
+
+#button-1 .checkbox:checked + .knobs:before
+{
+  content: '2019';
+  left: 85px;
+  background-color: #fff;
+  @include mq(sm) {
+    left: 70px;
+  }
+}
+
+#button-1 .checkbox:checked ~ .layer
+{
+  background-color: #fcebeb;
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer
+{
+  transition: 0.3s ease all;
+}

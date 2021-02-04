@@ -1,0 +1,48 @@
+.article_detail_main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+}
+
+
+.article_detail_main_wrap {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  width: 92%;
+  display: flex;
+
+  @include mq(xxl) {
+    left: 12%;
+  }
+  @include mq(md) {
+    left: 0;
+  }
+  @include mq(sm) {
+    width: 100%;
+  }
+}
+.article_detail_main_title {
+  font-size: $fontSizeXl;
+  color: $white;
+  margin: 30px 0 16px 0;
+  font-weight: bold;
+  width: 570px;
+  line-height: 1.1;
+
+  @include mq(sm) {
+    font-size: $fontSizeXl - 15px;
+    width: 465px;
+  }
+  @include mq(xs){
+    font-size: $fontSizeXl - 40px;
+    width: 290px;
+  }
+}
+.article_detail_main_title_box {
+  @include mq(xs) {
+    width: 100%;
+  }
+}

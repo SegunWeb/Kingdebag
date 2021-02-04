@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  finance.meta.meta_title }}</title>
+    <meta name="description" content="{{finance.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/finance.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include finance/main_finance.html %}
+    {% include finance/financial.html %}
+    {% include finance/conversion.html %}
+    {% include finance/report.html %}
+    {% include finance/graph.html %}
+    {% include finance/article_finance.html %}
+    {% include finance/testimonials.html %}
+    {% include finance/better.html %}
+    {% include component/back_to_top.html %}
+</main>
+{% include component/footer.html %}
+
+
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/finance.js" %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 110;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+.header_navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header_report {
+  @extend .flex_center
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 6.5%;
+
+  @include mq(xxl) {
+    margin-left: 10%;
+  }
+  @include mq(sm) {
+    margin-left: 8%;
+  }
+
+}
+.logo_head {
+  position: initial;
+  opacity: 1;
+}
+.mobile_logo {
+  position: absolute;
+  opacity: 0;
+}
+.logo_head,
+.mobile_logo {
+  & > svg{
+    width: 120px;
+
+    @include mq(md) {
+      width: 90px;
+    }
+  }
+}
+
+.header_menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 259px;
+
+  @include mq(xxl) {
+    margin-right: 4%;
+  }
+
+  @include mq(sm) {
+    margin: 0 auto;
+  }
+
+  &__list {
+    @extend .flex_center;
+
+    @include mq(md) {
+      display: none;
+
+    }
+  }
+  &__item {
+    display: flex;
+    padding: 10px;
+    margin: 0 30px;
+
+    @include mq(xxl) {
+      margin: 0 20px;
+    }
+
+    @include mq(lg) {
+      margin: 0 5px;
+      padding: 7px;
+    }
+    @include mq(md) {
+      margin: 20px 5px;
+      padding: 10px;
+    }
+  }
+}
+
+
+.header_menu__item_link {
+  color: $black;
+
+  &:hover {
+    transition: .3s;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.63);
+  }
+
+  &__white {
+    color: $white;
+
+    @include mq(md) {
+      color: $black;
+    }
+  }
+}
+
+
+.mobile_box {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}
+.header_burger {
+  display: block;
+}
+.header_close {
+  display: none;
+}
+.header_menu__list-mobile {
+  position: fixed;
+  top: 82px;
+  left: 0;
+  width: 100%;
+  padding: 80px 20px 20px;
+  display: block;
+  background-color: $white;
+  height: 100%;
+
+  @include mq(md) {
+    top: 81px;
+  }
+
+  @include mq(sm) {
+    top: 77px;
+  }
+
+  & > li > a {
+    margin: 0 auto;
+  }
+}
+a.active {
+    position: relative;
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 12px;
+      position: absolute;
+      top: -73px;
+      left: 0;
+      background-color: $yellow;
+
+      @include mq(lg) {
+        top: -37px;
+      }
+      @include mq(md) {
+        top: initial;
+        bottom: -5px;
+        height: 2px;
+      }
+    }
+
+
+}
+

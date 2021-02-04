@@ -1,0 +1,60 @@
+{
+  "data_array": [
+    {
+      "img_article": "/src/image/article/article_1.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    },
+    {
+      "img_article": "/src/image/article/article_2.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    },
+    {
+      "img_article": "/src/image/article/article_3.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    },
+    {
+      "img_article": "/src/image/article/article_4.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    },
+    {
+      "img_article": "/src/image/article/article_5.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    },
+    {
+      "img_article": "/src/image/article/article_6.jpg",
+      "data_title": "GLOBAL TREND",
+      "data_info": "JANUARY 16, 2021 ",
+      "text_title": "A global need for sustainable materials",
+      "text_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ",
+      "btn_text": "READ THE ARTICLE",
+      "btn_href": "/article/article_detail"
+    }
+  ],
+  "arrows": "/src/image/icons/path.svg",
+  "btn_text": "READ THE ARTICLE"
+}

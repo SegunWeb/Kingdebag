@@ -1,0 +1,83 @@
+{
+  "path": "/src/image/icons/path.svg",
+  "bg": "/src/image/footer_bg.png",
+  "copyright": "MADE WITH &nbsp;&#10084;&#65039; IN CANADA",
+  "download": "/src/image/icons/download.svg",
+  "logo": "/src/image/logo/logo.svg",
+
+  "files_load": [
+    {
+      "name_file": "Business & Strategic Reportr",
+      "size_file": "4.11MB",
+      "id": "one",
+      "value": "/src/image/uploads/footer_bg.png"
+    },
+    {
+      "name_file": "Financial Statements2",
+      "size_file": "3.52MB",
+      "id": "two",
+      "value": "/src/image/uploads/path.png"
+    },
+    {
+      "name_file": "Director’s Report1",
+      "size_file": "2.32MB",
+      "id": "three",
+      "value": "/src/image/uploads/shower.png"
+    },
+    {
+      "name_file": "Director’s Report1",
+      "size_file": "9.22MB",
+      "id": "four",
+      "value": "/src/image/uploads/social-fb.svg"
+    }
+  ],
+  "socials_link": [
+    {
+      "link_href": "#",
+      "socials": "/src/image/uploads/social-in.svg"
+    },
+    {
+      "link_href": "#",
+      "socials": "/src/image/icons/social-tw.svg"
+    },
+    {
+      "link_href": "#",
+      "socials": "/src/image/icons/social-yt.svg"
+    },
+    {
+      "link_href": "#",
+      "socials": "/src/image/icons/social-fb.svg"
+    },
+    {
+      "link_href": "#",
+      "socials": "/src/image/icons/social-inst.svg"
+    }
+  ],
+  "title": "Annual Report",
+  "links": [
+    {
+      "name": "Terms and Conditions",
+      "url": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy"
+    }
+  ],
+  "select": "SELECT REPORT TYPE",
+  "year": "2020",
+  "menu": [
+    {
+      "link_name": "Privacy Policy",
+      "link_href": "/privacy"
+    },
+    {
+      "link_name": "Cookie Policy",
+      "link_href": "/cookie"
+    },
+    {
+      "link_name": "Terms of Use",
+      "link_href": "/terms"
+    }
+  ]
+}

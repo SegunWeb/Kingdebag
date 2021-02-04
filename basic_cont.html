@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  basic_cont.meta.meta_title }}</title>
+    <meta name="description" content="{{basic_cont.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/basic_cont.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include basic_cont/main_basic.html %}
+    {% include basic_cont/basic_article.html %}
+    {% include basic_cont/basic_testimonials.html %}
+    {% include basic_cont/basic_right_img.html %}
+    {% include basic_cont/basic_text.html %}
+    {% include basic_cont/basic_left_img.html %}
+    {% include basic_cont/basic_video.html %}
+    {% include basic_cont/basic_better.html %}
+
+
+</main>
+{% include component/footer.html %}
+
+
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/basic_cont.js" %}
+
+
+
+
+</body>
+</html>

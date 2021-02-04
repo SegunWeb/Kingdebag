@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  width: 100%;
+}
+.slick-dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 457px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 90px;
+}
+.slick-dots > li {
+  width: 100%;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.slick-dots > li > button {
+  border: none;
+  font-size: 0;
+  color: transparent;
+  line-height: 0;
+  background-color: transparent;
+  height: 0;
+  width: 0;
+}
+
+.slider_graph > .slick-list > .slick-track {
+  margin-left: initial !important;
+}
+
+

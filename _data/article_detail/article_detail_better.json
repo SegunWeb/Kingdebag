@@ -1,0 +1,30 @@
+{
+  "title": "Building Better",
+
+  "items": [
+    {
+      "name": "Pillar",
+      "img": "/src/image/article_detail/better1.jpg",
+      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "link_text": "Read More",
+      "link_href": "#"
+    },
+    {
+      "name": "Case Study",
+      "img": "/src/image/article_detail/better2.jpg",
+      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "link_text": "Read More",
+      "link_href": "#"
+    },
+    {
+      "name": "Megatrend",
+      "img": "/src/image/article_detail/better3.jpg",
+      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "link_text": "Read More",
+      "link_href": "#"
+    }
+  ]
+}

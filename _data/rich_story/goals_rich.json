@@ -1,0 +1,28 @@
+{
+  "title": "Kingspans impact goals related to stat.",
+  "talk": "Taking the EU as an Example...",
+
+  "slide": [
+    {
+      "bg": "/src/image/rich_story/goals.jpg",
+      "info_big": "75% of Buildings in the EU are <strong>energy inefficient</strong>, yet",
+      "info_percent": "85-95%",
+      "info_small": "of buildings will still be in use in 2050.\n",
+      "info_desc": "Ireland APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel"
+    },
+    {
+      "bg": "/src/image/rich_story/goals.jpg",
+      "info_big": "95% of Buildings in the EU are <strong>energy inefficient</strong>, yet",
+      "info_percent": "55-65%",
+      "info_small": "of buildings will still be in use in 2050.\n",
+      "info_desc": "Ireland APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel"
+    },
+    {
+      "bg": "/src/image/rich_story/goals.jpg",
+      "info_big": "175% of Buildings in the EU are, yet",
+      "info_percent": "185-95%",
+      "info_small": "of buildings will still be in use in 2030.\n",
+      "info_desc": "Rainscreen Facade IPN Karrier Panel"
+    }
+  ]
+}

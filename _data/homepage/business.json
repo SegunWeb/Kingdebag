@@ -1,0 +1,36 @@
+{
+  "strong": "2020 IN A NUTSHELL",
+  "title": "Business Model & Strategy",
+  "desc": "The globalization of Kingspan is at the heart of our ongoing strategy and is central to our mission towards a sustainable future.",
+  "btn_text": "VIEW BUSINESS & STRATEGY",
+  "btn_href": "/biz_strategy",
+  "graph_desc": "Hungary APZ Test Track,\nZalaegerszeg / Insulated\nPanels Dri-Design\nRainscreen Facade IPN\nKarrier Panel",
+  "btn_skip": "Skip",
+
+  "data_slide": [
+    {
+      "img": "/src/image/homepage/business_full.jpg"
+    },
+    {
+      "img": "/src/image/homepage/business_full_y.jpg"
+    },
+    {
+      "img": "/src/image/homepage/business_full_r.jpg"
+    }
+  ],
+
+  "graph_menu": [
+    {
+      "name": "Products",
+      "data_num": "1"
+    },
+    {
+      "name": "Geography",
+      "data_num": "2"
+    },
+    {
+      "name": "End Market",
+      "data_num": "3"
+    }
+  ]
+}

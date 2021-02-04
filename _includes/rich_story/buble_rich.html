@@ -1,0 +1,20 @@
+<section class="buble_rich">
+       <div class="container wrapper">
+           <div class="buble_rich_container">
+               <div class="buble_rich_title_box">
+                   <p class="buble_rich_title">{{rich_story.buble_rich.title}}<span></span></p>
+               </div>
+               <div class="buble_rich_box">
+                   {% for item in rich_story.buble_rich.bubles %}
+                   <div id="{{item.id}}" class="buble_rich_item">
+                       <p class="buble_rich_percent">{{item.perc}}</p>
+                       <p class="buble_rich_text">{{item.text}}</p>
+                   </div>
+                   {% endfor %}
+                   <div class="buble_rich_desc">
+                       <p>{{rich_story.buble_rich.desc}}</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+</section>

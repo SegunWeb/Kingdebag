@@ -1,0 +1,26 @@
+.article_detail_video {
+  margin: 160px auto;
+  position: relative;
+  z-index: 120;
+
+  @include mq(md) {
+    margin: 40px auto 80px auto;
+  }
+  @include mq(sm) {
+    margin: 40px auto;
+  }
+}
+
+.article_detail_video_btn_play {
+  @extend .elem_center;
+  padding: 30px;
+  cursor: pointer;
+
+  @include mq(sm) {
+    padding: 20px;
+
+    & > svg {
+      width: 60px;
+    }
+  }
+}

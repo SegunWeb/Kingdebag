@@ -1,0 +1,25 @@
+<section class="article_detail_better">
+    <div class="wrapper">
+
+        <div class="article_detail_better_container">
+            <div class="article_detail_better_title">
+                <p>{{article_detail.article_detail_better.title}}</p>
+            </div>
+            <div class="article_detail_better_box">
+                {% for item in article_detail.article_detail_better.items %}
+                <div class="article_detail_better_item">
+                    <p class="article_detail_better_item_name">{{item.name}}</p>
+                    <div class="article_detail_better_item_img">
+                        <img src="{{item.img}}" alt="img">
+                    </div>
+                    <div class="article_detail_better_item_desc">
+                        <p class="article_detail_better_item_desc_title">{{item.titles}}</p>
+                        <p class="article_detail_better_item_desc_desc">{{item.desc}}</p>
+                        <a href="{{item.link_href}}" class="article_detail_better_item_desc_link">{{item.link_text}}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

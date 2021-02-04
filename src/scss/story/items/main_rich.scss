@@ -1,0 +1,136 @@
+.main_rich {
+  background: linear-gradient(90deg, $orange 43%, $white 20%);
+  position: relative;
+
+  @include mq(md) {
+    background: linear-gradient(90deg, $orange 100%, $white 0%);
+  }
+}
+.main_rich_img {
+  display: flex;
+  justify-content: flex-end;
+  padding: 160px 0;
+  position: relative;
+  z-index: 1;
+
+  @include mq(lg) {
+      padding: 82px 0;
+  }
+  @include mq(sm) {
+    position: absolute;
+    top: 82px;
+    padding: 0;
+    background: url("../image/rich_story/main_rich.jpg")  center/cover no-repeat;
+    height: 345px;
+    width: 76%;
+    right: 0;
+  }
+
+  @include mq(xs) {
+    top: 77px;
+  }
+
+  & > div {
+    width: 1200px;
+    @include mq(xxl) {
+      width: 70%;
+    }
+    @include mq(sm) {
+      display: none;
+    }
+  }
+
+}
+.main_rich_title_box {
+  position: absolute;
+  z-index: 7;
+  top: 200px;
+  left: 8%;
+  width: 90%;
+  right: 0;
+  margin: 0 auto;
+
+  @include mq(lg) {
+    top: 115px;
+    left: 7%;
+  }
+  @include mq(sm) {
+    position: relative;
+    padding: 120px 0 40px 0;
+    top: 0;
+    left: 0;
+
+  }
+
+}
+.main_rich_info {
+  color: $white;
+  font-family: $nimbusNew;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  @include mq(lg) {
+    font-size: $fontSizeSM - 2px;
+  }
+
+  &__big {
+   font-size: $fontSizeSM;
+    margin-top: 10px;
+
+    @include mq(sm){
+      margin-top: 19px;
+    }
+  }
+}
+.main_rich_title {
+  font-size: $fontSizeXl + 20px;
+  color: $white;
+  margin: 30px 0 60px 0;
+  text-transform: uppercase;
+  font-family: $nimbus;
+  font-weight: bold;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl
+  }
+  @include mq(lg) {
+    font-size: $fontSizeXl - 20px;
+  }
+  @include mq(md) {
+    font-size: $fontSizeXl - 24px;
+    margin: 22px 0 10px 0;
+  }
+  @include mq(xxs){
+    font-size: $fontSizeXl - 30px;
+  }
+
+}
+.main_rich_desc {
+  color: $white;
+  font-size: $fontSizeLG - 2px;
+  max-width: 675px;
+  margin: 0;
+  margin-left: auto;
+
+  @include mq(xxl) {
+    font-size: $fontSizeLG - 4px;
+  }
+  @include mq(lg) {
+    font-size: $fontSizeSM;
+    width: 50%;
+    max-width: initial;
+    right: 8%;
+    position: relative;
+  }
+  @include mq(sm) {
+    font-size: $fontSizeSM + 6px;
+  }
+  @include mq(xs) {
+    max-width: 285px;
+    right: 0;
+    width: 85%;
+  }
+  @include mq(xxs) {
+    font-size: $fontSizeSM;
+  }
+}

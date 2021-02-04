@@ -1,0 +1,31 @@
+{
+  "logo_w": "/src/image/logo/logo_white.svg",
+  "logo": "/src/image/logo/logo.svg",
+  "file_download": "src/image/uploads/footer_bg.png",
+  "file download": "src/image/uploads/shower.png",
+  "burger_w": "/src/image/icons/burger_w.svg",
+  "logo_b": "/src/image/logo/logo_b.svg",
+  "close_w": "/src/image/icons/close_w.svg",
+  "download_file": "/src/image/uploads/footer_bg.png",
+  "burger": "/src/image/icons/burger.svg",
+  "close": "/src/image/icons/close.svg",
+  "title": "Kingspan",
+  "menu": [
+    {
+      "link_name": "Business & Strategy",
+      "link_href": "/biz_strategy/"
+    },
+    {
+      "link_name": "Financial",
+      "link_href": "/finance/"
+    },
+    {
+      "link_name": "Governance",
+      "link_href": "/basic_cont/"
+    },
+    {
+      "link_name": "Our Thinking on Trends",
+      "link_href": "/article"
+    }
+  ]
+}

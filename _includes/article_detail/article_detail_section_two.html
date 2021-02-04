@@ -1,0 +1,47 @@
+<section class="section_two">
+    <div class="container wrapper">
+        <div class="section_two_container">
+            <div class="section_two_info_box">
+                <div class="section_two_info_wrapper">
+                    <div class="section_two_info_detail">
+                        <p class="section_two_info_detail_title section_two_info_detail_text">{{article_detail.article_detail_section_two.data_title}}</p>
+                        <p class="section_two_info_detail_info section_two_info_detail_text">{{article_detail.article_detail_section_two.data_info}}</p>
+                    </div>
+                    <div class="section_two_info_share">
+                        <p class="section_two_info_title">{{article_detail.article_detail_section_two.share_text}}</p>
+                        <div class="section_two_info_socials">
+                            <ul class="section_two_socials_list">
+                                {% for item in article_detail.article_detail_section_two.share %}
+                                <li class="section_two_socials_item">
+                                    <a class="section_two_socials_item_link" href="{{item.link_href}}">
+                                        {{ item.socials | svgContents }}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section_two_content_box">
+                <div class="breadcrumbs">
+                    <a href="#">{{article_detail.article_detail_section_two.bread_outside}}</a>
+                    <a href="#">{{article_detail.article_detail_section_two.bread_inside}}</a>
+                </div>
+
+                <div class="section_two_article_box">
+                    <h1 class="section_two_article_title">{{article_detail.article_detail_section_two.title}}</h1>
+                    <div class="section_two_article_text_box">
+                        <p class="section_two_article_text">
+                            {{article_detail.article_detail_section_two.desc}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
