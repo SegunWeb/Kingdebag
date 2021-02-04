@@ -220,16 +220,18 @@ collections:
         options: ["homes"]
 
 
-  - label: "Pages"
-    name: "Pages"
+  - label: "Home Page Setting"
+    name: "home_page_setting"
     editor:
       preview: false
     files:
-      - label: "videoId"
-        name: "videoId"
+      - label: "Setting section video"
+        name: "setting_section_video"
         file: "/_data/homepage_alt/presentation.json"
         fields:
-          - { label: "idVideo_1", name: "idVideo", widget: "string" }
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
+
 
 
 
