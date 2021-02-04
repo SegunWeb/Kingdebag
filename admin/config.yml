@@ -227,7 +227,7 @@ collections:
       preview: false
     files:
       - label: "Homepage Setting"
-        name: "Homepage Setting"
+        name: "Homepage_Setting"
         file: "/_data/homepage_alt/presentation.json"
         fields:
           - { label: "ID video", name: "id_video", widget: "string" }
@@ -235,7 +235,7 @@ collections:
 
 
       - label: "Homepage_alt Setting"
-        name: "Homepage_alt Setting"
+        name: "Homepage_alt_Setting"
         file: "/_data/homepage/presentation.json"
         fields:
           - label: ID video
@@ -246,7 +246,7 @@ collections:
             widget: "image"
 
       - label: "Biz_strategy page Setting"
-        name: "Biz_strategy page Setting"
+        name: "Biz_strategy_page_Setting"
         file: "/_data/biz_strategy/presentation.json"
         fields:
           - label: ID video
@@ -257,7 +257,7 @@ collections:
             widget: "image"
 
       - label: "Basic_content page Setting"
-        name: "Basic_content page Setting"
+        name: "Basic_content_page_Setting"
         file: "/_data/basic_cont/basic_video.json"
         fields:
           - label: ID video
