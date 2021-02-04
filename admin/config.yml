@@ -196,9 +196,9 @@ collections:
       - { label: "4_section_btn_text", name: "fourth_btn_text", widget: "string" }
       - { label: "4_section_btn_href", name: "fourth_btn_href", widget: "string" }
 
-      - { label: "4_section_image", name: "five_img", widget: "image" }
-      - { label: "4_section_alt", name: "five_img_alt", widget: "string" }
-      - { label: "4_section_alt", name: "five_id_video", widget: "string" }
+      - { label: "5_section_image", name: "five_img", widget: "image" }
+      - { label: "5_section_alt", name: "five_img_alt", widget: "string" }
+      - { label: "5_section_id", name: "five_id_video", widget: "string" }
 
       - { label: "6_section_name", name: "sixth_title", widget: "string" }
       - { label: "6_section_title", name: "sixth_desc", widget: "string" }
