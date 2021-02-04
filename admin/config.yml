@@ -229,7 +229,7 @@ collections:
         name: "videoId"
         file: "/_data/homepage_alt/presentation.json"
         fields:
-          - { label: "videoId", name: "videoId", widget: "string" }
+          - { label: "idVideo_1", name: "idVideo", widget: "string" }
 
 
 
