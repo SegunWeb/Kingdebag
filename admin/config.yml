@@ -227,11 +227,11 @@ collections:
       preview: false
     files:
       - label: "Homepage Setting"
-        name: "Homepage_Setting"
+        name: "id_video"
         file: "/_data/homepage_alt/presentation.json"
         fields:
-          - { label: "ID video", name: "id_video", widget: "string" }
-          - { label: "Preview Image", name: "imgPreview", widget: "image" }
+          - { label: "Id_video", name: "id_video", widget: "string" }
+          - { label: "Preview_image", name: "imgPreview", widget: "image" }
 
 
       - label: "Homepage_alt Setting"
