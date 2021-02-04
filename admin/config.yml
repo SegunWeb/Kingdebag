@@ -271,3 +271,15 @@ collections:
         fields:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "img", widget: "image" }
+
+
+  - label: "Finance Page Setting"
+    name: "finance_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Add graph for Progress to Net Zero Energy section "
+        name: "add_graph"
+        file: "/_data/finance/graph.json"
+        fields:
+          - { label: "Add graph file svg", name: "graph", widget: "file" }
