@@ -234,7 +234,7 @@ collections:
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
       - label: "Add graph Financial Summary "
         name: "add_graph_finance"
-        file: "/_data/finance/financial.json"
+        file: "/_data/homepage_alt/financial.json"
         fields:
           - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
           - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
@@ -255,7 +255,7 @@ collections:
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
       - label: "Add graph Financial Summary "
         name: "add_graph_finance"
-        file: "/_data/finance/financial.json"
+        file: "/_data/homepage/financial.json"
         fields:
           - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
           - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
