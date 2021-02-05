@@ -16,9 +16,9 @@
           </div>
 
           <ul class="header_menu__list">
-            {% for item in header.menu %}
+            {% for link_elem in header.menu_header %}
             <li class="header_menu__item">
-              <a class="header_menu__item_link header_menu__item_link__white" href="{{item.link_href}}">{{item.link_name}}</a>
+              <a class="header_menu__item_link header_menu__item_link__white" href="{{link_elem.link_href}}">{{link_elem.link_name}}</a>
             </li>
             {% endfor %}
           </ul>

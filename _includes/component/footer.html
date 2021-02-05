@@ -8,11 +8,11 @@
         <div class="footer_report_file">
             <p class="report_file_title">{{footer.select}}</p>
             <div id="file" class="report_file_box">
-                {% for item in footer.files_load %}
+                {% for download_footer in footer.files_load_footer %}
                 <label class="radio-button file_box">
                     <div class="file_info_box">
-                        <p class="file_name">{{item.name_file}}</p>
-                        <p class="file_size">{{item.size_file}}</p>
+                        <p class="file_name">{{download_footer.name_file}}</p>
+                        <p class="file_size">{{download_footer.size_file}}</p>
                     </div>
                     <div class="check_wrapper">
                         <input type="radio" class="radio-button__input" value="{{item.value}}" id="{{item.id}}" name="choice1">
@@ -38,9 +38,9 @@
             <div class="footer_section_left">
                 <nav class="footer_menu">
                     <ul class="footer_menu__list">
-                        {% for item in footer.menu %}
+                        {% for link_footer in footer.menu_footer %}
                         <li class="footer_menu__item">
-                            <a href="{{item.link_href}}">{{item.link_name}}</a>
+                            <a href="{{link_footer.link_href}}">{{link_footer.link_name}}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -70,11 +70,11 @@
         <div class="footer_section_bottom">
             <div class="footer_socials">
                 <ul class="footer_socials__list">
-                    {% for item in footer.socials_link %}
+                    {% for soc_link_item in footer.socials_link_footer %}
                     <li class="footer_socials__item">
-                        <a class="footer_socials__link" href="{{item.link_href}}">
+                        <a class="footer_socials__link" href="{{soc_link_item.link_href}}">
 
-                            {{ item.socials | svgContents }}
+                            {{ soc_link_item.socials | svgContents }}
                         </a>
                     </li>
                     {% endfor %}

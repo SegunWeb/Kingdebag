@@ -5,9 +5,9 @@
             <div class="footer_section_left">
                 <nav class="footer_menu">
                     <ul class="footer_menu__list">
-                        {% for item in footer.menu %}
+                        {% for link_footer in footer.menu_footer %}
                         <li class="footer_menu__item">
-                            <a href="{{item.link_href}}">{{item.link_name}}</a>
+                            <a href="{{link_footer.link_href}}">{{link_footer.link_name}}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -37,11 +37,11 @@
         <div class="footer_section_bottom">
             <div class="footer_socials">
                 <ul class="footer_socials__list">
-                    {% for item in footer.socials_link %}
+                    {% for soc_link_item in footer.socials_link_footer %}
                     <li class="footer_socials__item">
-                        <a class="footer_socials__link" href="{{item.link_href}}">
+                        <a class="footer_socials__link" href="{{soc_link_item.link_href}}">
 <!--                            <img src="{{footer.socials}}" alt="socials">-->
-                            {{ item.socials | svgContents }}
+                            {{ soc_link_item.socials | svgContents }}
                         </a>
                     </li>
                     {% endfor %}

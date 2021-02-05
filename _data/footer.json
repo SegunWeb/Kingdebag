@@ -5,7 +5,7 @@
   "download": "/src/image/icons/download.svg",
   "logo": "/src/image/logo/logo.svg",
 
-  "files_load": [
+  "files_load_footer": [
     {
       "name_file": "Business & Strategic Reportr",
       "size_file": "4.11MB",
@@ -31,7 +31,7 @@
       "value": "/src/image/uploads/social-fb.svg"
     }
   ],
-  "socials_link": [
+  "socials_link_footer": [
     {
       "link_href": "#",
       "socials": "/src/image/uploads/social-in.svg"
@@ -54,6 +54,7 @@
     }
   ],
   "title": "Annual Report",
+
   "links": [
     {
       "name": "Terms and Conditions",
@@ -64,9 +65,11 @@
       "url": "/privacy"
     }
   ],
+
   "select": "SELECT REPORT TYPE",
   "year": "2020",
-  "menu": [
+
+  "menu_footer": [
     {
       "link_name": "Privacy Policy",
       "link_href": "/privacy"

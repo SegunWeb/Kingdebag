@@ -20,7 +20,7 @@ collections:
         name: "favicon"
         file: "/_data/head.json"
         fields:
-          - label: Favicon
+          - label: "Favicon"
             name: "fav"
             widget: "image"
 
@@ -46,36 +46,36 @@ collections:
                 multiple: true
 
       - label: "Footer settings"
-        name: "links"
+        name: "links_footer"
         file: "/_data/footer.json"
         fields:
-          - label: Footer Social Items
-            name: socials_link
-            widget: list
+          - label: "Footer Social Items"
+            name: "socials_link_footer"
+            widget: "list"
             allow_add: false
             collapsed: false
             fields:
-              - { label: logo social, name: socials, widget: image }
-              - { label: URL, name: link_href, widget: string }
+              - { label: "logo social", name: "socials", widget: "image" }
+              - { label: "URL", name: "link_href", widget: "string" }
 
-          - label: Footer Nav Items
-            name: menu
-            widget: list
+          - label: "Footer Nav Items"
+            name: "menu_footer"
+            widget: "list"
             allow_add: false
             collapsed: false
             fields:
-              - { label: Title, name: link_name, widget: string }
-              - { label: URL, name: link_href, widget: string }
+              - { label: "Title", name: "link_name", widget: "string" }
+              - { label: "URL", name: "link_href", widget: "string" }
 
-          - label: Download_file_footer
-            name: files_load
-            widget: list
+          - label: "Download_file_footer"
+            name: "files_load_footer"
+            widget: "list"
             allow_add: false
             collapsed: false
             fields:
-              - { label: file_name, name: name_file, widget: string }
-              - { label: file_size, name: size_file, widget: string }
-              - { label: file_download, name: value, widget: file }
+              - { label: "file_name", name: "name_file", widget: "string" }
+              - { label: "file_size", name: "size_file", widget: "string" }
+              - { label: "file_download", name: "value", widget: "file" }
 
 
       - label: "Meta settings for article page"
