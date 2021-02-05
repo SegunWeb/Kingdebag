@@ -77,6 +77,33 @@ $(document).ready(function(){
             jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
     });
 
+    // slider - map
+    $('.slider_map').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        dots: true,
+        infinite: true,
+        speed: 100,
+        cssEase: 'linear'
+    });
+
+    $('.plans_year > .plans_year_info:nth-child(2) a').addClass('map_act');
+
+    $('a[data-slide-year]').click(function(e) {
+        e.preventDefault();
+        let slideno = $(this).data('slide-year');
+        let act = $(this);
+        $('a[data-slide-year]').removeClass('map_act');
+        act.addClass('map_act');
+        $('.slider_map').slick('slickGoTo', slideno - 1);
+    });
+    
+    $('.plans_map_place_close').click(function () {
+        $('.plans_map_place_box').hide(300)
+    })
+
 });
 
 

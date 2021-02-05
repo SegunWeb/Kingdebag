@@ -10,7 +10,8 @@
   "burger": "/src/image/icons/burger.svg",
   "close": "/src/image/icons/close.svg",
   "title": "Kingspan",
-  "menu": [
+
+  "menu_header": [
     {
       "link_name": "Business & Strategy",
       "link_href": "/biz_strategy/"

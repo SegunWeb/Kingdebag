@@ -137,36 +137,31 @@
       width: 85%;
     }
   }
-
-  & > div:nth-child(2) {
-      &:before {
-        width: 50px;
-        height: 50px;
-        background-color: $yellow;
-        bottom: -15px;
-
-        @include mq(xs) {
-          width: 40px;
-          height: 40px;
-          bottom: -11px;
-        }
-      }
-
-      & > p {
-        font-size: $fontSizeLG - 4px;
-
-        @include mq(xs) {
-          font-size: $fontSizeXS + 1px;
-        }
-      }
-    }
 }
 
 .plans_year_info {
-  margin: 0 40px;
-  padding: 0 20px;
+  width: 100px;
   position: relative;
   height: 80px;
+  text-align: center;
+
+  @include mq(xs) {
+    height: 65px;
+    width: 80px;
+  }
+}
+.plans_year_info_text {
+  font-size: $fontSizeXS;
+  font-family: $nimbusNew;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  height: 100%;
+  color: $blue;
+
+  @include mq(xs) {
+    font-size: $fontSizeXS - 4px;
+  }
 
   &:before {
     content: "";
@@ -187,23 +182,7 @@
     }
   }
 
-  @include mq(sm) {
-    margin: 0 10px;
-  }
-  @include mq(xs) {
-    margin: 0;
-    padding: 0;
-    height: 65px;
-  }
-}
-.plans_year_info_text {
-  font-size: $fontSizeXS ;
-  font-family: $nimbusNew;
-  font-weight: bold;
 
-  @include mq(xs) {
-    font-size: $fontSizeXS - 4px;
-  }
 }
 .plans_map_img_box {
   position: relative;
@@ -449,4 +428,29 @@
     }
   }
 
+}
+
+.map_act {
+  font-size: $fontSizeLG - 4px;
+  margin-top: -10px;
+
+  @include mq(xs) {
+    font-size: $fontSizeXS + 1px;
+  }
+
+  &:before {
+    width: 50px;
+    height: 50px;
+    background-color: $yellow;
+    bottom: -27px;
+
+    @include mq(xs) {
+      width: 40px;
+      height: 40px;
+      bottom: -22px;
+    }
+  }
+}
+.slider_map .slick-track {
+  margin-left: 0;
 }

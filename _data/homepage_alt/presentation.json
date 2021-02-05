@@ -1,12 +1,13 @@
 {
-  "idVideo": "XJnR8panlQU",
-  "imgPreview": "/src/image/uploads/9306035e-9de1-4659-aeee-ae87d98e8187-airpod_pros.jpg",
+  "idVideo": "XDirsz0TcyM",
+  "imgPreview": "/src/image/homepage_alt/preview.jpg",
+  "btnPlay": "/src/image/icons/play_btn.svg",
+  "quoteTop": "/src/image/icons/quote_top.png",
   "quoteBottom": "/src/image/icons/quote_bottom.png",
+  "title": "Chief Executive’s Introduction",
+  "desc": "2020 capped off a decade of great progress for Kingspan with revenue and trading profit ahead of prior year by 7% and 12% respectively. \n<br><br>\n The buildings of the future need to deliver more than ever before.",
   "author": "GENE M. MURTAGH",
   "link_href": "/article/article_detail",
-  "btnPlay": "/src/image/icons/play_btn.svg",
-  "desc": "2020 capped off a decade of great progress for Kingspan with revenue and trading profit ahead of prior year by 7% and 12% respectively. \n<br><br>\n The buildings of the future need to deliver more than ever before.",
-  "link_text": "Read Full Statement",
-  "title": "Chief Executive’s Introduction",
-  "quoteTop": "/src/image/icons/quote_top.png"
+  "link_text": "Read Full Statement"
 }
+

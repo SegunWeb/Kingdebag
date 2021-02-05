@@ -18,21 +18,23 @@
                     <div class="plans_year">
                         {% for item_info in biz_strategy.plans.year %}
                         <div class="plans_year_info">
-                            <p class="plans_year_info_text">{{item_info.text}}</p>
+                            <a class="plans_year_info_text" href="#" data-slide-year="{{item_info.data_num}}">{{item_info.text}}</a>
                         </div>
                         {% endfor %}
                     </div>
             </div>
             <div class="plans_map_img_box">
-                <div class="plans_map_img">
-                    <div class="plans_map_img_desc">
-                        <img src="{{ biz_strategy.plans.map_img }}" alt="map">
-
+                <div class="slider_map">
+                    {% for slide in biz_strategy.plans.slider_map %}
+                    <div class="plans_map_img">
+                        <div class="plans_map_img_desc">
+                            <img src="{{ slide.map_img_sl }}" alt="map">
+                        </div>
+                        <div class="plans_map_img_mob">
+                            <img src="{{ slide.map_img_mob_sl }}" alt="map">
+                        </div>
                     </div>
-                    <div class="plans_map_img_mob">
-                        <img src="{{ biz_strategy.plans.map_img_mob }}" alt="map">
-
-                    </div>
+                    {% endfor %}
                 </div>
 
 
@@ -43,6 +45,8 @@
                     <p class="plans_map_place_title">{{biz_strategy.plans.place_title}}</p>
                     <p class="plans_map_place_desc">{{biz_strategy.plans.place_text}}</p>
                 </div>
+
+
             </div>
             <div class="plans_map_info_box">
                 <ul class="plans_map_info_list">

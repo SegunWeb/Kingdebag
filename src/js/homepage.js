@@ -33,6 +33,19 @@ $(document).ready(function () {
         jQuery("iframe").each(function() {
             jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
     });
+
+
+    $('#button-1').click(function () {
+        if ($('.checkbox').is(':checked')){
+            $('#in_2019').show(300);
+            $('#in_2020').hide(300);
+
+        } else {
+            $('#in_2019').hide(300);
+            $('#in_2020').show(300);
+        }
+    });
+
 });
 
 

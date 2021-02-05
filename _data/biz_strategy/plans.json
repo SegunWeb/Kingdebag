@@ -8,15 +8,34 @@
   "map_img_mob": "/src/image/biz_strategy/Map_mobile.png",
   "close": "/src/image/icons/close.svg",
 
+
+  "slider_map": [
+    {
+      "map_img_sl": "/src/image/biz_strategy/Map.png",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile.png"
+    },
+    {
+      "map_img_sl": "/src/image/biz_strategy/Map1.png",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile1.png"
+    },
+    {
+      "map_img_sl": "/src/image/biz_strategy/Map2.png",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile2.png"
+    }
+  ],
+
   "year": [
     {
-      "text": "2020"
+      "text": "2020",
+      "data_num": "2"
     },
     {
-      "text": "2021"
+      "text": "2021",
+      "data_num": "1"
     },
     {
-      "text": "2022"
+      "text": "2022",
+      "data_num": "3"
     }
   ],
 

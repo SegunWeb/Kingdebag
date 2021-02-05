@@ -28,4 +28,4 @@ var config = {
     position: 'RIGHT',
     theme: 'DARK'
 };
-CookieControl.load( config ) ;
+CookieControl.load( config );

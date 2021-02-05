@@ -26,17 +26,17 @@ collections:
 
 
       - label: "Header settings"
-        name: "menu"
+        name: "menu_header"
         file: "/_data/header.json"
         fields:
-          - label: Header Nav Items
-            name: menu
-            widget: list
+          - label: "Header Nav Items"
+            name: "menu_header"
+            widget: "list"
             allow_add: false
             collapsed: false
             fields:
-              - { label: Title, name: link_name, widget: string }
-              - { label: URL, name: link_href, widget: string }
+              - { label: "Title", name: "link_name", widget: "string" }
+              - { label: "URL", name: "link_href", widget: "string" }
           - label: "Download"
             name: "download_file"
             widget: "file"
@@ -232,6 +232,14 @@ collections:
         fields:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_finance"
+        file: "/_data/finance/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }
 
 
   - label: "Home Page ALT Setting"
@@ -245,6 +253,14 @@ collections:
         fields:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_finance"
+        file: "/_data/finance/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }
 
 
   - label: "Biz & Strategy Page Setting"
@@ -283,3 +299,11 @@ collections:
         file: "/_data/finance/graph.json"
         fields:
           - { label: "Add graph file svg", name: "graph", widget: "file" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_finance"
+        file: "/_data/finance/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }

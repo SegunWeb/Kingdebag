@@ -7,6 +7,10 @@
   "text_two": "<strong>2</strong> Operating profit before amortisation of intangibles",
   "graph": "/src/image/finance/graph.png",
   "graph_mob": "/src/image/finance/graph_mobile.png",
+
+  "graph_two": "/src/image/homepage_alt/graph1.png",
+  "graph_mob_two": "/src/image/homepage_alt/mobile/graph_mobile1.png",
+
   "btn_load": "DOWNLOAD FINANCIAL SUMMARY",
   "btn_load_href": "#",
   "load_icon": "/src/image/icons/download_blue.svg",
