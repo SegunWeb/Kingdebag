@@ -233,7 +233,7 @@ collections:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
       - label: "Add graph Financial Summary "
-        name: "add_graph_finance"
+        name: "add_graph_homepage"
         file: "/_data/homepage_alt/financial.json"
         fields:
           - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
@@ -254,7 +254,7 @@ collections:
           - { label: "Add id video", name: "idVideo", widget: "string" }
           - { label: "Add img preview", name: "imgPreview", widget: "image" }
       - label: "Add graph Financial Summary "
-        name: "add_graph_finance"
+        name: "add_graph_homepage_alt"
         file: "/_data/homepage/financial.json"
         fields:
           - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
