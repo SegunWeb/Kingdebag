@@ -1,13 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    {% Head.html %}
+
+    <title>404</title>
+    <meta name="description" content="{{homepage_alt.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/homepage.css"/>
+
 </head>
 <body>
-    {title}
+
+{% header.html %}
+<main>
+    <p>test 404</p>
+</main>
+{% footer_small.html %}
+
+
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/homepage.js" %}
+
+
 </body>
 </html>
