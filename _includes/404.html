@@ -1,25 +1,24 @@
 <head>
     {% include Head.html %}
+    <title>404</title>
+    <meta name="description" content="page not found">
 
-    <title>{{  homepage_alt.meta.meta_title }}</title>
-    <meta name="description" content="{{homepage_alt.meta.meta_desc }}">
-
-    <link rel="stylesheet" href="../src/css/homepage.css"/>
-
+    <link rel="stylesheet" href="../src/css/politic.css"/>
 </head>
 <body>
 
-{% include component/header.html %}
 <main>
-    <p>test 404</p>
+    <div class="not_page">
+        <div class="not_page_box">
+            <h1 class="not_page_error">404</h1>
+            <p class="not_page_title">Sorry page not found</p>
+            <div class="not_page_back business_button">
+                <a class="button_lg button_lg__blue" href="/">Back to home page</a>
+            </div>
+        </div>
+
+    </div>
 </main>
-{% include component/footer.html %}
-
-
-{% lazyScript %}
-{% includeScript "../src/js/main.js" %}
-{% includeScript "../src/js/homepage.js" %}
-
 
 </body>
 </html>

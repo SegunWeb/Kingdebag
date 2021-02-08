@@ -1,0 +1,26 @@
+.not_page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.not_page_box {
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.not_page_error {
+  text-transform: uppercase;
+  font-family: "Nimbus",sans-serif;
+  font-size: $fontSizeXl + 50px;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl + 25px;
+  }
+}
+.not_page_title {
+  font-size: $fontSizeMD + 6px;
+  margin: 20px 0;
+
+}
