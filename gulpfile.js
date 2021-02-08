@@ -13,7 +13,7 @@ let pages = [
   {
     name: "homepage",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -25,7 +25,7 @@ let pages = [
   {
     name: "homepage_alt",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -37,7 +37,7 @@ let pages = [
   {
     name: "story",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -49,7 +49,7 @@ let pages = [
   {
     name: "biz_strategy",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -61,7 +61,7 @@ let pages = [
   {
     name: "finance",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -73,7 +73,7 @@ let pages = [
   {
     name: "article",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/pagination/pagination.js",
       "./src/libs/swiper/swiper-bundle.min.js",
@@ -85,7 +85,7 @@ let pages = [
   {
     name: "article_detail",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -96,7 +96,7 @@ let pages = [
   {
     name: "basic_cont",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -107,7 +107,7 @@ let pages = [
   {
     name: "politic",
     scripts: [
-
+      "./src/libs/cookie.js",
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",

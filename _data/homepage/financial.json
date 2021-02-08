@@ -1,15 +1,21 @@
 {
-  "btn_load_href": "#",
-  "btn_load": "DOWNLOAD FINANCIAL SUMMARY",
-  "switch_title": "REVENUE",
-  "graph": "/src/image/uploads/path.png",
-  "btn_href": "#",
-  "graph_mob": "/src/image/uploads/path.png",
-  "btn_text": "VIEW FINANCIAL DETAIL",
-  "load_icon": "/src/image/icons/download_blue.svg",
-  "text_one": "<strong>1</strong> Earnings before finance costs, income taxes, depreciation, 2018: 184.0c amortisation and the impact of IFRS 16",
   "title": "Financial Summary",
+  "revenue": "REVENUE",
+  "btn_text": "VIEW FINANCIAL DETAIL",
+  "btn_href": "#",
+  "text_one": "<strong>1</strong> Earnings before finance costs, income taxes, depreciation, 2018: 184.0c amortisation and the impact of IFRS 16",
   "text_two": "<strong>2</strong> Operating profit before amortisation of intangibles",
+  "graph": "/src/image/homepage/graph.png",
+  "graph_mob": "/src/image/homepage/mobile/graph_mobile.png",
+
+  "graph_two": "/src/image/homepage_alt/graph1.png",
+  "graph_mob_two": "/src/image/homepage_alt/mobile/graph_mobile1.png",
+
+  "btn_load": "DOWNLOAD FINANCIAL SUMMARY",
+  "btn_load_href": "#",
+  "load_icon": "/src/image/icons/download_blue.svg",
+  "switch_title": "REVENUE",
+
   "info_data": [
     {
       "info": "REVENUE",
@@ -53,8 +59,6 @@
       "data": "2019: 184.0c",
       "img": "/src/image/icons/path_up.svg"
     }
-  ],
-  "graph_two": "/src/image/homepage_alt/graph1.png",
-  "revenue": "REVENUE",
-  "graph_mob_two": "/src/image/homepage_alt/mobile/graph_mobile1.png"
+
+  ]
 }

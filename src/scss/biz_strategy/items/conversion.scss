@@ -1,4 +1,4 @@
-.conversion {
+ .conversion {
   position: relative;
   margin: 160px auto;
 
@@ -139,7 +139,7 @@
     max-width: 200px;
     font-size: $fontSizeSM;
     font-family: $inco;
-    font-weight: bold;
+
 
     @include mq(lg) {
       top: 25%;

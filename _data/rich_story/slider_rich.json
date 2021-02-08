@@ -7,36 +7,42 @@
 
   "slide": [
     {
+      "data_id": "one",
       "img": "/src/image/rich_story/first_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Need to reduce by <strong> 30%  </strong> as a first step to free grid capacity for other sectors to also move to clean electricity",
       "title_slide": "Energy in Buildings"
     },
     {
+      "data_id": "two",
       "img": "/src/image/rich_story/four_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "needs to dramatically accelerate and extend to deep energy refurbishment:<strong> 4%/yr </strong>\n",
       "title_slide": "The rate of retrofits\n"
     },
     {
+      "data_id": "three",
       "img": "/src/image/rich_story/three_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "and mixed low carbon heat sources is the <strong> only modelled pathway </strong>\nto hit IPCC goals for energy reduction and decarbonisation of space heating and cooling.\n",
       "title_slide": "Energy-efficiency\n"
     },
     {
+      "data_id": "four",
       "img": "/src/image/rich_story/four_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "in buildings also needs to be reduced through low carbon materials and building designs.",
       "title_slide": "Embodied carbon\n"
     },
     {
+      "data_id": "five",
       "img": "/src/image/rich_story/first_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Need to reduce by 30% as a first step to free grid capacity for other sectors to also move to clean electricity",
       "title_slide": "Energy in Buildings"
     },
     {
+      "data_id": "six",
       "img": "/src/image/rich_story/three_slide.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Need to reduce by 30% as a first step to free grid capacity for other sectors to also move to clean electricity",
@@ -62,6 +68,92 @@
       "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
 
       "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "two",
+      "slide_title": "Case Study Heading - TWO",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "three",
+      "slide_title": "Case Study Heading - THREE",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "four",
+      "slide_title": "Case Study Heading - FOUR",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "five",
+      "slide_title": "Case Study Heading - FIVE",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "six",
+      "slide_title": "Case Study Heading  - SIX",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
     }
+
   ]
 }

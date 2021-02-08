@@ -64,16 +64,14 @@
   }
 }
 .impact_card {
-  max-width: 1115px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
   z-index: 8;
 
-  @include mq(xxl) {
-    width: 900px;
-  }
+
   @include mq(lg) {
     width: 800px;
   }
@@ -86,15 +84,11 @@
   }
 }
 .impact_card_box {
-  max-width: 540px;
+  width: 485px;
   display: flex;
   background-color: $white;
   margin-bottom: 30px;
 
-  @include mq(xxl) {
-    width: 445px;
-    margin-bottom: 10px;
-  }
   @include mq(lg) {
     width: 395px;
     margin-bottom: 10px;
@@ -172,7 +166,7 @@
   font-weight: bold;
   margin-bottom: 12px;
   text-transform: uppercase;
-  font-family: $nimbus;
+  font-family: $nimbusLight;
 
   @include mq(xs) {
     font-size: $fontSizeMD - 4px;
@@ -215,7 +209,7 @@
     padding-top: 10px;
     z-index: 8;
     font-family: $inco;
-    font-weight: bold;
+
   }
 
   &_mob {

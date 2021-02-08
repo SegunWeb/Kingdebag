@@ -186,7 +186,6 @@
   color: $blue;
   max-width: 240px;
   font-family: $inco;
-  font-weight: bold;
 
   @include mq(xxl) {
     right: 0;
@@ -226,7 +225,7 @@
 .buble_rich_percent {
   color: inherit;
   font-size: $specSizeLG;
-  font-weight: bold;
+  font-family: $nimbusStrong;
 
   @include mq(xs) {
     font-size: $specSizeLG - 12px;

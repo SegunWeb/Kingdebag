@@ -79,8 +79,8 @@
 .goals_rich_info_percent {
   margin: 0px 0 10px 0;
   font-size: $fontSizeXl;
-  font-family: $nimbusNew;
-  font-weight: bold;
+  font-family: $nimbusStrong;
+
 
   @include mq(md) {
     font-size: $fontSizeXl - 30px;

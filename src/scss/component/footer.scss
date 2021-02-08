@@ -60,7 +60,7 @@
 }
 .report_year_footer {
   font-size: $specSizeFooter;
-  font-family: $nimbus;
+  font-family: $nimbusStrong;
   margin-bottom: 20px;
 
   @include mq(lg) {
@@ -94,8 +94,10 @@
 }
 
 .report_file_title {
-  font-family: $nimbus;
+  font-family: $nimbusBold;
   font-size: $fontSizeSM;
+  font-weight: 900;
+
   @include mq(xs) {
     font-size: $fontSizeSM - 2px;
   };

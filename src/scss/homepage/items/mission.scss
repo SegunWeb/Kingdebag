@@ -181,7 +181,6 @@
 .text_second_description {
   font-family: $inco;
   font-size: $fontSizeMD;
-  font-weight: bold;
 
   @include mq(xxl) {
     font-size: $fontSizeMD - 4px;

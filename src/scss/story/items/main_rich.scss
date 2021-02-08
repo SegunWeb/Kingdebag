@@ -73,6 +73,10 @@
     font-size: $fontSizeSM - 2px;
   }
 
+  &__small {
+    font-family: $nimbusStrong;
+  }
+
   &__big {
    font-size: $fontSizeSM;
     margin-top: 10px;

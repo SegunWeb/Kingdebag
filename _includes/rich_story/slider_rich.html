@@ -11,10 +11,10 @@
                     {% for item in rich_story.slider_rich.slide %}
                     <div>
                         <div class="slider_rich_item slide">
-                            <div class="slider_rich_item_wrap">
+                            <div class="slider_rich_item_wrap" data-id="{{item.data_id}}">
                                 <div class="slider_rich_item_img">
                                     <img src="{{item.img}}" alt="slide">
-                                    <a href="#">{{item.hover_text}}</a>
+                                    <p>{{item.hover_text}}</p>
                                 </div>
                             </div>
                             <div class="slider_rich_item_desc">
@@ -31,7 +31,7 @@
 
     <!--- slider info --->
     {% for info in rich_story.slider_rich.slider_info %}
-    <div id="{{ info.id}}"  class="slider_item_info_box">
+    <div id="{{info.id}}"  class="slider_item_info_box">
 
         <div class="slider_item_info_cont">
             <div class="slider_info_static_text">
