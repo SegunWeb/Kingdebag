@@ -1,0 +1,391 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update
+
+media_folder: "/src/image/uploads"
+public_folder: "/src/image/uploads"
+
+publish_mode: editorial_workflow
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+# publish_mode: editorial_workflow
+collections:
+  - label: "Settings"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Favicon"
+        name: "favicon"
+        file: "/_data/head.json"
+        fields:
+          - label: "Favicon"
+            name: "fav"
+            widget: "image"
+
+
+      - label: "Header settings"
+        name: "menu_header"
+        file: "/_data/header.json"
+        fields:
+          - label: "Header Nav Items"
+            name: "menu_header"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "Title", name: "link_name", widget: "string" }
+              - { label: "URL", name: "link_href", widget: "string" }
+          - label: "Download"
+            name: "download_file"
+            widget: "file"
+            default: "src/image/uploads/footer_bg.png"
+            media_library:
+              config:
+                multiple: true
+
+      - label: "Footer settings"
+        name: "links_footer"
+        file: "/_data/footer.json"
+        fields:
+          - label: "Footer Social Items"
+            name: "socials_link_footer"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "logo social", name: "socials", widget: "image" }
+              - { label: "URL", name: "link_href", widget: "string" }
+
+          - label: "Footer Nav Items"
+            name: "menu_footer"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "Title", name: "link_name", widget: "string" }
+              - { label: "URL", name: "link_href", widget: "string" }
+
+          - label: "Download_file_footer"
+            name: "files_load_footer"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "file_name", name: "name_file", widget: "string" }
+              - { label: "file_size", name: "size_file", widget: "string" }
+              - { label: "file_download", name: "value", widget: "file" }
+
+
+      - label: "Meta settings for article page"
+        name: "meta"
+        file: "/_data/article/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for homepage"
+        name: "meta_2"
+        file: "/_data/homepage/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for homepage_alt"
+        name: "meta_3"
+        file: "/_data/homepage_alt/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for basic_content"
+        name: "meta_4"
+        file: "/_data/basic_cont/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for biz_strategy"
+        name: "meta_5"
+        file: "/_data/biz_strategy/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for finance"
+        name: "meta_6"
+        file: "/_data/finance/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+      - label: "Meta settings for rich_story"
+        name: "meta_7"
+        file: "/_data/rich_story/meta.json"
+        fields:
+          - label: Meta Title
+            name: "meta_title"
+            widget: "string"
+          - label: Meta Desc
+            name: "meta_desc"
+            widget: "string"
+
+
+  # Our blog layout
+  - label: "Article"
+    name: "Article"
+    folder: "/article"
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Meta_title", name: "meta_title", widget: "string" }
+      - { label: "Meta_description", name: "meta_desc", widget: "string" }
+
+      - { label: "Background_post_img", name: "bg_img_post", widget: "image" }
+
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "data_title", widget: "string" }
+      - { label: "Data", name: "data_info", widget: "datetime", picker_utc: false, format: "LL"}
+      - { label: "1_section_title", name: "first_title", widget: "string" }
+      - { label: "1_section_desc", name: "first_desc", widget: "text" }
+
+      - { label: "2_section_image", name: "second_img", widget: "image" }
+      - { label: "2_section_alt", name: "second_img_alt", widget: "string" }
+      - { label: "2_section_name", name: "second_text", widget: "string" }
+      - { label: "2_section_title", name: "second_title", widget: "string" }
+      - { label: "2_section_desc", name: "second_desc", widget: "text" }
+      - { label: "2_section_btn_text", name: "second_btn_text", widget: "string" }
+      - { label: "2_section_btn_href", name: "second_btn_href", widget: "string" }
+
+      - { label: "3_section_name", name: "third_desc", widget: "string" }
+      - { label: "3_section_title", name: "third_author", widget: "string" }
+      - { label: "3_section_desc", name: "third_title", widget: "text" }
+
+      - { label: "4_section_image", name: "fourth_img", widget: "image" }
+      - { label: "4_section_alt", name: "fourth_img_alt", widget: "string" }
+      - { label: "4_section_name", name: "fourth_text", widget: "string" }
+      - { label: "4_section_title", name: "fourth_title", widget: "string" }
+      - { label: "4_section_desc", name: "fourth_desc", widget: "text" }
+      - { label: "4_section_btn_text", name: "fourth_btn_text", widget: "string" }
+      - { label: "4_section_btn_href", name: "fourth_btn_href", widget: "string" }
+
+      - { label: "5_section_image", name: "five_img", widget: "image" }
+      - { label: "5_section_alt", name: "five_img_alt", widget: "string" }
+      - { label: "5_section_id", name: "five_video", widget: "string" }
+
+      - { label: "6_section_name", name: "sixth_title", widget: "string" }
+      - { label: "6_section_title", name: "sixth_desc", widget: "string" }
+      - { label: "6_section_desc", name: "sixth_title_list", widget: "text" }
+      - { label: "6_section_list", name: "sixth_list", widget: "list" }
+
+      - { label: "7_section_image", name: "seventh_img", widget: "image" }
+      - { label: "7_section_alt", name: "seventh_img_alt", widget: "string" }
+      - { label: "7_section_name", name: "seventh_text", widget: "string" }
+      - { label: "7_section_title", name: "seventh_title", widget: "string" }
+      - { label: "7_section_desc", name: "seventh_desc", widget: "text" }
+      - { label: "7_section_btn_text", name: "seventh_btn_text", widget: "string" }
+      - { label: "7_section_btn_href", name: "seventh_btn_href", widget: "string" }
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        create: true
+        options: ["homes"]
+
+
+  # Our pages e.g. Works
+  - label: "Home Page Setting"
+    name: "home_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/homepage/presentation.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_homepage"
+        file: "/_data/homepage/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }
+
+
+  - label: "Home Page ALT Setting"
+    name: "home_page_alt_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/homepage_alt/presentation.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_homepage_alt"
+        file: "/_data/homepage/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }
+
+      - label: "Main section"
+        name: "main_section"
+        file: "/_data/homepage_alt/main.json"
+        fields:
+          - { label: "Add title", name: "title", widget: "string" }
+          - { label: "Add description", name: "description", widget: "string" }
+          - { label: "Add background image", name: "background", widget: "image" }
+          - { label: "Add background video ID", name: "background_video", widget: "string" }
+          - { label: "Add mobile background", name: "background_mob", widget: "image" }
+          - { label: "Add info", name: "info", widget: "markdown" }
+          - { label: "Add button title", name: "btn_title", widget: "string" }
+          - { label: "Add button link", name: "btn_href", widget: "string" }
+
+      - label: "Business section"
+        name: "business_section"
+        file: "/_data/homepage_alt/business.json"
+        fields:
+          - { label: "Add title", name: "title", widget: "string" }
+          - { label: "Add strong", name: "strong", widget: "string" }
+          - { label: "Add description", name: "desc", widget: "string" }
+          - { label: "Add graph desc", name: "graph_desc", widget: "markdown" }
+          - { label: "Add button title", name: "btn_text", widget: "string" }
+          - { label: "Add button link", name: "btn_href", widget: "string" }
+          - label: "Add data slide"
+            name: "data_slide"
+            widget: "list"
+            fields:
+              - { label: Image, name: img, widget: string }
+          - label: "Add graph menu"
+            name: "graph_menu"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Data Number, name: data_num, widget: string }
+
+      - label: "Financial Summary"
+        name: "financial_section"
+        file: "/_data/homepage_alt/financial.json"
+        fields:
+          - { label: "Add title", name: "title", widget: "string" }
+          - { label: "Add revenue", name: "revenue", widget: "string" }
+          - { label: "Add text one", name: "text_one", widget: "markdown" }
+          - { label: "Add text two", name: "text_two", widget: "markdown" }
+          - { label: "Add button title", name: "btn_text", widget: "string" }
+          - { label: "Add button link", name: "btn_href", widget: "string" }
+          - { label: "Add button load title", name: "btn_load", widget: "string" }
+          - { label: "Add button load link", name: "btn_load_href", widget: "string" }
+          - { label: "Add graph", name: "graph", widget: "string" }
+          - { label: "Add graph mob", name: "graph_mob", widget: "string" }
+          - { label: "Add switch title", name: "switch_title", widget: "string" }
+
+          - label: "Add graph menu"
+            name: "info_data"
+            widget: "list"
+            fields:
+              - { label: Add Info, name: info, widget: string }
+              - { label: Add Up, name: up, widget: string }
+              - { label: Add Percent, name: percent, widget: string }
+              - { label: Add Data, name: data, widget: string }
+              - { label: Add Image, name: img, widget: string }
+
+      - label: "Our Impact"
+        name: "impact_section"
+        file: "/_data/homepage_alt/impact.json"
+        fields:
+          - { label: "Add title", name: "title", widget: "string" }
+          - { label: "Add description", name: "desc", widget: "string" }
+          - { label: "Add decor text", name: "decor_text", widget: "markdown" }
+          - { label: "Add button title", name: "btn_text", widget: "string" }
+          - { label: "Add button link", name: "btn_href", widget: "string" }
+          - { label: "Add decor image", name: "decor_img", widget: "string" }
+          - { label: "Add decor image mobile", name: "decor_img_mob", widget: "string" }
+
+          - label: "Add graph menu"
+            name: "card"
+            widget: "list"
+            fields:
+              - { label: Add Info, name: info_img, widget: string }
+              - { label: Add Up, name: info_title, widget: string }
+              - { label: Add Percent, name: info_desc, widget: string }
+              - { label: Add Data, name: info_title_two, widget: string }
+              - { label: Add Image, name: info_desc_two, widget: string }
+
+  - label: "Biz & Strategy Page Setting"
+    name: "biz_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/biz_strategy/performance.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "imgPreview", widget: "image" }
+
+
+  - label: "Basic cont Page Setting"
+    name: "basic_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Setting section video"
+        name: "setting_section_video"
+        file: "/_data/basic_cont/basic_video.json"
+        fields:
+          - { label: "Add id video", name: "idVideo", widget: "string" }
+          - { label: "Add img preview", name: "img", widget: "image" }
+
+
+  - label: "Finance Page Setting"
+    name: "finance_page_setting"
+    editor:
+      preview: false
+    files:
+      - label: "Add graph for Progress to Net Zero Energy section "
+        name: "add_graph"
+        file: "/_data/finance/graph.json"
+        fields:
+          - { label: "Add graph file svg", name: "graph", widget: "file" }
+      - label: "Add graph Financial Summary "
+        name: "add_graph_finance"
+        file: "/_data/finance/financial.json"
+        fields:
+          - { label: "Add graph for desktop 2020", name: "graph", widget: "image" }
+          - { label: "Add graph for mobile 2020", name: "graph_mob", widget: "image" }
+          - { label: "Add graph for desktop 2019", name: "graph_two", widget: "image" }
+          - { label: "Add graph for mobile 2019", name: "graph_mob_two", widget: "image" }
