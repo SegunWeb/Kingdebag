@@ -1,0 +1,24 @@
+<section class="article_biz_strategy">
+
+    <div id="right_box" class="active_video">
+        <div class="close_video"></div>
+        <div class="video_size" id="youtube">
+            <iframe src="https://www.youtube.com/embed/{{ planet.article_img_right.idVideo }}?enablejsapi=1&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="article_biz_strategy_right">
+        <div class="article_biz_strategy_box article_biz_strategy_right_box wrapper">
+            <div class="article_biz_strategy_info_box article_biz_strategy_info_box_right">
+                <p class="article_biz_strategy_info_text">{{planet.article_img_right.text}}</p>
+                <h3 class="article_biz_strategy_info_title">{{planet.article_img_right.title}}</h3>
+                <p class="article_biz_strategy_info_desc">{{planet.article_img_right.desc}}</p>
+
+            </div>
+            <div class="article_biz_strategy_img_box">
+                <img class="article_biz_strategy_img article_biz_strategy_img_right" src="{{planet.article_img_right.img}}" alt="img">
+                <span id="btn_three" class="button_play button_play_spec">{{planet.article_img_right.btnPlay | svgContents }}</span>
+            </div>
+        </div>
+    </div>
+</section>

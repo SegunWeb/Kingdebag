@@ -1,0 +1,34 @@
+{
+  "title": "Our strategic pillars",
+  "desc": "Our mission is to accelerate a net zero emissions built environment with the wellbeing of people and planet at its heart. ",
+  "btn_text": "Our values",
+  "btn_href": "/story",
+
+
+  "card": [
+    {
+      "info_img": "/src/image/business/s1.png",
+      "info_title": "Innovation",
+
+      "link": "/innovation"
+
+    },
+    {
+      "info_img": "/src/image/business/s2.png",
+      "info_title": "Planet Passionate",
+      "link": "/planet"
+
+    },
+    {
+      "info_img": "/src/image/business/s3.png",
+      "info_title": "Completing the envelope",
+      "link": "/completing"
+    },
+    {
+      "info_img": "/src/image/business/s4.png",
+      "info_title": "Global",
+      "link": "/global"
+
+    }
+  ]
+}

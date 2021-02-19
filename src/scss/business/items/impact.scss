@@ -1,0 +1,249 @@
+.impact {
+  background-color:  $backgroundGreen;
+  margin-top: 140px;
+  position: relative;
+  padding: 120px 0;
+
+  @include mq(lg) {
+    margin-top: 90px;
+    padding: 80px 0;
+  }
+  @include mq(sm) {
+    margin-top: 35px;
+    padding: 40px 0;
+  }
+}
+.impact_container {
+  max-width: 1245px;
+  margin: 0 auto;
+
+  @include mq(xxl) {
+    width: 95%;
+  }
+
+  @include mq(md) {
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.impact_button {
+  @include mq(sm) {
+    width: 280px;
+    
+    margin-right: auto;
+  }
+  & > a {
+    padding-right: 30px;
+  }
+}
+
+.impact_text {
+
+  &__title {
+    @extend .title_font;
+    max-width: 500px;
+  }
+
+  &__desc {
+    color: $blue;
+    font-size: $specSizeLG - 12;
+    max-width: 800px;
+    font-family: $brownLight;
+
+    @include mq(xxl) {
+      font-size: $specSizeLG - 8px;
+      margin: 30px 0 0 60px;
+    }
+
+    @include mq(lg) {
+      font-size: $specSizeLG - 18px;
+    }
+
+    @include mq(sm) {
+      font-size: $specSizeLG - 12px;
+      margin: 30px 0 20px 0;
+    }
+  }
+}
+
+
+.impact_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 8;
+
+
+  @include mq(md) {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @include mq(sm) {
+    width: 100%;
+  }
+}
+.impact_card_box {
+  width: 49%;
+  display: flex;
+  background-color: $white;
+  margin-bottom: 30px;
+  position: relative;
+
+
+  @include mq(md) {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  @include mq(sm) {
+    flex-direction: column;
+  }
+
+  & > span:first-child {
+    & > svg {
+      width: 235px;
+      height: 250px;
+
+      @include mq(lg) {
+        width: 180px;
+        height: 200px;
+      }
+    }
+  }
+}
+.impact_info {
+  box-sizing: border-box;
+  padding: 55px 20px 0;
+
+  @include mq(sm) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+}
+.impact_card_img {
+  box-sizing: border-box;
+  padding: 50px 0 50px 20px;
+
+
+  @include mq(xxl) {
+    padding: 20px;
+
+    & > svg {
+      width: 160px;
+    }
+  }
+
+  @include mq(lg) {
+    padding: 20px;
+
+    & > svg {
+      width: 160px;
+    }
+  }
+  @include mq(sm) {
+    margin: 0 auto;
+
+    & > svg {
+      width: 135px;
+      height: 170px;
+    }
+  }
+
+}
+.impact_info_text {
+  margin-bottom: 20px;
+
+  @include mq(sm) {
+    width: 45%;
+  }
+}
+.impact_info_title {
+  font-size: $fontSizeMD;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-family: $nimbusLight;
+
+  @include mq(xs) {
+    font-size: $fontSizeMD - 4px;
+  }
+}
+.impact_info_desc {
+  font-size: $fontSizeSM;
+  font-family: $brownLight;
+}
+.impact_decor {
+  position: absolute;
+  right: 0;
+  top: -295px;
+  width: 81%;
+  max-width: 1682px;
+  z-index: 7;
+
+  @include mq(xxl) {
+    top: -280px;
+  }
+  @include mq(md) {
+    top: -200px;
+  }
+  @include mq(sm) {
+    width: 100%;
+  }
+  @include mq(xs){
+    top: -260px;
+  }
+
+
+  &_text {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    margin-bottom: 40px;
+    color: $white;
+    border-top: 1px solid $white;
+    max-width: 235px;
+    padding-top: 10px;
+    z-index: 8;
+    font-family: $inco;
+
+  }
+
+  &_mob {
+    &__hide {
+      display: block;
+      @include mq(xs) {
+        display: none;
+      }
+    }
+    &__show {
+      display: none;
+      @include mq(xs) {
+        display: block;
+      }
+    }
+  }
+
+}
+
+.items_card_title {
+  position: absolute;
+  color: $white;
+  font-size: $fontSizeLG + 4px;
+  font-weight: bold;
+  padding: 40px 25px;
+}
+.impact_wrapper_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 30px 0 110px 0;
+
+  @include mq(sm){
+    flex-direction: column-reverse;
+  }
+}
+

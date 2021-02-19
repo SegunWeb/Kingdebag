@@ -1,0 +1,63 @@
+<section class="financial">
+    <div class="container wrapper">
+        <h2 class="financial_title">{{homepage.financial.title}}</h2>
+
+        <div class="financial_switch_box">
+            <p class="switch_title">{{homepage.financial.switch_title}}</p>
+            <div>
+                <div class="button r" id="button-1">
+                    <input type="checkbox" class="checkbox">
+                    <div class="knobs"></div>
+                    <div class="layer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="financial_graph" id="in_2020">
+            <img class="financial_graph__hide" src="{{homepage.financial.graph}}" alt="graph">
+            <img class="financial_graph__show" src="{{homepage.financial.graph_mob}}" alt="graph">
+        </div>
+        <div class="financial_graph" id="in_2019">
+            <img class="financial_graph__hide" src="{{homepage.financial.graph_two}}" alt="graph">
+            <img class="financial_graph__show" src="{{homepage.financial.graph_mob_two}}" alt="graph">
+        </div>
+
+    </div>
+    <div class="financial_section_card">
+        <div class="container wrapper">
+            <div class="financial_card">
+                <div class="financial_data">
+                    {% for item in homepage.financial.info_data %}
+                    <div class="financial_data_box">
+                        <div class="financial_left_box">
+                            <p class="data_title">{{item.info}}</p>
+                            <div class="data_box_up">
+                                <p class="data_up">{{item.up}}</p>
+                            </div>
+                            <p class="data_percent">{{item.percent}}</p>
+                            <p class="data_info">{{item.data}}</p>
+                        </div>
+
+                        <div class="financial_right_box">
+                            <p class="data_img">{{ item.img | svgContents }}</p>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+                <div class="financial_card_text">
+                    <p>{{homepage.financial.text_one}}</p>
+                    <p>{{homepage.financial.text_two}}</p>
+                </div>
+            </div>
+            <div class="financial_button">
+                <a class="button_lg button_lg__white financial_button_mobile__hide financial_button__desktop"
+                   href="{{ homepage.financial.btn_href }}">{{ homepage.financial.btn_text }}</a>
+                <a class="button_download button_download__white financial_button_mobile__show"
+                   href="{{ homepage.financial.btn_load_href }}">
+                    <p>{{ homepage.financial.load_icon | svgContents }}</p>
+                    <p>{{ homepage.financial.btn_load }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

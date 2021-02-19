@@ -264,7 +264,7 @@ collections:
 
       - label: "Main section"
         name: "main_section"
-        file: "/_data/homepage_alt/main.json"
+        file: "/_data/homepage_alt/biz.json"
         fields:
           - { label: "Add title", name: "title", widget: "string" }
           - { label: "Add description", name: "description", widget: "string" }

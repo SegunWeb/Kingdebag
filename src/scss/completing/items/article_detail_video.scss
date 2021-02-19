@@ -1,0 +1,51 @@
+.article_detail_video {
+  margin: 160px auto;
+  position: relative;
+  z-index: 120;
+
+  @include mq(md) {
+    margin: 40px auto 80px auto;
+  }
+  @include mq(sm) {
+    margin: 40px auto;
+  }
+}
+
+.article_detail_video_box {
+  position: relative;
+}
+
+.article_detail_video_btn_play {
+  @extend .elem_center;
+  padding: 30px;
+  cursor: pointer;
+
+  @include mq(sm) {
+    padding: 20px;
+
+    & > svg {
+      width: 60px;
+    }
+  }
+}
+.innov_box {
+  max-width: 768px;
+  margin: 0 auto 120px auto;
+
+  @include mq(md){
+    margin-bottom: 80px;
+  }
+  @include mq(sm) {
+    margin-bottom: 40px;
+  }
+}
+.innov_title {
+  font-size: $fontSizeMD + 4px;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+.innov_text {
+  font-family: $brownLight;
+  color: $black;
+}

@@ -1,0 +1,247 @@
+.space_rich {
+  padding: 95px 0 185px 0;
+  position: relative;
+
+  @include mq(xxl) {
+    padding: 95px 0;
+  }
+  @include mq(lg) {
+    padding: 80px 0 40px 0;
+  }
+  @include mq(xs) {
+    padding: 40px 0;
+  }
+
+}
+.space_rich_title_box {
+  position: relative;
+  max-width: 735px;
+  left: 20%;
+  margin-bottom: -7%;
+
+  @include mq(xxl) {
+    left: 15%;
+    max-width: 535px;
+  }
+  @include mq(lg) {
+    left: 10%;
+    width: 60%;
+    max-width: 435px;
+  }
+  @include mq(md) {
+    left: initial;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+}
+.space_rich_text {
+  font-size: $fontSizeSM;
+  text-transform: uppercase;
+  color: $red;
+  margin-bottom: 20px;
+  font-family: $nimbus;
+}
+.space_rich_title {
+  font-size: $fontSizeXl;
+  text-transform: uppercase;
+  font-family: $nimbus;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl - 20px;
+  }
+  @include mq(lg) {
+    font-size: $fontSizeXl - 30px;
+  }
+  @include mq(sm) {
+    font-size: $fontSizeXl - 35px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXl - 50px;
+  }
+  @include mq(xxs){
+    font-size: $fontSizeXl - 55px;
+  }
+
+}
+.space_rich_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 180px 0 110px 0;
+  background: linear-gradient(90deg, rgba(194, 91, 47, 0.15) 84%, $white 20%);
+
+  @include mq(xxl) {
+    padding: 180px 0 50px 0;
+  }
+
+  @include mq(lg) {
+    padding: 130px 0 30px 0;
+  }
+  @include mq(md) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background: linear-gradient(90deg, rgba(194, 91, 47, 0.15) 100%, $white 0%);
+  }
+  @include mq(xs) {
+    padding: 100px 0;
+    margin-top: -60px;
+  }
+}
+.space_rich_content_box {
+  color: $blue;
+  font-family: $inco;
+
+  @include mq(md) {
+    margin-bottom: 30px;
+  }
+
+  & > img {
+    margin-bottom: 20px;
+    width: 330px;
+
+    @include mq(xxl) {
+      width: 280px;
+      max-width: initial;
+    }
+    @include mq(lg) {
+      width: 200px;
+    }
+    @include mq(md) {
+      width: 350px;
+    }
+    @include mq(xs) {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
+  & > p {
+    max-width: 190px;
+    margin: 0 auto;
+
+    @include mq(lg) {
+      font-size: $fontSizeXS - 4px;
+      max-width: 170px;
+    }
+    @include mq(md) {
+      width: 100%;
+      max-width: fit-content;
+    }
+  }
+}
+.space_rich_article {
+  max-width: 360px;
+  margin: 0 20px;
+
+  @include mq(xxl) {
+    max-width: 300px;
+  }
+  @include mq(md) {
+    max-width: 450px;
+    margin:  0 auto;
+  }
+  @include mq(xs) {
+    width: 90%;
+  }
+
+  & > p:first-child {
+    color: $red;
+    font-size: $fontSizeSM +6px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  & > p:nth-child(2) {
+    color: $black;
+    font-size: $fontSizeSM;
+    margin-bottom: 20px;
+    font-family: $brownLight;
+    line-height: 1.3;
+
+
+  }
+}
+
+.space_more {
+  margin-bottom: 60px;
+  color: $blue;
+  display: block;
+
+  @include mq(md) {
+    margin-bottom: 30px;
+  }
+
+  &:before {
+    display: none;
+  }
+}
+
+.space_upper {
+  margin-top: -280px;
+  & > p:last-child {
+    margin: 0 auto;
+  }
+  @include mq(md) {
+    margin: 0 auto;
+  }
+}
+.space_rich_spec {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+
+  @include mq(xxl) {
+    right: 2%;
+    bottom: -22%;
+  }
+  @include mq(lg) {
+    right: 5%;
+    bottom: -16%;
+  }
+  @include mq(md) {
+    position: relative;
+    right: initial;
+    bottom: initial;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: -5% auto 0 auto;
+  }
+
+
+  & > img:first-child {
+    width: 400px;
+
+    @include mq(xxl) {
+      width: 380px;
+    }
+    @include mq(lg) {
+      width: 245px;
+    }
+    @include mq(md) {
+      width: initial;
+    }
+    @include mq(xs) {
+      margin: -15% auto 0 auto;
+    }
+  }
+
+  & > p:last-child {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 12%;
+
+    @include mq(xs) {
+      margin: 20px auto;
+      max-width: 280px;
+    }
+  }
+}

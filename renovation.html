@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  rich_story.meta.meta_title }}</title>
+    <meta name="description" content="{{rich_story.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/renovation.css"/>
+</head>
+<body>
+
+{% include component/header_w.html %}
+<main>
+    {% include renovation/main_rich.html %}
+    {% include renovation/performance.html %}
+    {% include renovation/buble_rich.html %}
+    {% include renovation/goals_rich.html %}
+    {% include renovation/space_rich.html %}
+    {% include renovation/next_rich.html %}
+    {% include renovation/better_rich.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/renovation.js" %}
+
+<script>
+    window.markerConfig = {
+        destination: '60085754791a703a93f4e3ca',
+    };
+</script>
+<script>
+    !function(e,r,t){
+        if(e.__Marker)return;e.__Marker={};
+        var n=r.createElement('script');
+        n.async=1,n.src='https://edge.marker.io/latest/shim.js';
+        var s=r.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(n,s)}(window,document);
+</script>
+</body>
+</html>

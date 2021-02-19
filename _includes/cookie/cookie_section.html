@@ -1,8 +1,172 @@
 <section class="cookie">
     <div class="container wrapper">
         <div class="info_page_wrap">
-            <p class="info_page_title">{{cookie.title}}</p>
-            <p class="info_page_desc">{{cookie.desc}}</p>
+            <h1>{{cookie.h1}}</p>
+            <p>{{cookie.desc1}}</p>
+            <p>{{cookie.desc2}}</p>
+            <h2>{{cookie.h2_1.title}}</h2>
+            <p>{{cookie.h2_1.desc1}}</p>
+            <p>{{cookie.h2_1.desc2}}</p>
+            <p>{{cookie.h2_1.desc3}}</p>
+            <h2>{{cookie.h2_2.title}}</h2>
+            <p>{{cookie.h2_2.desc1}}</p>
+            <h3>{{cookie.h2_2.subtitle1}}</h3>
+            <p>{{cookie.h2_2.desc2}}</p>
+            <p>{{cookie.h2_2.desc3}}</p>
+            <h3>{{cookie.h2_2.subtitle2}}</h3>
+            <p>{{cookie.h2_2.desc4}}</p>            
+            <p>{{cookie.h2_2.desc5}}</p>            
+            <ul>
+                {% for item in cookie.h2_2.list1 %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h3>{{cookie.h2_2.subtitle3}}</h3>
+            <p>{{cookie.h2_2.desc6}}</p>  
+            <p>{{cookie.h2_2.desc7}}</p>
+            <ul>
+                {% for item in cookie.h2_2.list2 %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h2>{{cookie.h2_3.title}}</h2>
+            <p>{{cookie.h2_3.desc1}}</p>
+            <p>{{cookie.h2_3.desc2}}</p>
+            <p>{{cookie.h2_3.desc3}}</p>
+            <p>{{cookie.h2_3.desc4}}</p>
+            <h2>{{cookie.h2_4.title}}</h2>
+            <p>{{cookie.h2_4.desc1}}</p>
+            <p>{{cookie.h2_4.desc2}}</p>
+            <p>{{cookie.h2_4.desc3}}</p>
+            <ul>
+                {% for item in cookie.h2_4.list %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h2>{{cookie.h2_5.title}}</h2>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_5.table.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th>{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_5.table.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h2>{{cookie.h2_6.title}}</h2>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_6.table1.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th colspan="4">{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_6.table1.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_6.table2.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th colspan="4">{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_6.table2.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h2>{{cookie.h2_7.title}}</h2>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_7.table1.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th colspan="4">{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_7.table1.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_7.table2.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th colspan="4">{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_7.table2.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h2>{{cookie.h2_8.title}}</h2>
+            <table>
+                <thead>
+                    {% for item in cookie.h2_8.table.thead %}
+                        <tr>
+                            {% for th in item %}
+                                <th colspan="4">{{th}}</th>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for item in cookie.h2_8.table.tbody %}
+                        <tr>
+                            {% for td in item %}
+                                <td>{{td}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
     </div>
 </section>

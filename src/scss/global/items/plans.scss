@@ -1,0 +1,85 @@
+.plans {
+  position: relative;
+  margin: 120px auto;
+
+  @include mq(lg) {
+    margin: 80px auto;
+  }
+  @include mq(xs) {
+    margin-top: 50px;
+  }
+}
+.plans_title_box {
+  max-width: 1330px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+
+  @include mq(xxl) {
+    width: 90%;
+  }
+  @include mq(lg) {
+    margin-bottom: 60px;
+  }
+  @include mq(xs) {
+    margin-bottom: 15px;
+  }
+}
+.plans_title {
+  font-size: $fontSizeXl;
+
+  @include mq(xxl){
+    font-size: $fontSizeXl - 20px;
+  }
+
+  @include mq(lg) {
+    font-size: $fontSizeXl - 25px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeLG - 6px;
+  }
+}
+
+
+.plans_info_box_content {
+  max-width: 595px;
+
+  @include mq(xxl) {
+    max-width: 545px;
+  }
+  @include mq(lg) {
+    max-width: 420px;
+  }
+}
+
+.plans_map_img_box {
+  position: relative;
+}
+.plans_map_img {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mq(sm) {
+    padding-bottom: 0;
+    width: 100%;
+    display: block;
+  }
+
+  &_desc {
+    position: relative;
+
+
+    & > img {
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+
+
+

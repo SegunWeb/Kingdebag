@@ -1,0 +1,32 @@
+<section class="goals_rich">
+    <div class="wrapper">
+        <div class="goals_rich_box">
+            <div class="slider_goals_wrap">
+                <div class="slider_goals">
+                    {% for item in carbon.goals_rich.slide %}
+                    <div class=" goals_rich_info filter_mobile">
+                        <div class="filter">
+                            <img src="{{item.bg}}" alt="img-bg">
+                        </div>
+
+                        <div class="goals_rich_info_box">
+                            <p class="goals_rich_info_big">{{item.info_big}}</p>
+                            <p class="goals_rich_info_percent">{{item.info_percent}}</p>
+                            <p class="goals_rich_info_small">{{item.info_small}}</p>
+                        </div>
+                        <div class="goals_rich_desc">
+                            <p>{{item.info_desc}}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <p class="goals_rich_talk">{{carbon.goals_rich.talk}}</p>
+        </div>
+        <div class="goals_rich_title">
+            <p>{{carbon.goals_rich.title}}</p>
+        </div>
+    </div>
+
+</section>

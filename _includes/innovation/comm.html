@@ -1,0 +1,21 @@
+<section class="comm_glob wrapper">
+
+    <div id="global_video_one" class="active_video">
+        <div class="close_video"></div>
+        <div class="video_size" id="youtube">
+            <iframe src="https://www.youtube.com/embed/{{ innovation.comm.idVideo }}?enablejsapi=1&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="comm_glob_box">
+                <h2 class="comm_glob_title">{{innovation.comm.title}}</h2>
+                <p class="comm_glob_text">{{innovation.comm.text}}</p>
+            </div>
+            <div class="comm_glob_img_box">
+                <video class="video" poster="{{innovation.comm.img}}" loop muted>
+                    <source src="{{innovation.comm.video}}" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+</section>

@@ -1,0 +1,22 @@
+//generic
+@import "../generic/fonts";
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/general";
+@import "../generic/slick";
+@import "../generic/slider";
+@import "../generic/slider_graph";
+@import "../generic/video";
+
+//elements
+@import "../component/button";
+@import "../component/header";
+@import "../component/footer";
+@import "../component/back_to_top";
+
+// items page
+@import "items/main_biz_strategy";
+@import "items/performance";
+@import "items/better";
+@import "items/article_detail_video";
+@import "items/basic_article";

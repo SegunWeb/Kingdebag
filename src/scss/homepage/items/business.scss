@@ -9,10 +9,14 @@
     position: absolute;
     left: 0;
     top: -30px;
-    width: 42%;
+    width: 46%;
     height: 100%;
     background-color: $backgroundGreenLight;
     z-index: 8;
+
+    @include mq(xxxl) {
+      width: 42%;
+    }
 
     @include mq(lg) {
       width: 55%;

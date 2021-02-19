@@ -1,0 +1,137 @@
+.presentation {
+  position: relative;
+  top: -30px;
+  z-index: 120;
+
+  @include mq(spec) {
+    top: -35px;
+  }
+  @include mq(lg) {
+    top: -25px;
+  }
+  @include mq(md) {
+    top: 0;
+  }
+
+}
+.pres_container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+
+  @include mq(xxl) {
+    margin-right: 0;
+  }
+  @include mq(md) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.pres_media {
+  position: relative;
+  width: 100%;
+}
+.pres_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 75%;
+
+  @include mq(xxl) {
+    width: 65%;
+  }
+  @include mq(lg) {
+    width: 80%;
+  }
+  @include mq(md) {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+.pres_text {
+  width: 500px;
+  position: relative;
+  z-index: 8;
+
+
+  @include mq(xxl) {
+    width: 75%;
+  }
+  @include mq(sm) {
+    width: 92%;
+  }
+
+ &__title {
+  @extend .title_font;
+   position: relative;
+   z-index: 8;
+ }
+ &__description {
+   font-size: $fontSizeMD;
+   margin: 25px 0 45px 0;
+   font-family: $brownLight;
+   color: $blue;
+
+   @include mq(xxl) {
+     font-size: $fontSizeMD - 8px;
+     line-height: 1.5;
+   }
+ }
+ &__author {
+   font-size: $fontSizeSM;
+   margin: 10px 0;
+   font-family: $nimbus;
+ }
+ &__link > a {
+   color: $green;
+   position: relative;
+   font-family: $brownBold;
+   text-transform: uppercase;
+
+   &:before {
+     content: '';
+     position: absolute;
+     top: 54%;
+     height: 1px;
+     width: 60px;
+     right: -70px;
+     background-color: $green;
+   }
+ }
+
+}
+
+.quote {
+  position: absolute;
+  z-index: 7;
+  width: 75px;
+
+  @include mq(lg) {
+    width: 60px;
+  }
+
+  &_top {
+    top: -23px;
+    left: -50px;
+
+    @include mq(lg) {
+      top: -6%;
+      left: -8%;
+    }
+    @include mq(sm) {
+      top: -6%;
+      left: -2%;
+    }
+  }
+  &_bottom {
+    bottom: 0;
+    right: 0;
+
+    @include mq(xxl) {
+      right: 8%;
+    }
+  }
+}

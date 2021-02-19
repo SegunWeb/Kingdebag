@@ -2,37 +2,137 @@
   "info": "WHY KINGSPAN",
   "title": "Why our clients choose Kingspan",
   "background": "/src/image/biz_strategy/slider_bg.jpg",
+  "title_two": "Our Plan",
+  "year": "2030",
+  "close": "/src/image/icons/close_w.svg",
 
   "slide": [
     {
+      "data_id": "one",
       "img": "/src/image/biz_strategy/slide1.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
       "title_slide": "Innovation\n"
     },
     {
+      "data_id": "two",
       "img": "/src/image/biz_strategy/slide2.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.\n",
       "title_slide": "Quality\n"
     },
     {
+      "data_id": "three",
       "img": "/src/image/biz_strategy/slide3.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n",
       "title_slide": "Reliability"
     },
     {
+      "data_id": "four",
       "img": "/src/image/biz_strategy/slide4.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur.",
       "title_slide": "People-Centric\n"
     },
     {
+      "data_id": "five",
       "img": "/src/image/biz_strategy/slide3.jpg",
       "hover_text": "View Case <br> Study",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur.",
       "title_slide": "People-Centric\n"
     }
+  ],
+
+
+
+  "slider_info": [
+    {
+      "id": "one",
+      "slide_title": "Case Study Heading",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "two",
+      "slide_title": "Case Study Heading - TWO",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "three",
+      "slide_title": "Case Study Heading - THREE",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "four",
+      "slide_title": "Case Study Heading - FOUR",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    },
+    {
+      "id": "five",
+      "slide_title": "Case Study Heading - FIVE",
+      "slide_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "slide_text_t": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+
+
+      "slide_img_one": "/src/image/rich_story/slide_info/s1.jpg",
+
+      "slide_img_two": "/src/image/rich_story/slide_info/s2.jpg",
+      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment.",
+
+      "slide_img_three": "/src/image/rich_story/slide_info/s33.jpg",
+      "slide_img_text_three": "<strong> Singapore </strong> APZ Test Track, Zalaegerszeg / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel",
+
+      "slide_img_text_four": "Back to\nTimeline"
+    }
   ]
+
+
 }

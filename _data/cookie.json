@@ -1,4 +1,387 @@
 {
-  "title": "Lorem ipsum dolor sit amet.",
-  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis deleniti eligendi excepturi ipsa ipsam nostrum quae rerum sapiente similique! Atque cumque eligendi esse ipsum laboriosam nam quibusdam. A aperiam beatae consequuntur cumque deserunt, dolorem ea exercitationem in, ipsa magni modi molestiae molestias nemo neque nisi nobis non odit perspiciatis quibusdam quidem quo recusandae reprehenderit repudiandae sit tenetur veritatis voluptas voluptatem! A amet animi atque corporis culpa eos expedita facere hic magnam, neque nesciunt nisi officia omnis quibusdam quidem quisquam, reiciendis reprehenderit sapiente similique velit. Asperiores commodi et inventore labore voluptas. Aliquid excepturi magnam molestias soluta sunt vel vitae. Porro?"
+  "h1": "Cookie Policy & Control",
+  "desc1": "This page was last updated on 25/05/2020. Whenever this policy is changed in a material way, you will be asked to renew your cookie consent.",
+  "desc2": "We, Kingspan Holdings (Ireland) Limited (\"<strong>Kingspan Group</strong>\") and each of our affiliates (\"<strong>Kingspan Affiliate's</strong>\"), through our global website <a href=\"/\">www.kingspan.com</a>, and each of our local sites, use cookies. These cookies help to ensure that our websites are secure and work properly, and if you consent so, it will help us to improve your experience across our websites by, for example, remembering your preference settings or sending you personalised information about our products and services.",
+  "h2_1": {
+    "title": "What are cookies?",
+    "desc1": "Cookies are text files containing small amounts of information, which are downloaded to your computer or mobile device by websites that you visit. They can improve your experience of using a website by, for example, remembering your preference settings and tracking your use of a website so that it can be improved to meet your needs. Most of our cookies only collect anonymous information. However, we or the other companies we use for cookies (listed below), may collect information such as log-in details and IP addresses that in some countries is considered personal data. We take your privacy seriously and would like you to understand how we process this personal data as per our <a href=\"/group/website-privacy-notice\">Website Privacy Notice</a>.",
+    "desc2": "You will be able to <strong>access other websites</strong> from the Kingspan Group and Kingspan Affiliate websites and these websites are <strong>not under our control</strong>. Please review their cookie and privacy policies when you visit them.",
+    "desc3": "Also, <strong>when you use an external account</strong> (such as Facebook or Disqus) to log-in to our website, note that any preferences saved (such as remembering log-in details) are saved and further managed by your account provider and this <strong>is outside of our control</strong>."
+  },
+  "h2_2": {
+    "title": "What cookies do we use?",
+    "desc1": "We know that understanding cookies, their uses and how these uses affect your online experience can be challenging. We want to make this as simple as possible for you. Below, you will find a summary of the purposes for which we use cookies followed by a complete cookie list.",
+    "subtitle1": "Type 1: Functionality Cookies",
+    "desc2": "Strictly necessary cookies are used for security, or to enable the website to function – without these cookies you will not be able to use our websites.",
+    "desc3": "Functionality cookies that provide website services to enhance your experience and cookies that save your preferences e.g. website language, enquiries or comments you make on our website – these cookies are not necessary for your use of our websites but enabling these cookies can improve your website experience. A full list of functionality cookies is available below.",
+    "subtitle2": "Type 2: Analytical Cookies (Anonymised)",
+    "desc4": "Cookies that can tell us how (anonymised) users interact with our website, to help us improve. For these cookies, you will allow the companies we use (e.g. Google) to see some personal information e.g. IP address, but Kingspan will not see this information.",
+    "desc5": "If you accept these cookies, we will be able to analyse anonymous interactions such as:",
+    "list1": [
+      "the sources from which you access our website,",
+      "general online behaviour and interactions with our websites e.g. user clicks and number of website visits, and;",
+      "general user preferences such as popular keyword searches and advert clicks."
+    ],
+    "subtitle3": "Type 3: Analytical Cookies (Personal)",
+    "desc6": "Cookies that allow us to use your personal information to tailor our product and service offering to you based on your interests, needs and interactions.",
+    "desc7": "If you accept these cookies, we will be able to analyse interactions such as:",
+    "list2": [
+      "Utilising third party cookies (this means that they are provided by other companies, for example, Google or Facebook) to advertise to you based on your interests and interactions with Kingspan."
+    ]
+  },
+  "h2_3": {
+    "title": "What consent options do I have?",
+    "desc1": "Kingspan would like to have your consent to send cookies to your computer or mobile device.",
+    "desc2": "Our use of strictly necessary cookies does not require your consent. If you do not agree with the saving of strictly necessary cookies on your device, you should stop browsing our webpages.",
+    "desc3": "If you do not consent to our functionality cookies, some parts of our website may not work as you wish.",
+    "desc4": "Consent for Kingspan's cookies will last for 12 months, after which time we will ask you to renew your cookie consent."
+  },
+  "h2_4": {
+    "title": "Can I withdraw my consent or manage my cookies?",
+    "desc1": "You can withdraw your consent to our cookies at any time, even if you have previously consented. More information about consent withdrawal is provided in our <a href=\"/group/website-privacy-notice\">Website Privacy Notice</a>.",
+    "desc2": "To manage you cookie preferences, please click below.",
+    "desc3": "You can also manage your cookies from your browser settings. You can find more information on how to do this here:",
+    "list": [
+      "Google Chrome: <a href=\"https://support.google.com/chrome/answer/95647?hl=en-GB\">https://support.google.com/chrome/answer/95647?hl=en-GB</a>",
+      "Internet explorer: <a href=\"https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies\">https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies</a>",
+      "Mozilla Firefox: <a href=\"http://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences\">http://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a>",
+      "Safari: <a href=\"https://support.apple.com/en-gb/guide/safari/sfri11471/mac\">https://support.apple.com/en-gb/guide/safari/sfri11471/mac</a>",
+      "Microsoft Edge: <a href=\"https://support.microsoft.com/en-gb/help/4468242/microsoft-edge-browsing-data-and-privacy-microsoft-privacy\">https://support.microsoft.com/en-gb/help/4468242/microsoft-edge-browsing-data-and-privacy-microsoft-privacy</a>"
+    ]
+  },
+  "h2_5": {
+    "title": "What is the difference between a 'persistent' and a 'session' cookie?",
+    "table": {
+      "thead": [
+        [
+          "Persistent Cookie",
+          "Session Cookie"
+        ]
+      ],
+      "tbody": [
+        [
+          "These cookies remain on your device between browsing sessions. They are activated each time you visit the website.",
+          "These cookies allow for website operators to link your actions during a browsing session. A browsing session starts when you open your browser window and finishes when you close the browser window. These cookies are created temporarily. Once you close your browser, all cookies are deleted."
+        ]
+      ]
+    }
+  },
+  "h2_6": {
+    "title": "Type 1: Functionality Cookies",
+    "table1": {
+      "thead": [
+        [
+          "Strictly Necessary Cookies"
+        ]
+      ],
+      "tbody": [
+        [
+          "<strong>Cookie</strong>",
+          "<strong>Purpose</strong>",
+          "<strong>Type of Data</strong>",
+          "<strong>Persistent / Session</strong>"
+        ],
+        [
+          "ASP.Net_SessionId</br>(First Party Cookie)",
+          "This cookie is used to remember the user's log-in status and identity the user throughout their session.",
+          "Log-in details",
+          "Session"
+        ],
+        [
+          ".ASPXFORMSAUTH</br>(First Party Cookie)",
+          "This is an essential cookie that stores the user's encrypted authentication ticket when using forms.",
+          "Authentication details",
+          "Session"
+        ],
+        [
+          "CookieControl</br>(Third Party Cookie)",
+          "This cookie indicates the user has accepted the cookie pop up notice. It prevents the pop up being displayed repeatedly.",
+          "User action and IP address",
+          "Persistent"
+        ]
+      ]
+    },
+    "table2": {
+      "thead": [
+        [
+          "Functionality Cookies (Enable website tools and saves preferences, enquiries and comments)"
+        ]
+      ],
+      "tbody": [
+        [
+          "<strong>Cookie</strong>",
+          "<strong>Purpose</strong>",
+          "<strong>Type of Data</strong>",
+          "<strong>Persistent / Session</strong>"
+        ],
+        [
+          "CMSPreferredCulture</br>(First Party Cookie)",
+          "This cookie stores data such as website language and other preferences expressly chosen by the user.",
+          "Your preferences",
+          "Persistent"
+        ],
+        [
+          "Disqus</br>(Third Party Cookie)",
+          "This cookie allows for the addition of comments to news items on our platform and remembers your identity between browsers and visits. <a href=\"http://disqus.com/data-sharing-settings/\">Learn more about Disqus cookies</a>.",
+          "User comments, log-in details and IP address",
+          "Persistent"
+        ],
+        [
+          "Google Maps</br>(Third Party Cookie)",
+          "Used to display map functionality on our site. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about Google Maps cookies</a>.",
+          "No data collected",
+          "Session"
+        ],
+        [
+          "Netop Live Guide</br>(Third Party Cookie)",
+          "Used to collect information about chat sessions performed and user information such as; a user identifier, the user's landing page to the site and the current page the user is on. This data allows us to better assist users with their enquiries. <a href=\"http://kb.netop.com/article/use-of-web-browser-cookies-in-live-guide-222.html\">Learn more about Netop Live Guide cookies</a>.",
+          "Conversations performed, users' log-in details and IP address",
+          "Persistent"
+        ],
+        [
+          "Podbean</br>(Third Party Cookie)",
+          "Used to display podcasts on our website. <a href=\"http://www.podbean.com/privacy\">Learn more about Podbean cookies</a>.",
+          "No data collected",
+          "Session"
+        ],
+        [
+          "Sketchfab</br>(Third Party Cookie)",
+          "Used to display interactive 3D content on our website. <a href=\"http://sketchfab.com/privacy\">Learn more about Sketchfab cookies</a>.",
+          "No data collected",
+          "Session"
+        ],
+        [
+          "Vimeo</br>(Third Party Cookie)",
+          "Used to display video content on our website. <a href=\"http://vimeo.com/cookie_policy\">Learn more about Vimeo cookies</a>.",
+          "No data collected",
+          "Session"
+        ],
+        [
+          "You Tube</br>(Third Party Cookie)",
+          "Used to display video content on our website. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about You Tube cookies</a>.",
+          "No data collected",
+          "Session"
+        ]
+      ]
+    }
+  },
+  "h2_7": {
+    "title": "Type 2: Analytical Cookies (Anonymised)",
+    "table1": {
+      "thead": [
+        [
+          "Cookies to register sources and links"
+        ]
+      ],
+      "tbody": [
+        [
+          "<strong>Cookie</strong>",
+          "<strong>Purpose</strong>",
+          "<strong>Type of Data</strong>",
+          "<strong>Persistent / Session</strong>"
+        ],
+        [
+          "BIMStore</br>(Third Party Cookie)",
+          "To identify what site you have entered BIMStore from. <a href=\"http://www.bimstore.co/cookie-policy\">Learn more about BIMStore cookies</a>.",
+          "IP address and URL",
+          "Persistent"
+        ],
+        [
+          "NBS National BIM Library</br>(Third Party Cookie)",
+          "To identify what site you have entered NBS National BIM Library from and track your behaviour based on your interactions with the NBS iframe on our website. <a href=\"http://www.nationalbimlibrary.com/en/cookies/\">Learn more about NBS National BIM Library cookies</a>.",
+          "IP address, URL and behavioural data",
+          "Persistent"
+        ],
+        [
+          "URLReferrer</br>(First Party Cookie)",
+          "This cookie stores the URL from which you have visited the site e.g. typing the website address into Google.",
+          "IP address and URL",
+          "Persistent"
+        ]
+      ]
+    },
+    "table2": {
+      "thead": [
+        [
+          "Cookies used to track and measure your activities and interactions on our website"
+        ]
+      ],
+      "tbody": [
+        [
+          "<strong>Cookie</strong>",
+          "<strong>Purpose</strong>",
+          "<strong>Type of Data</strong>",
+          "<strong>Persistent / Session</strong>"
+        ],
+        [
+          "CMSAB<ABtestname></br>(First Party Cookie)",
+          "This cookie facilitates the practice of serving different versions of the same page to different users and monitors how the versions perform against defined targets.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Campaign</br>(First Party Cookie)",
+          "This cookie indicates which campaign IDs you have looked at on the website or which campaign IDs have brought you to the website, even if you are not logged in.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "CMSBodyClass</br>(First Party Cookie)",
+          "This cookie provides accessibility standards to measure your performance when visiting the website, to assess how the content of the website is displayed.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "CMSNoTestMVT<templateid></br>(First Party Cookie)",
+          "This cookie stores certain properties of your browser and context (such as language, device etc.).  It is used for Kingspan to measure and assess what accessibility standards fits users most.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "CMSMVT<mvtestname></br>(First Party Cookie)",
+          "This cookie works in a similar way to the AB Test – it facilitates the practice of serving different versions of parts of a page to different users and monitoring how the versions perform against defined targets.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Crazy Egg</br>(Third Party Cookie)",
+          "To improve site performance by identifying user behaviour on our site such as clicks, page depth and page views. Crazy Egg collects your IP address to identify unique users. <a href=\"http://www.crazyegg.com/cookies\">Learn more about Crazy Egg cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "CurrentContact</br>(First Party Cookie)",
+          "A unique identifier for you is stored to track your activities on the website.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Google Adwords</br>(Third Party Cookie)",
+          "Used to display relevant website pages based on your keyword search. These cookies allow us to measure the performance of these keyword ads by collecting data such as ad clicks and conversions so we can improve how we advertise. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about Google AdWords cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Google Analytics</br>(Third Party Cookie)",
+          "Used to measure how you have interacted with our site such as; page views, clicks, visitor device, country, domain and time on site. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about Google Analytics cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Hotjar</br>(Third Party Cookie)",
+          "Used to analyse visitor behaviour, traffic and conduct surveys on our website so we can improve website performance. <a href=\"http://www.hotjar.com/legal/policies/cookie-information\">Learn more about Hotjar cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Podbean</br>(Third Party Cookie)",
+          "Used to display podcasts on our website and understand user information such as IP address, user preferences and analytical user behaviour data. <a href=\"http://www.podbean.com/privacy\">Learn more about Podbean cookies</a>.",
+          "IP address and behavioural data",
+          "Persistent"
+        ],
+        [
+          "Qualtrics</br>(Third Party Cookie)",
+          "This will be used to survey users about their website experience so we can improve our site. <a href=\"http://www.qualtrics.com/privacy-statement/\">Learn more about Qualtrics cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Site Improve</br>(Third Party Cookie)",
+          "This cookie is used to help record visitors' use of the website e.g. when the user last visited. This information is then used to improve the user experience on the website. <a href=\"http://support.siteimprove.com/hc/en-gb/articles/115000070092-Analytics-Technical-Specifications\">Learn more about Site Improve cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Sketchfab</br>(Third Party Cookie)",
+          "Used to display interactive 3D content on our website and understand how users have interacted with the tool on our site. <a href=\"http://sketchfab.com/privacy\">Learn more about Sketchfab cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "TrackedCampaigns</br>(First Party Cookie)",
+          "This cookie stores the IDs for all the campaigns currently being tracked by you.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Vimeo</br>(Third Party Cookie)",
+          "Used to display video content on our website and understand how users have interacted with the tool on our site. <a href=\"http://vimeo.com/cookie_policy\">Learn more about Vimeo cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "VisitorStatus</br>(First Party Cookie)",
+          "This cookie indicates if you have visited the website before.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "Yandex</br>(Third Party Cookie)",
+          "Used to measure how you have interacted with our site such as your; page views, clicks, visitor device, country, domain and time on site. <a href=\"http://browser.yandex.com/help/personal-data-protection/cookies.html\">Learn more about Yandex cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ],
+        [
+          "You Tube</br>(Third Party Cookie)",
+          "Used to display video content on our website and understand how users have interacted with the tool on our site. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about You Tube cookies</a>.",
+          "Behavioural data",
+          "Persistent"
+        ]
+      ]
+    }
+  },
+  "h2_8": {
+    "title": "Type 3: Analytical Cookies (Personal)",
+    "table": {
+      "thead": [
+        [
+          "Cookies used for personalised and targeted marketing activity"
+        ]
+      ],
+      "tbody": [
+        [
+          "<strong>Cookie</strong>",
+          "<strong>Purpose</strong>",
+          "<strong>Type of Data</strong>",
+          "<strong>Persistent / Session</strong>"
+        ],
+        [
+          "Facebook Pixel</br>(Third Party Cookie)",
+          "Used to display interest-based ads on your Facebook and Instagram account, if relevant, based on your interactions with our website to help us deliver ads, measure their performance, and make them more relevant to you based on criteria like your activity on Facebook and Instagram and visits to our website. <a href=\"http://www.facebook.com/policies/cookies/\">Learn more about Facebook Pixels cookies</a>.",
+          "IP address, log-in details and behavioural data",
+          "Persistent"
+        ],
+        [
+          "Google Adwords Remarketing</br>(Third Party Cookie)",
+          "Used to display interest-based ads on Google and partner Google websites, if relevant, based on your interactions with our website such as remembering your most recent searches, your previous interactions with our ads or search results and your visits to our website. <a href=\"http://policies.google.com/technologies/types?hl=en-US\">Learn more about Google AdWords Remarketing cookies</a>.",
+          "IP address, log-in details and behavioural data",
+          "Persistent"
+        ],
+        [
+          "Lead Feeder</br>(Third Party Cookie)",
+          "Lead Feeder will place cookies to identify companies that have visited our website via Google Analytics that are likely to be interested in our products and services so that we can send offers to relevant contacts in that company which we think they will appreciate. <a href=\"http://www.leadfeeder.com/leadfeeder-and-gdpr/\">Learn more about Lead Feeder cookies</a>.",
+          "IP address, URL and behavioural data",
+          "Persistent"
+        ],
+        [
+          "LinkedIn Insight Tag</br>(Third Party Cookie)",
+          "Used to display interest-based ads on your LinkedIn account, if relevant, based on your interactions with our website to help us deliver ads, measure their performance, and make them more relevant to you based on criteria like your activity on LinkedIn and visits to our website. <a href=\"http://www.linkedin.com/legal/cookie-table\">Learn more about LinkedIn Insight Tag cookies</a>.",
+          "IP address, log-in details and behavioural data",
+          "Persistent"
+        ],
+        [
+          "Pinterest Ads Manager</br>(Third Party Cookie)",
+          "Used to display interest-based ads on your Pinterest account, if relevant, based on your interactions with our website to help us deliver ads, measure their performance, and make them more relevant to you based on criteria like your activity on Pinterest and visits to our website. <a href=\"http://policy.pinterest.com/en-gb/cookies\">Learn more about Pinterest Ad Manager cookies</a>.",
+          "IP address, log-in details and behavioural data",
+          "Persistent"
+        ],
+        [
+          "Twitter Ads Manager</br>(Third Party Cookie)",
+          "Used to display interest-based ads on your Twitter account, if relevant, based on your interactions with our website to help us deliver ads, measure their performance, and make them more relevant to you based on criteria like your activity on Twitter and visits to our website. <a href=\"http://help.twitter.com/en/rules-and-policies/twitter-cookies\">Learn more about Twitter Ad Manager cookies</a>.",
+          "IP address, log-in details and behavioural data",
+          "Persistent"
+        ]
+      ]
+    }
+  }
 }

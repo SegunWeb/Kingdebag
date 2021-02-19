@@ -93,7 +93,6 @@
 .space_rich_content_box {
   color: $blue;
   font-family: $inco;
-  font-weight: bold;
 
   @include mq(md) {
     margin-bottom: 30px;

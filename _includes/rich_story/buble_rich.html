@@ -11,9 +11,11 @@
                        <p class="buble_rich_text">{{item.text}}</p>
                    </div>
                    {% endfor %}
-                   <div class="buble_rich_desc">
-                       <p>{{rich_story.buble_rich.desc}}</p>
+                   {% for item_buble in rich_story.buble_rich.buble_desc %}
+                   <div id="{{item_buble.id_desc}}" class="buble_rich_desc">
+                       <p>{{item_buble.desc}}</p>
                    </div>
+                   {% endfor %}
                </div>
            </div>
        </div>

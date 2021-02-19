@@ -1,4 +1,188 @@
 {
-  "title": "Lorem ipsum dolor sit amet.",
-  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis deleniti eligendi excepturi ipsa ipsam nostrum quae rerum sapiente similique! Atque cumque eligendi esse ipsum laboriosam nam quibusdam. A aperiam beatae consequuntur cumque deserunt, dolorem ea exercitationem in, ipsa magni modi molestiae molestias nemo neque nisi nobis non odit perspiciatis quibusdam quidem quo recusandae reprehenderit repudiandae sit tenetur veritatis voluptas voluptatem! A amet animi atque corporis culpa eos expedita facere hic magnam, neque nesciunt nisi officia omnis quibusdam quidem quisquam, reiciendis reprehenderit sapiente similique velit. Asperiores commodi et inventore labore voluptas. Aliquid excepturi magnam molestias soluta sunt vel vitae. Porro?"
-}
+  "h1": "Website Privacy Notice",
+  "h2_1": {
+    "title": "Summary",
+    "desc1": "This page was last updated on 25/05/2020. Whenever this Notice is changed in a material way, we will provide a summary of the main changes on our website.",
+    "desc2": "This privacy notice is directed to all web users, including users who are also customers, job applicants and investors. Please read this privacy notice carefully as it sets out how we use your personal information."
+  },
+  "h2_2": {
+    "title": "Who are we\" (\"Kingspan\", \"us\", or \"our\")?",
+    "desc1": "We are Kingspan Holdings (Ireland) Limited (\"<strong>Kingspan Group</strong>\") and its affiliates (each of them referred to as \"<strong>Kingspan Affiliate</strong>\").",
+    "desc2": "We have a global website owned by Kingspan Group, and local websites for each of the countries in which our Kingspan Affiliate's operate. Each local website is owned by the relevant Affiliates operating in that country.",
+    "desc3": "When you use our global website, www.kingspan.com, Kingspan Group acts as a controller of your personal information that is collected or obtained via the website. When you use a Kingspan Affiliate's local website, your personal data will be processed independently by the Affiliate(s) owning the local site in that country.",
+    "desc4": "Kingspan Group, and each Kingspan Affiliate are separate, independent data controllers and when they process your personal data they will do it on a separate, independent basis, and for their own purposes. We explain each of the purposes in this privacy notice. This means that each data controller is separately responsible for complying with the obligations of a controller under applicable data protection law.",
+    "desc5": "Click here to access a list of each of the Kingspan <a href=\"/group/data-controllers\">data controllers</a> and their contact details.",
+    "desc6": "If you would like to exercise any of your rights as a data subject (as detailed below in this privacy notice) please contact the relevant Kingspan Affiliate based in your country, or alternatively contact Kingspan Group if that is easier for you, who will follow your instructions in order to send your request to the relevant data controller.",
+    "desc7": "We use your personal data for marketing purposes. To know more about how we use your information for marketing purposes, please refer to the “Marketing” section later in this notice.",
+    "desc8": "Where necessary, or if you consent so, we share your personal data with other Kingspan entities and third parties. To know more about how we share your personal data, please refer to the \"Who do we share your data with?\" section later in this notice.",
+    "desc9": "It is important that you provide us with only your own personal information and ensure that the personal information you provide is accurate and up to date. Please note that you will be responsible for any inaccurate, third party or false personal information that you provide to us.",
+    "desc10": "If you have any questions about this privacy notice, please contact your relevant <a href=\"/group/data-controllers\">data controller</a>.",
+    "desc11": "Our <a href=\"/group/terms-conditions-of-website-use\">Terms & Conditions of Website Use</a>  explain the terms on which you are allowed to use our website, www.kingspan.com, which provides a gateway to our products and services, as well as lots of other useful information."
+  },
+  "h2_3": {
+    "title": "About us",
+    "desc1": "Kingspan Group is the global leader in high-performance insulation and building technologies. Each of the Kingspan entities processes your personal data in accordance with applicable data protection laws in the countries in which we operate.",
+    "desc2": "We have a global website owned by Kingspan Group, and local websites for each of the countries in which our Kingspan Affiliate's operate. Each of them is owned by the relevant Affiliates operating in that country.",
+    "desc3": "Your data controller will be a different Kingspan entity depending on who you are and the purposes for which your data is processed.",
+    "desc4": "When you use our global website, www.kingspan.com, Kingspan Group acts as a controller of your personal information that is collected or obtained via the website. When you use a Kingspan Affiliate's local website your personal data will be processed independently by the relevant Affiliate owning that part of the local site in that country.",
+    "desc5": "As Kingspan Group, and each Kingspan Affiliate are separate, independent data controllers, when they process your personal data they will do it on a separate, independent basis, and for their own purposes. This is explained in more detail below, in the sections \"What information we collect\", and \"What do we do with your personal information\".",
+    "desc6": "Click here to access a list of each of Kingspan <a href=\"/group/data-controllers\">data controllers</a> and their contact details.",
+    "desc7": "We may change this privacy notice from time to time by updating this page. We recommend that you check this page from time to time to ensure you are happy with any changes. However, if these changes have a material impact on the way we process your personal data, we will provide a summary of the main changes on our website."
+  },
+  "h2_4": {
+    "title": "Useful words",
+    "desc1": "<strong>\"Personal information / personal data / your information / your data\"</strong> is information relating to an identified or identifiable individual. This will include information such as telephone numbers, names, addresses, e-mail addresses, photographs, voice recordings.  It will also include expressions of opinion and indications of intentions about data subjects (and their own expressions of opinion/intentions). It will also cover information which on its own does not identify someone but which would identify them if put together with other information which we have or are likely to have in the future;",
+    "desc2": "<strong>\"Kingspan Group\"</strong> means Kingspan Holdings (Ireland) Limited;",
+    "desc3": "<strong>\"Kingspan Affiliate's\"</strong> means each of Kingspan Holdings (Ireland) Limited's affiliates;",
+    "desc4": "<strong>\"Kingspan / we / us / our\"</strong> means Kingspan and the Kingspan Affiliates who process your personal data. Note that it does not mean all Kingspan Affiliates as not all of them will process your personal data;",
+    "desc5": "<strong>\"You / your\"</strong> means any website users. This may include users who are customers, prospective customers, investors, prospective investors or job applicants."
+  },
+  "h2_5": {
+    "title": "What information do we collect?",
+    "desc1": "When you use this website, and subject to your consent to the use of cookies where relevant, we will record:",
+    "list1": [
+      "the areas of the website that you visit;",
+      "your language preferences;",
+      "the campaign/URL from where you came to the website;",
+      "your activity on the website, such as products viewed, resources that you download and any information you provide to us, including transcripts of any communications with you via online chat;",
+      "information about your computer, such as which browser you are using, your network location and the type of connection you are using (e.g. broadband, ADSL, etc.) and your IP address; and",
+      "technical and other information that does not personally identify you."
+    ],
+    "desc2": "We do this by using cookies. See our document about <a href=\"/group/cookie-policy-control\">Cookie Policy & Control</a> for more information on what a cookie is, how we use them on our website and how you can de-activate certain cookies.",
+    "desc3": "When you, amongst other activities, set up a user account, submit an online enquiry, request information from us, register for a newsletter or register for an event we may ask for some or all of the following information, in addition to such additional information as you may volunteer as appropriate:",
+    "list2": [
+      "your name;",
+      "account password;",
+      "role;",
+      "company name;",
+      "email address;",
+      "postal address;",
+      "telephone number; and",
+      "project name."
+    ],
+    "desc4": "Once you create and log-in to your user account, or submit information through our website we will know who you are and you acknowledge that your activities on this website and information about you and / or your company may be recorded on our systems, which includes cloud-based systems.",
+    "desc5": "Some mandatory information is required and you’ll see that indicated by a star (*), but other information is optional. Any additional information will help us to respond to your enquiry. If you don’t provide mandatory information, we may refuse to accede to the request for which this information was requested.",
+    "desc6": "If you are one of our website users submitting information through our website, we will process the information about you highlighted in the bullet points above.",
+    "desc7": "If you are a job applicant, in addition to the information processed for website user, we will process the following information about you:",
+    "list3": [
+      "Academic and work history;",
+      "Nationality;",
+      "Visa status;",
+      "Organisation membership; and",
+      "Hobbies and interests."
+    ]
+  },
+  "h2_6": {
+    "title": "What do we do with the information we collect?",
+    "desc1": "In this table we have summarised the purposes for which we use your personal data and who is using your data for each purpose:",
+    "table": {
+      "thead": [
+        [
+          "We use your information to:",
+          "Your data controller is:"
+        ]
+      ],
+      "tbody": [
+        [
+          "Administer the website, so we can:</br><ul><li>investigate breaches of the law or website policies;</li><li>investigate potential breaches of our systems and networks or third parties' systems and networks;</li><li>provide you with, and develop the website;</li><li>provide you with a user account if appropriate; and</li><li>update your contact details on our systems.</li></ul>",
+          "Kingspan Group when you use <a href=\"/\">www.kingspan.com</a></br>The relevant Kingspan Affiliate in the country you are browsing from"
+        ],
+        [
+          "Respond to your enquiries concerning:</br><ul><li>Recruitment opportunities</li><li>All Kingspan related queries</li></ul>",
+          "Kingspan"
+        ],
+        [
+          "Respond to media queries",
+          "Kingspan"
+        ],
+        [
+          "Respond to your enquiries:</br><ul><li>Directed to a Kingspan Affiliate</li><li>Sent through online chat</li></ul>",
+          "The relevant Kingspan Affiliate in the country you are browsing from"
+        ],
+        [
+          "Place cookies and other tracking tools on your device in order to gather useful or strictly necessary information (as explained in our Cookie Policy & Control document available <a href=\"/group/cookie-policy-control\">here</a>).",
+          "Kingspan"
+        ],
+        [
+          "Deal with your enquiries and send them to the relevant Kingspan Affiliate",
+          "Kingspan Group will be the data controller only for the purposes of checking to which Affiliate you wish to send the enquiry, and the relevant Kingspan Affiliate will be your data controller on receiving the enquiry."
+        ],
+        [
+          "Comply with the service contract you have with us",
+          "The relevant Kingspan Affiliate"
+        ],
+        [
+          "To send you marketing communications, carry out retargeting marketing activities, to share your information with other Affiliates or third parties (if you consent so) for marketing purposes. See the \"Marketing\" section below for more information.",
+          "The relevant Kingspan Affiliate to whom you have given consent or with whom you are dealing with."
+        ],
+        [
+          "To comply with a legal obligation",
+          "Kingspan"
+        ],
+        [
+          "To manage job applications",
+          "Kingspan"
+        ],
+        [
+          "To provide information to and communicate with investors",
+          "Kingspan Group"
+        ]
+      ]
+    }
+  },
+  "h2_7": {
+    "title": "Legal Bases for Processing",
+    "desc1": "The legal bases on which we process your personal data are:",
+    "list1": [
+      "Necessary for compliance with a legal or regulatory obligation that applies to us;",
+      "Necessary for the performance of a contract with you or in order to take steps at your request prior to entering into a contract with you;",
+      "Necessary for the purposes of our legitimate interests. For example:</br><ul><li>in marketing and promoting our products and services and conducting our business in a responsible and commercially prudent manner.; or</li><li>when Kingspan Group receives a request that is meant to be sent to one of our Affiliates, it is of Kingspan Group's interest to provide you with the best possible service, so it will send the enquiry to the relevant Affiliate for you, instead of asking you to send it again.</li></ul>"
+    ],
+    "desc2": "We will not process your personal data for these purposes if such legitimate interests should be overridden by your own interests, rights and freedoms; or",
+    "list2": [
+      "in limited circumstances, you have given your consent to processing of your personal data, for example, to receive marketing communications by third parties or to consent to the use of Kingspan Group or third-party cookies.</li></ul>"
+    ]
+  },
+  "h2_8": {
+    "title": "Marketing",
+    "desc1": "We would like to provide you with information about Kingspan’s products and services, and other information from Kingspan, which we think you may find interesting. We may send you such information by post, email, and/or telephone if you agree we can.",
+    "desc2": "With your explicit consent, we will use external organisations to send Kingspan offers and marketing communications to you. To do so, either they will collect information directly from you, or we will otherwise provide your personal information to them. These external organisations include contractors, merchants, distributors, retailers and other service providers which are outside of Kingspan.  When we work in partnership with external providers, we decide how to use your personal data together and we are both responsible for complying with the law. If you have any questions about the processing of your data for marketing purposes, please contact the relevant <a href=\"/group/data-controllers\">Data Controller</a>. For more information about our external providers and their use of personal data for marketing purposes, please review our <a href=\"/group/cookie-policy-control\">Cookie Policy.</a>",
+    "desc3": "You can opt-out from receiving marketing communications at any time. If you have received marketing communications from any of our Kingspan entities and decide that you no longer wish to receive same, please unsubscribe via email link, or by such other means as we may communicate to you.",
+    "desc4": "Please note that as each entity is an independent data controller, we do not as a group operate a global marketing database, which means Kingspan Group is unable to unsubscribe you from marketing from all Kingspan companies centrally."
+  },
+  "h2_9": {
+    "title": "Who do we share your information with?",
+    "desc1": "Kingspan Affiliates share your personal information with Kingspan Group because Kingspan Group runs the global website.",
+    "desc2": "We may disclose your personal information to third parties located in your country and in countries other than your own, in due compliance with applicable laws.",
+    "desc3": "If we have your explicit consent, we may provide your personal information to external organisations (i.e. to contractors, merchants, distributors, retailers, media agencies and service providers which are outside of Kingspan) so that they can contact you about their promotions, services, events and other activities in relation to Kingspan products and services without having obtained consent from you themselves. An example of this is a provider that places cookies on your device in order to personalise information about our products and services for you.",
+    "desc4": "As we are a global entity, the countries to which your personal data is sent/accessed from may have a different standard of data protection than the country in which you are situated. However, we have put in place protections and adequate safeguards to ensure that your information is adequately protected and we comply with the law.  If you wish to know more about the protection we have put in place to keep your information safe, please contact Kingspan Group or the Affiliate you normally deal with. A list of data controllers and their contact details can be found <a href=\"/group/data-controllers\">here</a>.",
+    "desc5": "Where organisations outside of Kingspan provide you with a service on our behalf, or help us provide the service to you (e.g. sending you a piece of literature that you have requested from us or helping us respond to your request regarding the technical operation of the website) or provide professional advice to us, we may share your personal information with those organisations who will only use the information to provide the relevant service. However, we will retain control of your personal information and any third party service provider that we use must act in accordance with our instructions and protect the confidentiality and security of the personal information as appropriate.",
+    "desc6": "We may share your personal information with a purchaser or potential purchaser of our business.",
+    "desc7": "We may disclose your personal information to third parties, their agents and professional advisors, subject to confidentiality obligations, for the purpose of a due diligence exercise by third parties in connection with any proposed merger, acquisition, re-organisation or transfer of any part of our business and to any person proposing to participate in, or promote or underwrite or manage any such arrangement.",
+    "desc8": "In some circumstances, we may have to disclose your personal information by law, because a court or the police or other law enforcement agency has asked us for it."
+  },
+  "h2_10": {
+    "title": "Retention of your information",
+    "desc1": "We only retain your personal information for as long as is necessary for us to use your personal information as described above or to comply with our legal obligations.",
+    "desc2": "Where your personal information is processed with your consent (e.g. for the marketing purposes), such personal information is retained until you revoke the consent for such processing, or until the time limit dictated by law is reached."
+  },
+  "h2_11": {
+    "title": "Your rights, how to get copies of or amend the information we have collected and how to make a complaint",
+    "desc1": "You may request details of the personal information that we hold about you under data protection laws. If you wish to exercise any of the rights outlined below, please contact your data controller directly, details of which can be found <a href=\"/group/data-controllers\">here</a>.",
+    "desc2": "You may oppose the processing of your personal data when there are legitimate grounds to do so, if there is no legal obligation for us to carry out this processing and provided that this right of opposition has not been excluded by an express clause in the document authorising this processing. For the avoidance of doubt, processing for marketing purposes may always be opposed.",
+    "desc3": "If you think any information held by Kingspan about you is incorrect, incomplete or is being processed improperly, please write to Kingspan Group and it will pass on your request to your data controller's, or you can contact your <a href=\"/group/data-controllers\">data controller</a> directly and it/they will delete, block, correct, update or cease to process any information subject to the terms provided for by the law.",
+    "desc4": "Where information processing is based on your consent, you have the right to withdraw that consent at any time.",
+    "desc5": "Where our processing of your personal data is based on you having provided consent, or is necessary for the performance of a contract with you, you may request us to provide you, or a third party, with a copy of your personal data in a structured, commonly used machine readable format.",
+    "desc6": "If you wish to make a directive about the handling of your personal information after your death, please let us know and we will oblige.",
+    "desc7": "If you wish to make a complaint about an alleged breach of the law, we ask that you send us your complaint in writing to the Kingspan entity in question at the address shown <a href=\"/group/data-controllers\">here</a>. We will respond to complaints and implement any remedies subject to the terms provided for by the law. Separately, you may make a complaint at any time to the data protection authority in the country in which the Kingspan entity in question is based, or the country in which you live."
+  },
+  "h2_12": {
+    "title": "Security",
+    "desc1": "Kingspan is committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure we have put in place suitable physical, electronic and managerial procedures where relevant to safeguard and secure the information we collect.",
+    "desc2": "If at any point you suspect or become aware of a security incident (e.g. your password for accessing your registered account on this website is stolen or you receive suspicious communication from someone holding themselves out to be a Kingspan employee or from a dupe website claiming to be affiliated with Kingspan), please forward the communication to us or report the incident by email to <a href=\"mailto:admin@kingspan.com\">admin@kingspan.com</a> or in writing to Kingspan Holdings (Ireland) Limited, Dublin Road, Kingscourt, Co Cavan, A82  XY31, Republic of Ireland as soon as possible."
+  },
+  "h2_13": {
+    "title": "Linking to other websites",
+    "desc1": "Our website or marketing email messages sometimes include links to other third party websites which are not within our control. Once you have left our website / marketing email message, we cannot be held responsible for the content of these third party websites or the protection and privacy of any information which you provide to those websites. You should exercise caution and look at the privacy notice / policy applicable to the website in question."
+  }
+} 

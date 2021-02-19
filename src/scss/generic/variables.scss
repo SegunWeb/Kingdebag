@@ -11,6 +11,11 @@ $greenLight: #F2F6F9;
 $grayLight: #ededed;
 $grayPag: #979797;
 $greenMD: #9CD9D3;
+$greenSpec: #1FB7A6;
+$red: #821B22;
+$fiolet: #8368A5;
+$redLight: #B16E74;
+
 
 
 
@@ -86,6 +91,12 @@ $container: 1160px;
   }
   @if $point == xxl {
     @media (max-width: 1580px) {
+      @content;
+    }
+  }
+
+  @if $point == xxxl {
+    @media (max-width: 1700px) {
       @content;
     }
   }

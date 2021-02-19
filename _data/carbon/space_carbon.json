@@ -1,0 +1,21 @@
+{
+  "title": "enabling\nlower\nembodied\ncarbon",
+  "title_text": "Our Impact",
+
+  "idVideo": "XDirsz0TcyM",
+  "btnPlay": "/src/image/icons/play_btn.svg",
+
+  "img_three":  "/src/image/carbon/space_v.png",
+  "three_text": "See how <strong> Kingspan’s QuadCore™ </strong> can reduce upfront or embodied carbon by up to 28% versus alternative systems",
+
+  "title_desc_one": "Extending the life of aging buildings",
+  "desc_one": "Addressing embodied carbon is crucial to averting a climate crisis, as new construction is expected to double the world’s building stock by 2060, causing an increase in the carbon emissions occurring right now; that is th equivalent of building an entire New York City, every month, for the next 40 years. ",
+
+  "title_desc_three": "Our Goals",
+  "desc_three": "Through our Planet Passionate Programme, by 2030, we are targeting Net Zero Carbon manufacturing and a 50% reduction in carbon emissions from our primary suppliers. ",
+
+  "title_desc_two": "High performance carbon reduction",
+  "desc_two": "Kingspan’s thinner, lighter insulation materials can reduce embodied carbon at the upfront stage, by reducing the structural members, associated foundations and ancillary products in construction.",
+
+  "close": "/src/image/icons/close_w.svg"
+}

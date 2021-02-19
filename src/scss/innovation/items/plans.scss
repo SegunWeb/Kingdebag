@@ -1,0 +1,102 @@
+.plans {
+  position: relative;
+  margin: 120px auto;
+
+  @include mq(lg) {
+    margin: 80px auto;
+    padding: 0 4%;
+  }
+  @include mq(xs) {
+    margin-top: 50px;
+  }
+}
+.plans_title_box {
+  max-width: 1330px;
+  margin: 0 auto;
+  text-align: center;
+
+  @include mq(xxl) {
+    width: 90%;
+  }
+}
+.plans_title_box {
+   margin-bottom: 80px;
+
+  @include mq(lg) {
+    margin-bottom: 60px;
+  }
+  @include mq(xs) {
+    margin-bottom: 15px;
+  }
+}
+.plans_title {
+  font-size: $fontSizeXl;
+
+  @include mq(xxl){
+    font-size: $fontSizeXl - 20px;
+  }
+
+  @include mq(lg) {
+    font-size: $fontSizeXl - 25px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeLG + 4px;
+  }
+}
+
+
+.plans_info_box_content {
+  max-width: 595px;
+
+  @include mq(xxl) {
+    max-width: 545px;
+  }
+  @include mq(lg) {
+    max-width: 420px;
+  }
+}
+
+.plans_map_img_box {
+  position: relative;
+}
+.plans_map_img {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mq(sm) {
+    padding-bottom: 0;
+    width: 100%;
+    display: block;
+  }
+
+  &_desc {
+    position: relative;
+
+
+    & > img {
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+
+.plans_glob_box {
+  max-width: 810px;
+  margin: 0 0 120px 15% ;
+
+  @include mq(xxl) {
+    margin-left: 10%;
+  }
+  @include mq(lg) {
+    margin-left: 7%;
+  }
+  @include mq(md) {
+    margin-left: 0;
+  }
+}
+

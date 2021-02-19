@@ -1,8 +1,17 @@
 <section class="terms">
     <div class="container wrapper">
         <div class="info_page_wrap">
-            <p class="info_page_title">{{terms.title}}</p>
-            <p class="info_page_desc">{{terms.desc}}</p>
+            <h1>{{terms.h1}}</p>
+            <p>{{terms.desc1}}</p>
+            <p>{{terms.desc2}}</p>
+            <p>{{terms.desc3}}</p>
+            <p>{{terms.desc4}}</p>
+            <ul>
+                {% for item in terms.list1 %}
+                    <li>{{item}}</li>
+                {% endfor %}
+            </ul>
+            <p>{{terms.desc5}}</p>
         </div>
     </div>
 </section>

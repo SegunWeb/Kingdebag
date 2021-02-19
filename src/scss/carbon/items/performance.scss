@@ -1,0 +1,151 @@
+.performance {
+  position: relative;
+  margin: 120px auto;
+  z-index: 121;
+
+  @include mq(lg) {
+    margin: 80px auto 0 auto;
+  }
+  @include mq(md) {
+    margin: 60px auto;
+  }
+
+}
+.perf_container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+
+  @include mq(xxl) {
+    margin-right: 0;
+  }
+  @include mq(md) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.perf_media {
+  position: relative;
+  width: 60%;
+
+  @include mq(lg) {
+    width: 97%;
+  }
+  @include mq(md) {
+   max-width: 700px;
+    margin: 0 auto;
+  }
+}
+.perf_description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 35%;
+
+
+  @include mq(xxl) {
+    width: 65%;
+  }
+  @include mq(lg) {
+    width: 80%;
+  }
+  @include mq(md) {
+    width: 100%;
+    margin-top: 60px;
+  }
+  @include mq(sm) {
+    margin-top: 30px;
+  }
+}
+
+.perf_text {
+  width: 100%;
+  position: relative;
+  z-index: 8;
+
+  @include mq(xxl) {
+    width: 65%;
+  }
+  @include mq(lg){
+    margin-bottom: 0;
+  }
+  @include mq(md) {
+    margin-top: 0;
+  }
+  @include mq(sm) {
+    width: 92%;
+
+  }
+
+  &__title {
+    @extend .title_font;
+    position: relative;
+    z-index: 8;
+    margin-bottom: 30px;
+
+    @include mq(xs) {
+      font-size: $fontSizeLG;
+      text-align: center;
+    }
+  }
+  &__description {
+    font-size: $fontSizeMD + 4px;
+    margin: 25px 0 45px 0;
+    font-family: $brown;
+
+    @include mq(xxl) {
+      font-size: $fontSizeMD - 8px;
+      line-height: 1.5;
+    }
+    @include mq(xs) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__small > p {
+
+    position: relative;
+    font-family: $brownLight;
+    font-size: $fontSizeMD;
+    line-height: 1.2;
+    max-width: 422px;
+
+    @include mq(lg) {
+      font-size: $fontSizeXS;
+    }
+  }
+
+}
+
+.perf_main_info {
+  position: absolute;
+  bottom: 7%;
+  left: 18%;
+
+  &_text {
+    width: 170px;
+    position: relative;
+    border-bottom: 1px solid $white;
+    padding-bottom: 5px;
+    font-family: $inco;
+    color: $white;
+    height: 80px;
+
+
+    @include mq(xs) {
+      margin: 0;
+      margin-left: auto;
+    }
+  }
+}
+.perf_media_text {
+  font-family: $inco;
+  margin: 30px 0 0 4%;
+
+  @include mq(md) {
+    text-align: center;
+  }
+
+}

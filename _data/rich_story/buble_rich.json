@@ -6,35 +6,36 @@
     {
       "perc": "5%",
       "text": "Cooking",
-      "desc": "Energy efficient building <br> envelopes are key to <br> reducing energy <br> consumption.",
       "id": "b-one"
     },
     {
       "perc": "13%",
       "text": "Water heating",
-
       "id": "b-two"
     },
     {
       "perc": "2%",
       "text": "Lighting",
-
       "id": "b-three"
     },
     {
       "perc": "12%",
       "text": "Electrical Appliances",
-
       "id": "b-four"
     },
     {
       "perc": "68%",
       "text": "Electrical Appliances",
-
       "id": "b-five"
     }
+  ],
+
+  "buble_desc": [
+    {"desc": "Energy efficient building <br> envelopes are key to <br> reducing energy <br> consumption.", "id_desc": "d_one"},
+    {"desc": "Energy efficient building <br> envelopes are key to <br> reducing energy.", "id_desc": "d_two"},
+    {"desc": "Energy efficient building <br> envelopes are key to <br> consumption.", "id_desc": "d_three"},
+    {"desc": "Energy efficient building <br> reducing energy <br> consumption.", "id_desc": "d_four"},
+    {"desc": "Envelopes are key to <br> reducing energy <br> consumption.", "id_desc": "d_five"}
   ]
-
-
 
 }

@@ -14,6 +14,9 @@
 
   @include mq(xxl) {
     background-position: -90px;
+    right: -15%;
+    width: 85%;
+
   }
 
   @include mq(lg) {
@@ -42,7 +45,7 @@
   top: 0;
 
   @include mq(xxl) {
-    left: -30%;
+    left: -13%;
   }
 
   @include mq(md) {
@@ -73,12 +76,16 @@
 
 }
 .footer_report_file {
-  width: 920px;
+  width: 950px;
   margin: 0;
   margin-left: auto;
 
   @include mq(xxl) {
     width: 700px;
+  }
+
+  @include mq(lg) {
+    width: 640px;
   }
   @include mq(md) {
     width: 90%;
@@ -115,10 +122,15 @@
   margin: 3px;
   display: flex;
   align-items: center;
-  width: 454px;
+  width: 469px;
 
   @include mq(xxl) {
+    width: 49.4%;
+    margin: 2px;
+  }
+  @include mq(lg) {
     width: 49%;
+    margin: 3px;
   }
 
   @include mq(md) {
@@ -141,6 +153,13 @@
 .file_name {
   font-weight: bold;
   font-size: $specSizeSM;
+
+  @include mq(xxl){
+    font-size: $specSizeSM - 2px;
+  }
+  @include mq(xxl){
+    font-size: $specSizeSM - 6px;
+  }
 }
 .file_size {
   font-weight: initial;

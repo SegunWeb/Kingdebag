@@ -1,0 +1,31 @@
+<section class="performance wrapper">
+
+    <div id="completing_video" class="active_video">
+        <div class="close_video"></div>
+        <div class="video_size" id="youtube">
+            <iframe src="https://www.youtube.com/embed/{{ completing.performance.idVideo }}?enablejsapi=1&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="perf_container">
+        <div class="perf_media">
+            <div class="perf_media__image">
+                <img src="{{ completing.performance.imgPreview }}" alt="preview">
+                <span id="completing_one" class="button_play">{{completing.performance.btnPlay | svgContents }}</span>
+            </div>
+
+        </div>
+        <div class="perf_description">
+
+            <div class="perf_text">
+                <div class="perf_text__title">
+                    <h2>{{completing.performance.title}}</h2>
+                </div>
+                <div class="perf_text__description">
+                    <p>{{completing.performance.desc}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

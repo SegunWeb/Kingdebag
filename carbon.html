@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{  rich_story.meta.meta_title }}</title>
+    <meta name="description" content="{{rich_story.meta.meta_desc }}">
+
+    <link rel="stylesheet" href="../src/css/carbon.css"/>
+</head>
+<body>
+
+{% include component/header_w.html %}
+<main>
+    {% include carbon/main_rich.html %}
+    {% include carbon/performance.html %}
+    {% include carbon/testimonials.html %}
+    {% include carbon/space_carbon.html %}
+    {% include carbon/basic_article_left.html %}
+    {% include carbon/goals_rich.html %}
+    {% include carbon/basic_article_right.html %}
+    {% include carbon/space_rich.html %}
+    {% include carbon/next_rich.html %}
+    {% include carbon/better_rich.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+{% includeScript "../src/js/main.js" %}
+{% includeScript "../src/js/carbon.js" %}
+
+<script>
+    window.markerConfig = {
+        destination: '60085754791a703a93f4e3ca',
+    };
+</script>
+<script>
+    !function(e,r,t){
+        if(e.__Marker)return;e.__Marker={};
+        var n=r.createElement('script');
+        n.async=1,n.src='https://edge.marker.io/latest/shim.js';
+        var s=r.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(n,s)}(window,document);
+</script>
+</body>
+</html>

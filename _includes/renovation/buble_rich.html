@@ -1,0 +1,22 @@
+<section class="buble_rich">
+       <div class="container wrapper">
+           <div class="buble_rich_container">
+               <div class="buble_rich_title_box">
+                   <p class="buble_rich_title">{{renovation.buble_rich.title}}<span></span></p>
+               </div>
+               <div class="buble_rich_box">
+                   {% for item in renovation.buble_rich.bubles %}
+                   <div id="{{item.id}}" class="buble_rich_item">
+                       <p class="buble_rich_percent">{{item.perc}}</p>
+                       <p class="buble_rich_text">{{item.text}}</p>
+                   </div>
+                   {% endfor %}
+                   {% for item_buble in renovation.buble_rich.buble_desc %}
+                   <div id="{{item_buble.id_desc}}" class="buble_rich_desc">
+                       <p>{{item_buble.desc}}</p>
+                   </div>
+                   {% endfor %}
+               </div>
+           </div>
+       </div>
+</section>
