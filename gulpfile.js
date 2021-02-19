@@ -13,7 +13,7 @@ let pages = [
   {
     name: "homepage",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -25,7 +25,7 @@ let pages = [
   {
     name: "homepage_alt",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -37,7 +37,7 @@ let pages = [
   {
     name: "story",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -49,7 +49,7 @@ let pages = [
   {
     name: "biz_strategy",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -61,7 +61,7 @@ let pages = [
   {
     name: "finance",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -73,7 +73,7 @@ let pages = [
   {
     name: "article",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/pagination/pagination.js",
       "./src/libs/swiper/swiper-bundle.min.js",
@@ -85,7 +85,7 @@ let pages = [
   {
     name: "article_detail",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -96,7 +96,7 @@ let pages = [
   {
     name: "basic_cont",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -107,17 +107,17 @@ let pages = [
   {
     name: "politic",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/js/main.js"
+      "./src/js/main.js",
     ],
   },
   {
     name: "planet",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -129,7 +129,7 @@ let pages = [
   {
     name: "global",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -141,7 +141,7 @@ let pages = [
   {
     name: "innovation",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -153,7 +153,7 @@ let pages = [
   {
     name: "completing",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -165,7 +165,7 @@ let pages = [
   {
     name: "renovation",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -177,7 +177,7 @@ let pages = [
   {
     name: "carbon",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -190,7 +190,7 @@ let pages = [
   {
     name: "lifestyle",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -203,7 +203,7 @@ let pages = [
   {
     name: "business",
     scripts: [
-      "./src/libs/cookie.js",
+
       "./src/libs/jquery/jquery.min.js",
       "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/vanilla-masker/vanilla-masker.min.js",
@@ -298,6 +298,7 @@ gulp.task("buildSW", () => {
 gulp.task("watch", function () {
   gulp.watch("./src/scss/**/*.scss", gulp.parallel("scss"));
   gulp.watch("./src/js/**/*.js", gulp.parallel("js"));
+  gulp.watch("./src/js/*.js", gulp.parallel("js"));
 });
 
 /*
