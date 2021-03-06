@@ -298,5 +298,5 @@ var config = {
         removeAbout: true
     }
 };
-
 CookieControl.load(config);
+

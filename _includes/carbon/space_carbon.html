@@ -1,10 +1,8 @@
 <section class="carbon_rich renov_carbon">
 
-    <div id="carbon_s" class="active_video">
+    <div id="{{ carbon.space_carbon.idVideo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ carbon.space_carbon.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
 
 
@@ -41,7 +39,7 @@
         </div>
         <div class="carbon_rich_content_box space_carbon_rich_spec">
             <img src="{{carbon.space_carbon.img_three}}" alt="img">
-            <span data-play="carbon_s" class="button_play button_play_spec">{{carbon.space_carbon.btnPlay | svgContents }}</span>
+            <span data-id="{{ carbon.space_carbon.idVideo }}" class="button_play button_play_spec">{{carbon.space_carbon.btnPlay | svgContents }}</span>
             <p>{{carbon.space_carbon.three_text}}</p>
         </div>
     </div>

@@ -1,10 +1,8 @@
 <section class="article_biz_strategy">
 
-    <div id="right_box" class="active_video">
+    <div id="{{ circularity.article_img_right.idVideo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ circularity.article_img_right.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
 
     <div class="article_biz_strategy_right">
@@ -17,7 +15,7 @@
             </div>
             <div class="article_biz_strategy_img_box">
                 <img class="article_biz_strategy_img article_biz_strategy_img_right" src="{{circularity.article_img_right.img}}" alt="img">
-                <span data-id="right_box" class="button_play button_play_spec">{{circularity.article_img_right.btnPlay | svgContents }}</span>
+                <span data-id="{{ circularity.article_img_right.idVideo }}" class="button_play button_play_spec">{{circularity.article_img_right.btnPlay | svgContents }}</span>
             </div>
         </div>
     </div>

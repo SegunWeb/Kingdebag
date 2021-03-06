@@ -1,17 +1,15 @@
 <section class="performance wrapper">
 
-    <div id="perform_box" class="active_video">
+    <div id="{{ planet.performance.idVideo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ planet.performance.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
 
     <div class="perf_container">
         <div class="perf_media">
             <div class="perf_media__image">
                 <img src="{{ planet.performance.imgPreview }}" alt="preview">
-                <span id="btn_one" class="button_play">{{planet.performance.btnPlay | svgContents }}</span>
+                <span data-id="{{ planet.performance.idVideo }}" class="button_play">{{planet.performance.btnPlay | svgContents }}</span>
             </div>
         </div>
         <div class="perf_description">

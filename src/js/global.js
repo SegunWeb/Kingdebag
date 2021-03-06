@@ -70,46 +70,22 @@ $(document).ready(function(){
     });
 
     // open youtube video
-    //planet page
-    $('#btn_one').click(function () {
-        const popupIframe = $('#perform_box').find("iframe")[0];
-        $('#perform_box').show(200);
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    $('#btn_two').click(function () {
-        const popupIframe = $('#left_box').find("iframe")[0];
-        $('#left_box').show(200);
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    $('#btn_three').click(function () {
-        const popupIframe = $('#right_box').find("iframe")[0];
-        $('#right_box').show(200)
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    //global page
-    $('#global_one').click(function () {
-        const popupIframe = $('#global_video_one').find("iframe")[0];
-        $('#global_video_one').show(200)
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    $('#for_global').click(function () {
-        const popupIframe = $('#global_video').find("iframe")[0];
-        $('#global_video').show(200)
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    //completing page
-    $('#completing_one').click(function () {
-        const popupIframe = $('#completing_video').find("iframe")[0];
-        $('#completing_video').show(200)
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-    $('#completing_two').click(function () {
-        const popupIframe = $('#comp_video').find("iframe")[0];
-        $('#comp_video').show(200)
-        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
+    $('span[data-id]').click(function(e) {
+        e.preventDefault();
+        let btnPlay = $(this).data('id');
+        let popupIframe = $(`#${btnPlay}`).find(".video_size");
+        popupIframe.append('<iframe src="https://www.youtube.com/embed/'+ btnPlay +'?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 
+        $(`#${btnPlay}`).show(100);
+        let popup = $(`#${btnPlay}`).find("iframe")[0];
+        setTimeout(() => {
+            popup.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+        }, 800)
+    });
     $('.close_video').click(function () {
+        let btnPlay = $(this).parent().attr("id");
+        let popupIframe = $(`#${btnPlay}`).find("iframe");
+        popupIframe.remove();
         $('.active_video').hide(100);
     });
     $(document).on('click', '.close_video', function(){

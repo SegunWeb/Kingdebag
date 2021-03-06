@@ -1,9 +1,7 @@
 <section class="article_detail_video">
-    <div id="global_video" class="active_video">
+    <div id="{{ global.article_detail_video.idVideo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ global.article_detail_video.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
 
     <div class="wrapper">
@@ -11,9 +9,8 @@
             <p class="article_video_title">{{global.article_detail_video.title}}</p>
         </div>
 
-
         <div class="article_detail_video_box">
-            <span id="for_global" class="article_detail_video_btn_play button_play">{{ global.article_detail_video.btnPlay | svgContents }}</span>
+            <span data-id="{{ global.article_detail_video.idVideo }}" class="article_detail_video_btn_play button_play">{{ global.article_detail_video.btnPlay | svgContents }}</span>
             <img class="article_detail_video_preview" src="{{global.article_detail_video.img}}" alt="img">
         </div>
     </div>

@@ -1,23 +1,14 @@
 <section class="space_rich">
 
-    <div id="video_one" class="active_video">
+    <div id="{{ innovation.space_rich.idVideo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ innovation.space_rich.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
 
-
-
-    <div id="video_two" class="active_video">
+    <div id="{{ innovation.space_rich.idVideoTwo }}" class="active_video">
         <div class="close_video"></div>
-        <div class="video_size" id="youtube">
-            <iframe src="https://www.youtube.com/embed/{{ innovation.space_rich.idVideoTwo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="video_size" id="youtube"></div>
     </div>
-
-
-
 
     <div class="wrapper">
         <div class="space_rich_title_box">
@@ -28,7 +19,7 @@
             <div class="space_rich_content_box space_video_box space_video_box--sm">
                 <div>
                     <img src="{{ innovation.space_rich.img_one }}" alt="preview">
-                    <span data-id="video_one" class="button_play">{{homepage.presentation.btnPlay | svgContents }}</span>
+                    <span data-id="{{ innovation.space_rich.idVideo }}" class="button_play">{{homepage.presentation.btnPlay | svgContents }}</span>
                 </div>
 
                 <p>{{innovation.space_rich.one_text}}</p>
@@ -48,7 +39,7 @@
             <div class="space_rich_content_box space_upper space_video_box">
                 <div>
                     <img src="{{ innovation.space_rich.img_two }}" alt="preview">
-                    <span data-id="video_two" class="button_play">{{homepage.presentation.btnPlay | svgContents }}</span>
+                    <span data-id="{{ innovation.space_rich.idVideoTwo }}" class="button_play">{{homepage.presentation.btnPlay | svgContents }}</span>
                 </div>
 
                 <p>{{innovation.space_rich.two_text}}</p>

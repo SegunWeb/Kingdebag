@@ -303,3 +303,72 @@ strong {
     max-width: 300px;
   }
 }
+
+
+// youtube
+
+/* видео плееры */
+.youtube {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+  cursor: pointer;
+}
+.youtube .play {
+  background: url('../image/icons/play.png') no-repeat; /*ВАЖНО: здесь укажите адрес до изображения*/
+  /*background-position: 0 -50px;*/
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  position: absolute;
+  height: 50px;
+  width: 69px;
+  transition: none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  z-index: 999;
+  opacity: 0;
+}
+.youtube:hover .play {
+  background-position: 0 0;
+}
+.box {
+
+  position: relative;
+}
+.box>img {
+  position: relative;
+  width: 100%;
+}
+.box:before {
+  content: '';
+  background: url('img/btn-tube.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 69px;
+  z-index: 999;
+}
+.video-box {
+  position: relative;
+  padding: 0 0 56.25% 0;
+  height: 0;
+  overflow: hidden;
+
+}
+.video-box>iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 99;
+}
