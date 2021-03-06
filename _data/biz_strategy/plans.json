@@ -4,23 +4,23 @@
   "info_desc": "The globalization of Kingspan is at the heart of our ongoing strategy and is central to our mission towards a sustainable future.",
   "place_title": "Sweden",
   "place_text": "Kooltherm® Facility",
-  "map_img": "/src/image/biz_strategy/Map.png",
-  "map_img_mob": "/src/image/biz_strategy/Map_mobile.png",
+  "map_img": "/src/image/biz_strategy/Map.webp",
+  "map_img_mob": "/src/image/biz_strategy/Map_mobile.webp",
   "close": "/src/image/icons/close.svg",
 
 
   "slider_map": [
     {
-      "map_img_sl": "/src/image/biz_strategy/Map.png",
-      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile.png"
+      "map_img_sl": "/src/image/biz_strategy/Map.webp",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile.webp"
     },
     {
-      "map_img_sl": "/src/image/biz_strategy/Map1.png",
-      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile1.png"
+      "map_img_sl": "/src/image/biz_strategy/Map1.webp",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile1.webp"
     },
     {
-      "map_img_sl": "/src/image/biz_strategy/Map2.png",
-      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile2.png"
+      "map_img_sl": "/src/image/biz_strategy/Map2.webp",
+      "map_img_mob_sl": "/src/image/biz_strategy/Map_mobile2.webp"
     }
   ],
 

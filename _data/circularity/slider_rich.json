@@ -9,21 +9,21 @@
   "slide": [
     {
       "data_id": "one",
-      "img": "/src/image/circularity/s1.png",
+      "img": "/src/image/circularity/s1.webp",
       "hover_text": "",
       "text": "<strong>1bn </strong> PET bottles will be recycled into raw materials for our products per annum by 2025. We’re partnering with our suppliers to source more recycled and renewable raw materials.\n\n\n",
       "title_slide": "Input Materials"
     },
     {
       "data_id": "two",
-      "img": "/src/image/circularity/s2.png",
+      "img": "/src/image/circularity/s2.webp",
       "hover_text": "",
       "text": "<strong> 100% </strong> of our factories across the Group will be net zero carbon manufacturing and zero waste to landfill by 2030.\n",
       "title_slide": "Factory Processes"
     },
     {
       "data_id": "three",
-      "img": "/src/image/circularity/s3.png",
+      "img": "/src/image/circularity/s3.webp",
       "hover_text": "View Case <br> Study",
       "text": "<strong> Re-use Case Studies </strong> are beginning to occur with our support for our insulated panel products after their first service life. ",
       "title_slide": "Extended life",
@@ -31,7 +31,7 @@
     },
     {
       "data_id": "four",
-      "img": "/src/image/circularity/s4.png",
+      "img": "/src/image/circularity/s4.webp",
       "hover_text": "",
       "text": "<strong> 2 Recycling Hubs </strong> are expected to be up and running in the UK in 2021 to recycle production waste and take back site waste and demolition waste in order to recycle insulation boards and insulated panels back into new products.\n\n",
       "title_slide": "Cycling (end of life)"

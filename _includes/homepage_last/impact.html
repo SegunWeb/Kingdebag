@@ -8,7 +8,11 @@
         <div class="impact_card">
             {% for item in homepage_last.impact.card %}
             <div class="impact_card_box">
-                <span class="impact_card_img"><img src="{{ item.info_img }}" alt="img"></span>
+                <span class="impact_card_img">
+                    <video class="video" muted autoplay playsinline loop>
+                        <source src="{{item.info_img}}" type="video/mp4">
+                    </video>
+                </span>
                 <div class="impact_info">
                     <div class="impact_info_text">
                         <p class="impact_info_title">{{item.info_title}}</p>

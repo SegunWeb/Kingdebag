@@ -8,7 +8,7 @@
     {
       "hover_id": "one_h",
       "data_id": "one",
-      "img": "/src/image/planet/s1.png",
+      "img": "/src/image/planet/s1.webp",
       "hover_text": "View Case <br> Study",
       "text": "We commissioned seven solar PV projects in 2020. These solar PV projects have the capacity to generate almost 5 GWh of renewable energy annually.",
       "title_slide": "Energy",
@@ -20,21 +20,21 @@
     {
       "hover_id": "two_h",
       "data_id": "two",
-      "img": "/src/image/planet/s2.png",
+      "img": "/src/image/planet/s2.webp",
       "text": "We have made great strides in reducing our carbon emissions to date. To meet the goal of limiting global warming to 1.5°C, compared to pre-industrial levels, we are targeting Net Zero manufacturing by 2030.",
       "title_slide": "Carbon"
     },
     {
       "hover_id": "three_h",
       "data_id": "three",
-      "img": "/src/image/planet/s3.png",
+      "img": "/src/image/planet/s3.webp",
       "text": "We upcycled 573 million PET waste plastic bottles into our manufacturing process an increase of almost 50% versus 2019.",
       "title_slide": "Circularity"
     },
     {
       "hover_id": "four_h",
       "data_id": "four",
-      "img": "/src/image/planet/s4.png",
+      "img": "/src/image/planet/s4.webp",
       "hover_text": "View Case <br> Study",
       "text": "Kingspan Water and Energy installed 8 rainwater harvesting systems in 4 countries with a total expected annual yield of over 2 million litres.",
       "title_slide": "Water",

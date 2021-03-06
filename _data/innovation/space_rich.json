@@ -7,13 +7,13 @@
 
   "btnPlay": "/src/image/icons/play_btn.svg",
 
-  "img_one":  "/src/image/innovation/on1.png",
+  "img_one":  "/src/image/innovation/on1.webp",
   "one_text": "Kingspan’s <strong> Day-Lite Kapture </strong>",
 
-  "img_two":  "/src/image/innovation/on2.png",
+  "img_two":  "/src/image/innovation/on2.webp",
   "two_text": "Kingspan’s <strong> PowerPanel® </strong>",
 
-  "img_three":  "/src/image/innovation/on3.png",
+  "img_three":  "/src/image/innovation/on3.webp",
   "three_text": "The energy consumption of buildings is a leading contributor to carbon emissions and therefore global warming.",
 
   "title_desc_one": "Kingspan’s award winning Day-Lite Kapture",
