@@ -46,8 +46,9 @@
    & > span {
      position: absolute;
      left: 50%;
-     top: 48%;
+     top: 50%;
      transform: translate(-50%, -50%);
+     padding-bottom: 2px;
    }
 }
 
@@ -60,7 +61,7 @@
   & > span {
     position: absolute;
     left: 50%;
-    top: 48%;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ renovation.meta.meta_title }}</title>
+    <meta name="title" content="{{ renovation.meta.meta_title }}">
+    <meta name="description" content="{{ renovation.meta.meta_desc }}">
+    <meta name="keywords" content="{{ renovation.meta.meta_keys }}">
+    <meta property="og:title" content="{{ renovation.meta.meta_title }}">
+    <meta property="og:description" content="{{ renovation.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ renovation.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ renovation.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="../../src/css/renovation.css"/>
+</head>
+<body>
+
+{% include component/header_w.html %}
+<main>
+    {% include renovation/main_rich.html %}
+    {% include renovation/performance.html %}
+    {% include renovation/buble_rich.html %}
+    {% include renovation/goals_rich.html %}
+    {% include renovation/space_rich.html %}
+    {% include renovation/next_rich.html %}
+    {% include renovation/better_rich.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+
+{% includeScript "../../src/js/renovation.js" %}
+
+
+</body>
+</html>

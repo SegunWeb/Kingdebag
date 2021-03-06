@@ -1,0 +1,19 @@
+//generic
+@import "../generic/fonts";
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/general";
+@import "../generic/slider";
+@import "../generic/video";
+
+//elements
+@import "../component/button";
+@import "../component/header";
+@import "../component/footer";
+@import "../component/breadcrumbs";
+
+// items page
+@import "items/main_basic";
+@import "items/basic_article";
+@import "items/basic_img";
+@import "items/basic_better";

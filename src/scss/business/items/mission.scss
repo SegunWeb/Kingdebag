@@ -22,7 +22,7 @@
   @include mq(xxl) {
     width: 1200px;
     margin: 0;
-    margin-left: auto;
+
   }
 
   @include mq(lg) {
@@ -468,6 +468,8 @@
   }
 }
 .static_desc_title {
+  margin-bottom: 20px;
+
   font-size: $fontSizeXl - 20px;
 
   @include mq(md) {
@@ -567,4 +569,7 @@
   height: 100%;
   z-index: 999999;
   margin: 0 !important;
+}
+.slick-list {
+ overflow: initial;
 }

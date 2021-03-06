@@ -1,34 +1,6 @@
 $(document).ready(function(){
 
-    // slider
-    $('.slider_img').slick({
-        dots: false,
-        arrows: false,
-        infinite: false,
-        speed: 300,
-        slidesToScroll: 1,
-        slidesToShow: 4,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1.3,
-                }
-            },
-        ]
-    });
+
 
 
     // block info for slider
@@ -36,7 +8,7 @@ $(document).ready(function(){
     $('div[data-id]').click(function (e) {
         e.preventDefault();
         let id = $(this).data('id');
-        console.log(id)
+
         $(`#${id}`).fadeIn(300);
 
         if ($(window).width() <= '576') {
@@ -52,40 +24,7 @@ $(document).ready(function(){
         }
     });
 
-
-
-
-    $('.slider_info_wrap').slick({
-        dots: false,
-        arrows: false,
-        infinite: false,
-        slidesToShow: 3,
-        variableWidth: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1360,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1.3,
-                }
-            },
-        ]
-
-    });
-
+    
     $('.slider_goals').slick({
         dots: false,
         infinite: true,
@@ -124,11 +63,11 @@ $(document).ready(function(){
             $( "#b-three" ).animate({left: "0", bottom: "21"},{duration:200});
         }
         if ($(window).width() <= '576') {
-            $(this).animate({left: "169", top: "175"},{duration:200});
-            $( "#b-one" ).animate({left: "175", top: "50"},{duration:200});
-            $( "#b-four" ).animate({left: "68", bottom: "-27"},{duration:200});
-            $( "#b-five" ).animate({right: "144", bottom: "165"},{duration:200});
-            $( "#b-three" ).animate({left: "1", bottom: "63"},{duration:200});
+            $(this).animate({left: "169", top: "175"},{duration:100});
+            $( "#b-one" ).animate({left: "175", top: "50"},{duration:100});
+            $( "#b-four" ).animate({left: "68", bottom: "-27"},{duration:100});
+            $( "#b-five" ).animate({right: "144", bottom: "165"},{duration:100});
+            $( "#b-three" ).animate({left: "1", bottom: "63"},{duration:100});
         }
     });
 
@@ -164,11 +103,11 @@ $(document).ready(function(){
         }
 
         if ($(window).width() <= '576') {
-            $(this).animate({left: "176", bottom: "56"},{duration:200});
-            $( "#b-one" ).animate({left: "111", top: "264"},{duration:200});
-            $( "#b-two" ).animate({left: "0", top: "229"},{duration:200});
-            $( "#b-five" ).animate({right: "137", bottom: "116"},{duration:200});
-            $( "#b-four" ).animate({left: "178", bottom: "159"},{duration:200});
+            $(this).animate({left: "176", bottom: "56"},{duration:100});
+            $( "#b-one" ).animate({left: "111", top: "264"},{duration:100});
+            $( "#b-two" ).animate({left: "0", top: "229"},{duration:100});
+            $( "#b-five" ).animate({right: "137", bottom: "116"},{duration:100});
+            $( "#b-four" ).animate({left: "178", bottom: "159"},{duration:100});
         }
     });
 
@@ -204,11 +143,11 @@ $(document).ready(function(){
             $( "#b-five" ).animate({right: "217", bottom: "-31"},{duration:200});
         }
         if ($(window).width() <= '576') {
-            $(this).animate({left: "166", bottom: "54"},{duration:200});
-            $( "#b-one" ).animate({left: "38", top: "32"},{duration:200});
-            $( "#b-two" ).animate({left: "153", top: "45"},{duration:200});
-            $( "#b-three" ).animate({left: "-2", bottom: "110"},{duration:200});
-            $( "#b-five" ).animate({right: "140", bottom: "-62"},{duration:200});
+            $(this).animate({left: "166", bottom: "54"},{duration:100});
+            $( "#b-one" ).animate({left: "38", top: "32"},{duration:100});
+            $( "#b-two" ).animate({left: "153", top: "45"},{duration:100});
+            $( "#b-three" ).animate({left: "-2", bottom: "110"},{duration:100});
+            $( "#b-five" ).animate({right: "140", bottom: "-62"},{duration:100});
         }
     })
 
@@ -232,11 +171,11 @@ $(document).ready(function(){
         }
 
         if ($(window).width() <= '576') {
-            $(this).animate({right: "0", bottom: "52"},{duration:200});
-            $( "#b-one" ).animate({left: "140", top: "17"},{duration:200});
-            $( "#b-two" ).animate({left: "30", top: "59"},{duration:200});
-            $( "#b-three" ).animate({left: "-2", bottom: "65"},{duration:200});
-            $( "#b-four" ).animate({left: "65", bottom: "-39"},{duration:200});
+            $(this).animate({right: "0", bottom: "52"},{duration:100});
+            $( "#b-one" ).animate({left: "140", top: "17"},{duration:100});
+            $( "#b-two" ).animate({left: "30", top: "59"},{duration:100});
+            $( "#b-three" ).animate({left: "-2", bottom: "65"},{duration:100});
+            $( "#b-four" ).animate({left: "65", bottom: "-39"},{duration:100});
         }
     })
 
@@ -258,7 +197,7 @@ $(document).ready(function(){
     $('a[data-id]').click(function (e) {
         e.preventDefault();
         let id = $(this).data('id');
-        console.log(id)
+
         $(`#${id}`).fadeIn(300);
 
         if ($(window).width() <= '768') {
@@ -280,13 +219,12 @@ $(document).ready(function(){
         dots: false,
         arrows: false,
         infinite: false,
-        slidesToShow: 3,
+        slidesToShow: 2,
         variableWidth: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
+
         responsive: [
             {
-                breakpoint: 1360,
+                breakpoint: 1370,
                 settings: {
                     slidesToShow: 2,
                 }

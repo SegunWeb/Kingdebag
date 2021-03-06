@@ -1,0 +1,29 @@
+User-agent: Googlebot
+Allow: /src/css/
+Allow: /src/fonts/
+Allow: /src/image/
+Allow: /src/js/
+Disallow: /admin/
+Disallow: /404.html
+
+Sitemap: http://kingspan-dev.netlify.app/sitemap.xml
+
+User-agent: Yandex
+Allow: /src/css/
+Allow: /src/fonts/
+Allow: /src/image/
+Allow: /src/js/
+Disallow: /admin/
+Disallow: /404.html
+
+Sitemap: http://kingspan-dev.netlify.app/sitemap.xml
+
+User-agent: *
+Allow: /src/css/
+Allow: /src/fonts/
+Allow: /src/image/
+Allow: /src/js/
+Disallow: /admin/
+Disallow: /404.html
+
+Sitemap: http://kingspan-dev.netlify.app/sitemap.xml

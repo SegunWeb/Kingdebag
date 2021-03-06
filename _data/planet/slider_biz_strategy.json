@@ -1,37 +1,44 @@
 {
   "info": "OUR PROGRESS",
   "title": "Planet Passionate highlights",
-  "background": "/src/image/planet/sld_bg.png",
+  "background": "/src/image/planet/sld_bg.jpeg",
   "title_two": "our progress",
   "close": "/src/image/icons/close_w.svg",
   "slide": [
     {
+      "hover_id": "one_h",
       "data_id": "one",
       "img": "/src/image/planet/s1.png",
       "hover_text": "View Case <br> Study",
-      "text": "We commissioned seven Solar PV projects. These Solar PV projects have the capacity to generate almost 5 GWh of renewable energy annually.",
-      "title_slide": "Energy"
+      "text": "We commissioned seven solar PV projects in 2020. These solar PV projects have the capacity to generate almost 5 GWh of renewable energy annually.",
+      "title_slide": "Energy",
+
+        "label": "View case study"
+
+
     },
     {
+      "hover_id": "two_h",
       "data_id": "two",
       "img": "/src/image/planet/s2.png",
-      "hover_text": "View Case <br> Study",
-      "text": "We have made great strides in reducing our carbon emissions to date. To meet the goal of limiting global warming to 1.5oC, compared to pre-industrial levels, we are targeting Net Zero manufacturing by 2030.",
+      "text": "We have made great strides in reducing our carbon emissions to date. To meet the goal of limiting global warming to 1.5°C, compared to pre-industrial levels, we are targeting Net Zero manufacturing by 2030.",
       "title_slide": "Carbon"
     },
     {
+      "hover_id": "three_h",
       "data_id": "three",
       "img": "/src/image/planet/s3.png",
-      "hover_text": "View Case <br> Study",
-      "text": "We upcycled 573 million PET waste plastic bottles into our manufacturing process an increase of almost 50% versus 2019. ",
+      "text": "We upcycled 573 million PET waste plastic bottles into our manufacturing process an increase of almost 50% versus 2019.",
       "title_slide": "Circularity"
     },
     {
+      "hover_id": "four_h",
       "data_id": "four",
       "img": "/src/image/planet/s4.png",
       "hover_text": "View Case <br> Study",
-      "text": "Kingspan Water and Energy installed 5 rainwater harvesting systems in 4 countries with a total expected annual yield of 1.7 million litres.",
-      "title_slide": "Water"
+      "text": "Kingspan Water and Energy installed 8 rainwater harvesting systems in 4 countries with a total expected annual yield of over 2 million litres.",
+      "title_slide": "Water",
+        "label": "View case study"
     }
   ],
   "slider_info": [
@@ -39,19 +46,19 @@
       "id": "one",
       "slide_title": "Joris Ide - Rooftop Solar 2020",
       "slide_desc": "",
-      "slide_text_t": "<strong>Mafer</strong> <br> \nSolar installations at our Joris Ide facility in Mafer were doubled in 2020 to 500 kWp. 50% of Mafer’s electricity needs will now be generated on site. <br><br> <strong>Ansbach</strong> <br>\nIn December 2020 we installed 750kWp of rooftop solar panels at our Joris Ide facility in Ansbach. <br><br> <strong>Hille</strong> <br> Completed in December 2020, the solar installation at Hille is Joris Ide’s largest installation to date, with 1087kWp. \n\n\n\n",
-      "slide_img_one": "/src/image/planet/jo_b.png",
-      "slide_img_two": "/src/image/planet/jo_l.png",
+      "slide_text_t": "<strong>Mafer</strong> <br> \nSolar installations at our Joris Ide facility in Mafer were doubled in 2020 to 500 kWp. 50% of Mafer’s electricity needs will now be generated on site. <br><br> <strong>Ansbach</strong> <br>\nIn December 2020 we installed 750 kWp of rooftop solar panels at our Joris Ide facility in Ansbach. <br><br> <strong>Hille</strong> <br> Completed in December 2020, the solar installation at Hille is Joris Ide’s largest installation to date, with 1087 kWp. \n\n\n\n",
+      "slide_img_one": "/src/image/planet/jo_b.jpeg",
+      "slide_img_two": "/src/image/planet/jo_l.jpeg",
       "slide_img_text_two": ""
     },
     {
       "id": "four",
       "slide_title": "Water Case Study 2020",
-      "slide_desc": "Kingspan Water & Energy installed a 20,000 litre rainwater tank.",
-      "slide_text_t": "Installed at its facility in Rokietnica, Poland, this tank is already delivering c.300 litres of rainwater daily. <br><br> \n\nThe new tanks will be connected to Kingspan Access telemetry, providing a continuous feed of system information to the Kingspan Connect cloud-based platform. <br><br> \n\nThe new tanks will be connected to Kingspan Access telemetry, providing a continuous feed of system information to the Kingspan Connect cloud-based platform. All tanks will be connected to the on-site sanitary facility. ",
-      "slide_img_one": "/src/image/planet/wat_b.png",
-      "slide_img_two": "/src/image/planet/wat_l.png",
-      "slide_img_text_two": "<strong>1.7 million litres annually</strong> The tanks will have the capacity to harvest 1.25 – 1.7 million litres of rainwater annually \n"
+      "slide_desc": "Kingspan Water and Energy installed a 20,000 litre rainwater tank",
+      "slide_text_t": "Installed at its facility in Rokietnica, Poland, this tank is already delivering c.300 litres of rainwater daily.<br /><br /><strong>A second tank is presently being fitted with plans for two more</strong><br /><br />The new tanks will be connected to Kingspan Access telemetry, providing a continuous feed of system information to the Kingspan Connect cloud-based platform. All tanks will be connected to the on-site sanitary facility.",
+      "slide_img_one": "/src/image/planet/wat_b.jpeg",
+      "slide_img_two": "/src/image/planet/wat_l.jpeg",
+      "slide_img_text_two": "<strong>1.7 million litres annually</strong><br />The tanks will have the capacity to harvest 1.25 – 1.7 million litres of rainwater annually"
     }
   ]
 }

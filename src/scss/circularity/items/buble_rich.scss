@@ -1,0 +1,257 @@
+.buble_rich {
+   padding: 90px 0 180px 0;
+
+  @include mq(lg) {
+    padding: 70px 0 210px 0;
+  }
+  @include mq(md){
+    padding: 70px 0 140px 0;
+  }
+  @include mq(xs) {
+    padding: 40px 0 240px 0;
+  }
+}
+.buble_rich_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mq(md) {
+    flex-direction: column;
+  }
+}
+.buble_rich_title {
+  font-size: $fontSizeXl - 20px;
+  max-width: 700px;
+  margin-right: 100px;
+  font-weight: bold;
+
+  @include mq(xxl) {
+    font-size: $fontSizeXl - 40px;
+    max-width: 460px;
+  }
+  @include mq(lg) {
+    font-size: $fontSizeXl - 51px;
+    width: 310px;
+  }
+  @include mq(md) {
+    margin: 0 auto 30px auto;
+    font-size: $fontSizeXl - 45px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  & > span {
+    width: 80px;
+    height: 1px;
+    background-color: #004990;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+
+    @include mq(lg) {
+      width: 50px;
+    }
+  }
+}
+.buble_rich_box {
+  display: flex;
+  width: 635px;
+  height: 455px;
+  position: relative;
+
+  @include mq(xxl) {
+    width: 520px;
+    height: 430px
+  }
+  @include mq(md) {
+    width: 500px;
+  }
+  @include mq(xs) {
+    width: 300px;
+    height: 335px;
+  }
+}
+.buble_rich_item {
+  width: 157px;
+  height: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .3s;
+  border-radius: 100%;
+  background-color: $redMedium;
+  position: absolute;
+  color: $white;
+  font-family: $nimbusNew;
+  font-weight: bold;
+  cursor: pointer;
+
+  @include mq(xxl) {
+    width: 140px;
+    height: 140px;
+  }
+  @include mq(xs) {
+    width: 110px;
+    height: 110px;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    transition: .3s;
+  }
+
+  &:first-child {
+    left: 10px;
+    top: 50px;
+    width: 211px;
+    height: 211px;
+    background: rgba(193, 88, 103, 0.8);
+
+    @include mq(xxl) {
+      width: 160px;
+      height: 160px;
+      top: 110px;
+      left: 10px;
+    }
+    @include mq(xs) {
+      width: 105px;
+      height: 105px;
+      left: 30px;
+      top: 59px;
+    }
+
+  }
+  &:nth-child(2) {
+    left: 175px;
+    bottom: 25px;
+    width: 167px;
+    height: 167px;
+    background:  rgba(193, 88, 103, 0.6);
+    color: $white;
+
+
+    @include mq(xxl) {
+      left: 120px;
+      bottom: -5px;
+    }
+
+    @include mq(xs) {
+      width: 120px;
+      height: 120px;
+      bottom: -10;
+      left: 12px;
+    }
+
+  }
+
+  &:nth-child(3) {
+    right: 0;
+    bottom: 150px;
+    width: 310px;
+    height: 310px;
+
+    @include mq(xxl) {
+      width: 245px;
+      height: 245px;
+      bottom: 115px;
+    }
+    @include mq(xs) {
+      width: 160px;
+      height: 160px;
+      bottom: 60px;
+    }
+
+  }
+}
+
+
+
+.buble_rich_desc {
+  position: absolute;
+  text-align: center;
+  bottom: -45px;
+  right: 5%;
+  color: $blue;
+  width: 240px;
+  font-family: $inco;
+  display: none;
+
+  @include mq(xxl) {
+    right: 0;
+    bottom: -65px;
+  }
+
+  @include mq(md){
+    right: 2px;
+  }
+  @include mq(xs) {
+    right: 5px;
+    bottom: -120px;
+    width: 151px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -100px;
+    width: 140px;
+    height: 1px;
+    background-color: $blue;
+    transform: rotate(90deg);
+    display: block;
+
+    @include mq(xxl) {
+      width: 110px;
+      top: -90px;
+    }
+    @include mq(xs) {
+      width: 100px;
+      top: -60px;
+    }
+
+  }
+}
+
+.buble_rich_percent {
+  color: inherit;
+  font-size: $specSizeLG;
+  font-family: $nimbusStrong;
+
+  @include mq(xxl) {
+    font-size: $specSizeLG - 10px ;
+  }
+
+  @include mq(xs) {
+    font-size: $specSizeLG - 12px;
+  }
+}
+.buble_rich_text {
+  color: inherit;
+  font-size: $fontSizeSM;
+  text-align: center;
+  font-family: $brownLight;
+  font-weight: 100;
+
+  @include mq(xs) {
+    font-size: $specSizeSM - 11px;
+  }
+}
+.act_buble {
+  display: block;
+}
+#b-two {
+
+  @include mq(xs) {
+    & > p:first-child {
+      font-size: $fontSizeMD - 2px;
+    }
+  }
+
+
+}

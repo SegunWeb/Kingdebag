@@ -1,0 +1,82 @@
+<section class="chair_detail_text">
+    <div class="container wrapper">
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <p class="basic_detail_text_info">{{ceo.basic_text_img.desc}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <h2 class="basic_detail_text_title">{{ceo.basic_text_img.operation_highlights.title}}</h2>
+                    <ul class="dash">
+                    {% for item in ceo.basic_text_img.operation_highlights.highlights %}
+                    <li class="basic_detail_text_info" style="margin-bottom: 10px;">
+                       {{item}}
+                    </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <p class="basic_detail_title_info">{{ceo.basic_text_img.desc_2}}</p>
+                    <img src="{{ceo.basic_text_img.img}}" alt="img">
+                </div>
+            </div>
+        </div>
+
+        {% for item in ceo.basic_text_img.text_sections %}
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <h2 class="basic_detail_text_title">{{item.title}}</h2>
+                    <p class="basic_detail_text_info">{{item.desc}}</p>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <img src="{{ceo.basic_text_img.img_2}}" alt="img">
+                </div>
+            </div>
+        </div>
+
+        {% for item in ceo.basic_text_img.text_sections2 %}
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <h2 class="basic_detail_text_title">{{item.title}}</h2>
+                    <p class="basic_detail_text_info">{{item.desc}}</p>
+                    <a href="{{item.link_href}}">
+                            <img src="{{item.img}}" alt="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+        <div class="basic_detail_text_container">
+            <div class="chair_detail_text_box">
+                <div class="basic_detail_text_wrapper">
+                    <p class="basic_detail_text_info">{{ceo.basic_text_img.desc_5}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

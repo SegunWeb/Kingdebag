@@ -1,6 +1,6 @@
 <section class="plans">
     <div class="plans_map">
-        <div class="wrapper">
+        <div class="wrapper container">
 
             <div class="space_glob_box plans_glob_box">
                 <p class="space_glob_info">{{innovation.plans.info}}</p>
@@ -12,7 +12,9 @@
             <div class="plans_map_img_box">
                     <div class="plans_map_img">
                         <div class="plans_map_img_desc">
-                            <img src="{{ innovation.plans.map_img }}" alt="map">
+                            <video class="video" poster="{{innovation.plans.map_img}}" muted autoplay playsinline>
+                                <source src="{{innovation.plans.map_vid}}" type="video/mp4" />
+                            </video>
                         </div>
                     </div>
             </div>

@@ -24,7 +24,7 @@
     padding: 120px 0 60px 0;
   }
   @include mq(sm) {
-    background: url("../image/rich_story/next_rich.jpg") center/cover no-repeat;
+    background: url("../image/carbon/carb_next.jpeg") center/cover no-repeat;
     height: 340px;
     width: 55%;
     margin: 0;
@@ -129,14 +129,15 @@
 
   @include mq(lg) {
     font-size: $fontSizeXl - 20px;
-    max-width: 600px;
+    max-width: 90%;
   }
 
-  @include mq(sm) {
+  @include mq(md) {
     font-size: $fontSizeXl - 40px;
   }
-  @include mq(xs) {
+  @include mq(sm) {
     font-size: $fontSizeXl - 50px;
+    margin-bottom: 20px;
   }
   @include mq(xxs) {
     font-size: $fontSizeXl - 53px;

@@ -19,14 +19,14 @@
             </div>
             <div class="footer_section_right">
                 <div class="footer_back_link">
-                    <a href="#" class="link_back">
+                    <a href="https://kingspan.com" class="link_back">
                         <span class="link_back__icon">
 <!--                            <img src="{{footer.path}}" alt="<&#45;&#45;">-->
                              {{ footer.path | svgContents }}
                         </span>
                         <span class="link_back__text">Back to Main Site</span>
                     </a>
-                    <a href="#" class="footer_logo">
+                    <a href="https://kingspan.com" class="footer_logo">
                         {{ footer.logo | svgContents }}
 <!--                        <img src="{{footer.logo}}" alt="logo">-->
                     </a>
@@ -39,7 +39,7 @@
                 <ul class="footer_socials__list">
                     {% for soc_link_item in footer.socials_link_footer %}
                     <li class="footer_socials__item">
-                        <a class="footer_socials__link" href="{{soc_link_item.link_href}}">
+                        <a class="footer_socials__link" href="{{soc_link_item.link_href}}" target="_blank">
 <!--                            <img src="{{footer.socials}}" alt="socials">-->
                             {{ soc_link_item.socials | svgContents }}
                         </a>

@@ -4,13 +4,15 @@
 
 .footer_report {
   margin: 120px 0;
-  background: url("../image/footer_bg.svg") no-repeat;
+  background: $backgroundGreenLighter;
   background-position: left;
   background-size: cover;
   position: relative;
   right: -25%;
   width: 75%;
   padding: 45px 50px;
+  display: flex;
+  flex-direction: row;
 
   @include mq(xxl) {
     background-position: -90px;
@@ -37,6 +39,27 @@
     margin: 0 auto 40px auto;
   }
 
+  .video_box {
+    max-width: 350px;
+
+    @include mq(xl) {
+      margin-top: 5%;
+      max-width: 250px;
+    }
+
+    @include mq(lg) {
+      margin-top: 5%;
+      max-width: 200px;
+    }
+
+    @include mq(md) {
+      display: none;
+    }
+
+    @include mq(sm) {
+     display: none;
+    }
+  }
 }
 
 .footer_report_title {
@@ -124,12 +147,17 @@
   align-items: center;
   width: 469px;
 
+  @include mq(xxxl) {
+    width: 49.4%;
+    margin: 2px;
+  }
+
   @include mq(xxl) {
     width: 49.4%;
     margin: 2px;
   }
   @include mq(lg) {
-    width: 49%;
+    width: 48.4%;
     margin: 3px;
   }
 
@@ -212,8 +240,8 @@
       color: $blue;
     }
     &:nth-child(2n) {
-      border-left: 1px solid $yellow;
-      border-right: 1px solid $yellow;
+      border-left: 1px solid $green;
+      border-right: 1px solid $green;
       margin: 0 17px;
       padding: 5px 10px;
     }
@@ -224,7 +252,7 @@
   display: flex;
   align-items: center;
   margin: 25px 0 20px 0 ;
-  color: $black;
+  color: $blue;
   font-family: $brownLight;
 
   @include mq(md) {

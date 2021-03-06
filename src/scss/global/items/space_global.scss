@@ -131,10 +131,17 @@
   &__spec {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    & > img {
+      display: block;
+    }
 
     & > p {
-      margin: 0 auto;
+      margin-right: auto !important;
+      margin-left: initial !important;
+      padding-left: 20px;
     }
   }
 }
@@ -164,7 +171,7 @@
   }
   & > p:last-child {
     line-height: 1.25;
-    color: $black;
+    color: $blue;
     font-size: $fontSizeSM;
     margin-bottom: 60px;
     font-family: $brownLight;

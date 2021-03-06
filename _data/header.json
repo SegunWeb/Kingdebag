@@ -6,7 +6,7 @@
   "burger_w": "/src/image/icons/burger_w.svg",
   "logo_b": "/src/image/logo/logo_b.svg",
   "close_w": "/src/image/icons/close_w.svg",
-  "download_file": "/src/image/uploads/footer_bg.png",
+  "download_file": "/src/assets/Kingspan_AR20_Digital_FA.pdf",
   "burger": "/src/image/icons/burger.svg",
   "close": "/src/image/icons/close.svg",
   "title": "Kingspan",
@@ -14,19 +14,19 @@
   "menu_header": [
     {
       "link_name": "Business & Strategy",
-      "link_href": "/biz_strategy/"
+      "link_href": "/business-strategy/"
     },
     {
       "link_name": "Financial",
-      "link_href": "/finance/"
+      "link_href": "/financial-review/"
     },
     {
       "link_name": "Governance",
-      "link_href": "/basic_cont/"
+      "link_href": "/governance/"
     },
     {
-      "link_name": "Our Thinking on Trends",
-      "link_href": "/article"
+      "link_name": "",
+      "link_href": ""
     }
   ]
 }

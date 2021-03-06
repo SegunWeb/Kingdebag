@@ -1,18 +1,14 @@
 .presentation {
   position: relative;
-  top: -30px;
   z-index: 120;
+  margin: 120px auto;
 
-  @include mq(spec) {
-    top: -35px;
+  @include mq(sm) {
+    margin: 80px auto;
   }
-  @include mq(lg) {
-    top: -25px;
+  @include mq(xs) {
+    margin: 47px auto;
   }
-  @include mq(md) {
-    top: 0;
-  }
-
 }
 .pres_container {
   display: flex;
@@ -58,7 +54,7 @@
   z-index: 8;
 
   @include mq(xxl) {
-    width: 75%;
+    width: 45%;
   }
   @include mq(sm) {
     width: 92%;
@@ -68,21 +64,29 @@
   @extend .title_font;
    position: relative;
    z-index: 8;
+
+   @include mq(sm) {
+     font-size: $fontSizeMD + 24px;
+   }
  }
  &__description {
    font-size: $fontSizeMD;
-   color: $black;
    margin: 25px 0 45px 0;
    font-family: $brownLight;
+   color: $blue;
 
    @include mq(xxl) {
      font-size: $fontSizeMD - 8px;
-     line-height: 1.5;
+     line-height: 1.3;
+   }
+
+   @include mq(sm) {
+     font-size: $fontSizeMD
    }
  }
  &__author {
    font-size: $fontSizeSM;
-   margin: 10px 0;
+   margin: 10px 0 24px 0;
    font-family: $nimbus;
  }
  &__link > a {

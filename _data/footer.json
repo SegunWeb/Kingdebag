@@ -1,55 +1,54 @@
 {
   "path": "/src/image/icons/path.svg",
   "bg": "/src/image/footer_bg.png",
-  "copyright": "MADE WITH &nbsp;&#10084;&#65039; IN CANADA",
   "download": "/src/image/icons/download.svg",
   "logo": "/src/image/logo/logo.svg",
 
   "files_load_footer": [
     {
-      "name_file": "Business & Strategic Reportr",
-      "size_file": "4.11MB",
+      "name_file": "Business & Strategic Report",
+      "size_file": "4.50MB",
       "id": "one",
-      "value": "/src/image/uploads/footer_bg.png"
+      "value": "/src/assets/Kingspan_AR20_Digital_BusinessandStrategic_FA.pdf"
     },
     {
-      "name_file": "Financial Statements2",
-      "size_file": "3.52MB",
+      "name_file": "Financial Statements",
+      "size_file": "1.00MB",
       "id": "two",
-      "value": "/src/image/uploads/path.png"
+      "value": "/src/assets/Kingspan_AR20_Digital_FinancialStatements_FA.pdf"
     },
     {
-      "name_file": "Director’s Report1",
-      "size_file": "2.32MB",
+      "name_file": "Full Report",
+      "size_file": "8.90MB",
       "id": "three",
-      "value": "/src/image/uploads/shower.png"
+      "value": "/src/assets/Kingspan_AR20_Digital_FA.pdf"
     },
     {
-      "name_file": "Director’s Report1",
-      "size_file": "9.22MB",
+      "name_file": "Directors' Report",
+      "size_file": "1.80MB",
       "id": "four",
-      "value": "/src/image/uploads/social-fb.svg"
+      "value": "/src/assets/Kingspan_AR20_Digital_DirectorsReport_FA.pdf"
     }
   ],
   "socials_link_footer": [
     {
-      "link_href": "#",
+      "link_href": "https://linkedin.com/company/kingspan",
       "socials": "/src/image/uploads/social-in.svg"
     },
     {
-      "link_href": "#",
+      "link_href": "https://twitter.com/globalkingspan",
       "socials": "/src/image/icons/social-tw.svg"
     },
     {
-      "link_href": "#",
+      "link_href": "https://www.youtube.com/channel/UC-WAUiGVJpFZIAjUItwBN_Q",
       "socials": "/src/image/icons/social-yt.svg"
     },
     {
-      "link_href": "#",
+      "link_href": "https://www.facebook.com/globalkingspan/",
       "socials": "/src/image/icons/social-fb.svg"
     },
     {
-      "link_href": "#",
+      "link_href": "https://www.instagram.com/kingspan_global/",
       "socials": "/src/image/icons/social-inst.svg"
     }
   ],
@@ -76,7 +75,7 @@
     },
     {
       "link_name": "Cookie Policy",
-      "link_href": "/cookie"
+      "link_href": "/cookies"
     },
     {
       "link_name": "Terms of Use",

@@ -1,28 +1,28 @@
 {
-  "first_title": "Our business\n",
-  "first_desc": "Our business model and our strategic pillars enable the ongoing conversion to ultra-efficient building envelopes, from outdated, inefficient methods of construction.\n\n",
-  "first_img": "/src/image/business/img1.png",
+  "first_title": "Our Business\n",
+  "first_desc": "Our business model and our strategic pillars enable the ongoing conversion to ultra-efficient building envelopes from outdated, inefficient methods of construction.\n\n",
+  "first_img": "/src/image/business/img1.jpeg",
   "first_text_btn": "Insulated panels",
 
 
-  "second_img_one": "/src/image/business/img2.png",
-  "second_img_two": "/src/image/business/img3.png",
-  "second_text_btn": "Insulated boards",
+  "second_img_one": "/src/image/business/img2.jpeg",
+  "second_img_two": "/src/image/business/img3.jpeg",
+  "second_text_btn": "Insulation Boards",
 
   "second_text_btn_two": "Light and air",
 
 
-  "three_img_one": "/src/image/business/img4.png",
-  "three_img_two": "/src/image/business/img5.png",
+  "three_img_one": "/src/image/business/img4.jpeg",
+  "three_img_two": "/src/image/business/img5.jpeg",
   "three_text_btn": "water and energy",
 
   "three_text_btn_two": "Data and flooring",
 
-  "mobile_img_one": "/src/image/business/img1.png",
-  "mobile_img_two": "/src/image/business/img2.png",
-  "mobile_img_three": "/src/image/business/img3.png",
-  "mobile_img_four": "/src/image/business/img4.png",
-  "mobile_img_five": "/src/image/business/img5.png",
+  "mobile_img_one": "/src/image/business/img1.jpeg",
+  "mobile_img_two": "/src/image/business/img2.jpeg",
+  "mobile_img_three": "/src/image/business/img3.jpeg",
+  "mobile_img_four": "/src/image/business/img4.jpeg",
+  "mobile_img_five": "/src/image/business/img5.jpeg",
 
   "title": "Our Businesses",
   "close": "/src/image/icons/close_w.svg",
@@ -30,49 +30,44 @@
 
   "slider_info": [
     {
-      "bg": "/src/image/business/slide_info/sl_bg_1.png",
-
+      "bg": "/src/image/business/slide_info/sl_bg_1.jpeg",
       "id": "one",
       "slide_title": "Insulated Panels\n",
-      "slide_text_t": "Kingspan Insulated Panels is the worlds largest and leading manufactuer.....The German Energy Agency supervises the ‘Energiesprong’ initiative in Germany with the objective of reaching climate targets. Renovating the building stock is a key element of this objective. However deep energy renovations can be expensive and disruptive. \n",
-      "slide_img_one": "/src/image/business/slide_info/sl1.jpg",
-      "slide_img_text_two": "<strong> USA </strong> Aperture Cellars, California / Insulated Panels Dri-Design Rainscreen Facade IPN Karrier Panel"
+      "slide_text_t": "Kingspan Insulated Panels is the world’s largest and leading manufacturer of high-performance insulated panel building envelopes. Powered by Kingspan’s proprietary and differentiated insulation core technologies, a Kingspan panelised envelope provides building owners with consistently superior build quality and lifetime thermal performance compared with built-up constructions using traditional insulation.",
+      "slide_img_one": "/src/image/business/slide_info/sl1.jpeg",
+      "slide_img_text_two": "<strong> USA </strong> Aperture Cellars, California &nbsp;/&nbsp; <strong>Insulated Panels</strong> Dri-Design Rainscreen Facade IPN Karrier Panel"
     },
     {
-      "bg": "/src/image/business/slide_info/sl_bg_2.png",
-
+      "bg": "/src/image/business/slide_info/sl_bg_2.jpeg",
       "id": "two",
-      "slide_title": "Insulated Boards\n",
-      "slide_text_t": "Kingspan is a world leader in Insulation Boards, pipework and ducting. Our advanced insulation technologies deliver superior thermal performance and air-tightness when compared with traditional insulation, resulting in thinner solutions that offer multiple advantages including more internal floorspace and daylighting.",
-      "slide_img_one": "/src/image/business/slide_info/sl2.png",
-      "slide_img_text_two": "<strong> Sweden </strong>  Juvelen, Uppsala / Insulation Boards Kooltherm K20"
+      "slide_title": "Insulation Boards\n",
+      "slide_text_t": "Kingspan is a world leader in Insulation Boards, pipework and ducting. Our advanced insulation technologies deliver superior thermal performance and air-tightness when compared with traditional insulation, resulting in thinner solutions that offer multiple advantages including more internal floorspace and daylight.",
+      "slide_img_one": "/src/image/business/slide_info/sl2.jpeg",
+      "slide_img_text_two": "<strong> Sweden </strong>  Juvelen, <br>Uppsala &nbsp;/&nbsp; <strong>Insulation Boards</strong> Kooltherm K20"
     },
     {
-      "bg": "/src/image/business/slide_info/sl_bg_3.png",
-
+      "bg": "/src/image/business/slide_info/sl_bg_3.jpeg",
       "id": "three",
       "slide_title": "Light & Air\n",
       "slide_text_t": "Kingspan Light & Air is established as a global leader providing a full suite of daylighting solutions, as well as natural ventilation and smoke management solutions, which complement our existing building envelope technologies. Thermal comfort, indoor air quality and natural daylighting are widely recognised as the most important factors affecting occupant wellbeing in buildings.",
-      "slide_img_one": "/src/image/business/slide_info/sl3.png",
-      "slide_img_text_two": "<strong> Germany </strong>  Marienturm, Frankfurt / Light & Air ."
+      "slide_img_one": "/src/image/business/slide_info/sl3.jpeg",
+      "slide_img_text_two": "<strong> Germany </strong>  Marienturm, Frankfurt &nbsp;/&nbsp; <strong>Light & Air</strong> Smoke Pressure System (SPS)"
     },
     {
-      "bg": "/src/image/business/slide_info/sl_bg_4.png",
-
+      "bg": "/src/image/business/slide_info/sl_bg_5.jpeg",
       "id": "four",
-      "slide_title": "Data & Flooring\n",
-      "slide_text_t": "Kingspan is the world's largest supplier of raised access flooring. Raised access flooring is the most cost effective way of creating a flexible working environment by utilising the floor void to manage the distribution of M&E services and HVAC systems. Our systems have many benefits including optimising overall building height, achieving faster construction with greater design flexibility, enabling easier reconfiguration of a workspace, and improving indoor air quality.\n",
-      "slide_img_one": "/src/image/business/slide_info/sl4.png",
-      "slide_img_text_two": "<strong> The rate of retrofits </strong> needs to dramatically accelerate and extend to deep energy refurbishment."
-    },
-    {
-      "bg": "/src/image/business/slide_info/sl_bg_5.png",
-
-      "id": "five",
       "slide_title": "Water & Energy\n",
       "slide_text_t": "Sustainable water management is rapidly becoming one of the greatest challenges of our time. We manufacture and support pioneering new technologies to preserve and protect water. Kingspan is also a market leading manufacturer of innovative energy management solutions.",
-      "slide_img_one": "/src/image/business/slide_info/sl5.png",
-      "slide_img_text_two": "<strong> France </strong> Eglise Notre Dame de Beaurgard/ Water & Energy Klargester BioDisc® Treatment plant 25EH"
+      "slide_img_one": "/src/image/business/slide_info/sl5.jpeg",
+      "slide_img_text_two": "<strong> France </strong> Eglise Notre Dame de Beaurgard &nbsp;/&nbsp; <strong>Water & Energy</strong> Klargester BioDisc® Treatment plant 25EH"
+    },
+    {
+      "bg": "/src/image/business/slide_info/sl_bg_4.jpeg",
+      "id": "five",
+      "slide_title": "Data & Flooring\n",
+      "slide_text_t": "Kingspan is the world's largest supplier of raised access flooring. Raised access flooring is the most cost effective way of creating a flexible working environment by utilising the floor void to manage the distribution of M&E services and HVAC systems. Our systems have many benefits including optimising overall building height, achieving faster construction with greater design flexibility, enabling easier reconfiguration of a workspace, and improving indoor air quality.\n",
+      "slide_img_one": "/src/image/business/slide_info/sl4.jpeg",
+      "slide_img_text_two": "<strong>Britain</strong> 22 Bishopsgate &nbsp;/&nbsp; <strong>Data & Flooring</strong> RMG600 and Calcium Sulphate"
     }
   ]
 

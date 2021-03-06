@@ -1,6 +1,10 @@
 .goals_rich {
-  background-color: $fiolet;
+  background-color: $orangeLight;
   position: relative;
+
+  @include mq(xs){
+    margin-top: 300px;
+  }
 }
 .goals_rich_box {
   display: flex;
@@ -27,7 +31,7 @@
   }
 
   @include mq(sm) {
-    background: url("../image/carbon/sl_goals.png")  center/cover no-repeat;
+    background: url("../image/carbon/sl_goals.jpeg")  center/cover no-repeat;
   }
   @include mq(xs) {
       width: 85%;
@@ -44,7 +48,7 @@
   position: absolute;
   left: 10%;
   bottom: 35px;
-  max-width: 335px;
+  max-width: 314px;
   color: $white;
 
   @include mq(md) {
@@ -66,7 +70,6 @@
 
 .goals_rich_info_big {
   font-size: $fontSizeLG - 4px;
-  text-transform: uppercase;
   font-family: $brownLight;
   line-height: 1.2;
 
@@ -82,8 +85,10 @@
 
 .goals_rich_info_percent {
   margin: 0px 0 10px 0;
-  font-size: $fontSizeXl;
+  font-size: $fontSizeXl + 40px;
   font-family: $nimbusStrong;
+
+
 
 
   @include mq(md) {
@@ -106,17 +111,21 @@
   @include mq(md) {
     font-size: $fontSizeMD - 4px;
   }
+
+  & > span {
+    font-size: $fontSizeSM + 2px;
+  }
 }
 
 .goals_rich_desc {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 5%;
+  bottom: 10%;
   border-top: 1px solid $white;
   padding-top: 10px;
   font-family: $inco;
 
-  max-width: 200px;
+  max-width: 180px;
   color: $white;
 
   @include mq(sm) {
@@ -124,41 +133,56 @@
     margin: 0 auto;
     border: none;
     max-width: initial;
-    width: 80%;
-    right: 0;
-  }
-  @include mq(xs) {
     width: 100%;
+    right: 0;
+    padding: 20px;
     background-color: #000;
     bottom: 0;
-    padding: 20px;
   }
+
 }
 
 .goals_rich_talk {
+  position: absolute;
   font-size: $fontSizeMD;
   margin-top: 125px;
   margin-left: 40px;
   color: $white;
   max-width: 140px;
   font-family: $brownLight;
+  right: -15%;
+  top: 0;
+  z-index: 99;
+  line-height: 1.2;
+
+  @include mq(xxl) {
+    right: -18%;
+  }
 
   @include mq(lg) {
     margin-top: 85px;
+    right: -28%;
+    max-width: 160px;
   }
 
   @include mq(md) {
     margin-top: 55px;
     font-size: $fontSizeMD - 4px;
+    right: -33%;
+  }
+
+  @include mq(sm) {
+    right: -39%;
   }
 
   @include mq(xs) {
-    color: $black;
-    width: 100%;
+    color: $blue;
+    width: 120%;
     max-width: initial;
-    margin: -30px auto 50px auto;
+    margin: -170px auto 50px auto;
     font-size: $fontSizeMD;
     text-align: center;
+    right: -30%;
   }
   @include mq(xxs){
     font-size: $fontSizeMD - 4px;
@@ -173,11 +197,11 @@
   text-transform: uppercase;
   font-family: $nimbus;
   position: relative;
-  max-width: 1220px;
+  max-width: 1345px;
 
   @include mq(xxl) {
-    max-width: 975px;
-    font-size: $fontSizeXl;
+    max-width: 1070px;
+    font-size: $fontSizeXl - 5px;
     padding: 0 0 96px 0;
   }
 
@@ -290,4 +314,11 @@
   @include mq(xs) {
     right: -39%;
   }
+}
+.slick-list {
+  overflow: initial;
+}
+.slick-next,
+.slick-prev {
+  z-index: 100;
 }

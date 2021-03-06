@@ -1,9 +1,9 @@
 {
-  "img": "/src/image/rich_story/next_rich.jpg",
+  "img": "/src/image/renovation/bg_carbon.jpeg",
   "little_text": "Megatrends",
-  "big_text": "Circularity",
-  "title": "Circularity Heading",
-  "btn_text": "Our Circular Innovations",
-  "btn_href": "/biz_strategy",
-  "next": ""
+  "big_text": "MEasuring Carbon Impact",
+  "title": "Curbing Carbon in Construction",
+  "btn_text": "OUR LOW CARBON SOLUTIONS",
+  "btn_href": "/megatrends/carbon-in-construction",
+  "next": "/megatrends/carbon-in-construction"
 }

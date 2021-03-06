@@ -1,8 +1,8 @@
 {
-  "img": "/src/image/planet/netz.png",
-  "video": "/src/image/planet/video/video.mp4",
+  "img": "/src/image/planet/netz.jpeg",
+  "video": "/src/image/planet/video/netz_v2.mp4",
   "text": "OUR ACHIEVEMENT",
   "title": "Net Zero Energy",
   "desc": "In 2011, we set ourselves an ambitious target to achieve Net Zero Energy* across our business by 2020. We are proud to announce that we have achieved that goal thanks to targeted investment and the dedication and hard work of our global Net Zero Energy Team.",
-  "descSpec": "*Kingspan’s Net Zero Energy definition is to achieve match 100% of our operational energy use through the use of renewable energy and the purchase of renewable energy certificates to offest any remaining non-renewable energy use."
+  "descSpec": "*Kingspan’s Net Zero Energy definition is to match 100% of our operational energy use through the use of renewable energy and the purchase of renewable energy certificates to offest any remaining non-renewable energy use."
 }

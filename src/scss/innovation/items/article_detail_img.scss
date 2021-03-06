@@ -52,7 +52,7 @@
 
 .article_biz_strategy_info_box {
   padding: 180px 0 110px 100px;
-  max-width: 517px;
+  max-width: 532px;
   margin-right: 8%;
 
   @include mq(xxl) {
@@ -129,13 +129,14 @@
 .article_biz_strategy_info_desc {
   font-family: $brownLight;
   margin-bottom: 40px;
-  color: $black;
+  color: $blue;
   line-height: 1.25;
   font-size: $fontSizeSM;
 
 }
 .article_biz_strategy_right {
   margin-top: 200px;
+  object-fit: none;
 }
 .article_biz_strategy_right_box {
   background: linear-gradient(90deg,  $greenLight  50%, $white 50%);

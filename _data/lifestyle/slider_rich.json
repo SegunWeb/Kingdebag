@@ -6,25 +6,22 @@
   "slide": [
     {
       "data_id": "one",
-      "img": "/src/image/rich_story/first_slide.jpg",
-      "hover_text": "View Case <br> Study",
+      "img": "/src/image/lifestyle/first_slide.png",
       "text": "COVID-19 has pulled forward five years of expected online sales growth into just five months. Already a fast-growth category, online sales have accelerated dramatically and are on pace to reach $340bn globally in 2020.\n",
       "title_slide": "E-Commerce",
-
       "text_view": ""
     },
     {
       "data_id": "two",
-      "img": "/src/image/lifestyle/sl_2.png",
-      "hover_text": "View Case <br> Study",
-      "text": "Global Electric Vehicle (EV) penetration stood at just 2.5 per cent in 2019. In order to meet the objectives of the Paris Accord, EV sales must reach a penetration of 30 per cent by 2030. This requires significant investment in EV manufacturing infrastructure and its supporting supply chain, including battery manufacturing.\n\n",
+      "img": "/src/image/lifestyle/second_slide.png",
+      "hover_text": "Learn <br> More",
+      "text": "Global Electric Vehicle (EV) penetration stood at just 2.5 per cent in 2019. The widespread adoption of EVs is a necessary step toward achieving climate-change goals. This requires significant investment in EV manufacturing infrastructure and its supporting supply chain, including battery manufacturing.",
       "title_slide": "Electric Vehicle\n",
-
-      "text_view": "View case study"
+      "text_view": "Learn More"
     },
     {
       "data_id": "three",
-      "img": "/src/image/rich_story/three_slide.jpg",
+      "img": "/src/image/lifestyle/third_slide.png",
       "hover_text": "View Case <br> Study",
       "text": "The IMF estimates that the global cost of COVID-19 in lost output will be $28tn. The pandemic exposed a lack of resilience and preparedness in global healthcare systems, particularly in relation to Intensive Care Unit (ICU) capacity, which became a key factor in the length and severity of national lockdowns.",
       "title_slide": "Healthcare",
@@ -41,10 +38,10 @@
       "slide_desc": "",
       "slide_text_t": "Kingspan has worked with many EV manufacturers including Tesla, Volkswagen, General Motors and Lucid Motors. In the United States alone, we have supplied over 650,000 square metres of insulated panels to EV related projects. <br><br>Learn more about why from Brent Trenga, Director of Sustainability, Kingspan Insulated Panels North America. \n",
 
-      "slide_img_one_video": "/src/image/lifestyle/sl_2_2.png",
+      "slide_img_one_video": "/src/image/lifestyle/sl_2_2.jpeg",
       "slide_img_one": "",
 
-      "bg": "/src/image/lifestyle/slider_bg.png",
+      "bg": "/src/image/lifestyle/slider_inner_bg.jpeg",
 
       "video": "/src/image/lifestyle/video/Ev-No-Music.mp4"
     },
@@ -52,11 +49,12 @@
       "id": "three",
       "slide_title": "Healthcare Solutions",
       "slide_desc": "",
-      "slide_text_t": "National health systems must be supported in the rollout of vaccinations and strengthened for future pandemic preparedness and response. <br><br>Kingspan has solutions and is presently working on projects across the spectrum of healthcare, including hospital construction, manufacturing for medical equipment and cold storage for medicine and vaccinations. <br><br>It was announced in September 2020 that BIOCAD Biotechnology will produce the COVID-19 vaccine developed by Gamalei Institute\n",
+      "slide_text_t": "National health systems must be supported in the rollout of vaccinations and strengthened for future pandemic preparedness and response. <br><br>Kingspan has solutions and is presently working on projects across the spectrum of healthcare, including hospital construction, manufacturing for medical equipment and cold storage for medicine and vaccinations. <br><br>It was announced in September 2020 that BIOCAD Biotechnology will produce the COVID-19 vaccine developed by Gamalei Institute.",
+      "slide_title_2": "Our Solutions",
+      "slide_text_t_2": "With a full range of clean-safe, high-performance products for creating and maintaining hygienic clean spaces as well as insulated sandwich panels and insulation boards perfect for building new healthcare facilities, we understand the needs of this sector.",
+      "slide_img_one": "/src/image/lifestyle/sl_1_1.jpeg",
 
-      "slide_img_one": "/src/image/lifestyle/sl_1_1.png",
-
-      "bg": "/src/image/lifestyle/sl_bg_1.png"
+      "bg": "/src/image/lifestyle/sl_bg_1.jpeg"
     }
   ]
 }

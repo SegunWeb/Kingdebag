@@ -1,0 +1,15 @@
+{
+  "img": "/src/image/values/article1_b.jpg",
+  "img2": "/src/image/values/article2_b.jpg",
+  "title": "Our Belief",
+  "desc": "Historically, construction has taken from nature with little consideration given to the finite resource available. Buildings were constructed without contemplating how they might impact future generations. We believe the buildings of the future need to deliver more than ever before. They must combat climate change by maximising energy efficiency through superior thermal performance while incorporating products that are lower in embodied carbon across their entire lifecycle. Using less energy is not enough; buildings should generate their own energy too. Buildings should be healthy and inspirational, optimising the benefits of daylight and fresh, clean air. They should be designed, constructed and operated to protect natural resources and conserve water as much as possible. Above all they must be safe, protecting people and property from fire and other natural hazards.",
+
+
+  "title_two": "Our Culture and Values",
+  "desc_two": "Kingspan has grown from a family business and many of the values associated with family businesses form the backbone of our culture today. The business has been built on trust in the integrity of our people and of our offering. We value this trust and recognise it as being fundamental to our ongoing success. We are entrepreneurial, collaborative, honest, and we stand behind a common cause – better buildings for a better world. <br><br> We are innovative. We are the market leader in the field of high-performance building envelope solutions, which ensure lifetime carbon and resource savings. We have gained this position through a creative and solutions driven mindset, which continues to inform our innovation agenda today. <br><br> We think long-term. The strategy of the business is driven by long-term ambitions and not by quarterly performance. The success of this strategy can be seen in our long-term growth. This ethos is apparent in our multi-year commitments such as our 10-year Planet Passionate programme which will drive real, positive, impact for the environment and forms a common goal across the business globally.",
+
+
+  "bread_outside": "Business & Strategy",
+  "bread_inside": "Values",
+  "bread_outside_link": "/business-strategy"
+}

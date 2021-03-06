@@ -1,0 +1,30 @@
+{
+  "title": "Building Better",
+
+  "items": [
+    {
+
+      "img": "/src/image/financial-review/bet1.jpeg",
+      "titles": "Chief Executive Officer’s Statement",
+      "desc": "The need for action on climate change is gaining increasing traction with policymakers worldwide. Kingspan’s proposition and our Planet Passionate programme are aligned fully with this urgent agenda.",
+      "link_text": "Read More",
+      "link_href": "/governance/ceo"
+    },
+    {
+
+      "img": "/src/image/financial-review/bet2.jpeg",
+      "titles": "Chairman’s Statement",
+      "desc": "Few could have foreseen, when I wrote my Chairman’s Statement last year, the global pandemic that would take hold and define the year that was 2020. ",
+      "link_text": "Read More",
+      "link_href": "/financial-review/chairmans-statement"
+    },
+    {
+
+      "img": "/src/image/financial-review/bet3.jpeg",
+      "titles": "Business Model & Strategy",
+      "desc": "Our business model is to continue our relentless development of innovative and proprietary products which enable low carbon and healthy buildings – globally. \n",
+      "link_text": "Read More",
+      "link_href": "/business-strategy"
+    }
+  ]
+}

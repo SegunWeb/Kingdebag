@@ -4,80 +4,42 @@ const uglify = require("gulp-uglify-es").default;
 const cleanCSS = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const merge = require("merge-stream");
+
+const imagemin = require("gulp-imagemin");
+const webp = require("imagemin-webp");
+const extReplace = require("gulp-ext-replace");
+
 const workboxBuild = require("workbox-build");
 
 const babel = require("gulp-babel");
 const autoprefixer = require("gulp-autoprefixer");
 
 let pages = [
+
   {
     name: "homepage",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/homepage.js",
     ],
   },
-  {
-    name: "homepage_alt",
-    scripts: [
 
+  {
+    name: "financial-review",
+    scripts: [
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
-      "./src/js/homepage.js",
+      "./src/js/financial-review.js",
     ],
   },
-  {
-    name: "story",
-    scripts: [
 
-      "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/libs/slider/slick.min.js",
-      "./src/js/main.js",
-      "./src/js/story.js",
-    ],
-  },
-  {
-    name: "biz_strategy",
-    scripts: [
-
-      "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/libs/slider/slick.min.js",
-      "./src/js/main.js",
-      "./src/js/biz_strategy.js",
-    ],
-  },
-  {
-    name: "finance",
-    scripts: [
-
-      "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/libs/slider/slick.min.js",
-      "./src/js/main.js",
-      "./src/js/finance.js",
-    ],
-  },
   {
     name: "article",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/pagination/pagination.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/js/main.js",
       "./src/js/article.js",
     ],
@@ -85,102 +47,72 @@ let pages = [
   {
     name: "article_detail",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/js/main.js",
       "./src/js/article_detail.js",
     ],
   },
-  {
-    name: "basic_cont",
-    scripts: [
 
-      "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/js/main.js",
-      "./src/js/basic_cont.js",
-    ],
-  },
-  {
-    name: "politic",
-    scripts: [
-
-      "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
-      "./src/js/main.js",
-    ],
-  },
   {
     name: "planet",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
-      "./src/js/biz_strategy.js",
+      "./src/js/planet.js",
     ],
   },
   {
     name: "global",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
-      "./src/js/biz_strategy.js",
+      "./src/js/global.js",
     ],
   },
   {
     name: "innovation",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
-      "./src/js/biz_strategy.js",
+      "./src/js/innovation.js",
     ],
   },
   {
     name: "completing",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
-      "./src/js/biz_strategy.js",
+      "./src/js/completing.js",
     ],
   },
   {
     name: "renovation",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/renovation.js",
     ],
   },
+
+  {
+    name: "circularity",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/libs/slider/slick.min.js",
+      "./src/js/main.js",
+      "./src/js/circularity.js",
+    ],
+  },
+
   {
     name: "carbon",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/carbon.js",
@@ -190,10 +122,7 @@ let pages = [
   {
     name: "lifestyle",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/lifestyle.js",
@@ -203,16 +132,72 @@ let pages = [
   {
     name: "business",
     scripts: [
-
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
-      "./src/libs/vanilla-masker/vanilla-masker.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/business.js",
     ],
   },
 
+  {
+    name: "governance",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/libs/slider/slick.min.js",
+      "./src/js/main.js",
+      "./src/js/governance.js",
+    ],
+  },
+
+
+  {
+    name: "policy",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/js/main.js",
+      "./src/js/policy.js",
+    ],
+  },
+
+  {
+    name: "values",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/js/main.js",
+      "./src/js/values.js",
+    ],
+  },
+  {
+    name: "chairmans-introduction",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/js/main.js",
+      "./src/js/chairmans-introduction.js",
+    ],
+  },
+  {
+    name: "chairmans-statement",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/js/main.js",
+      "./src/js/chairmans-statement.js",
+    ],
+  },
+
+  {
+    name: "ceo",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+      "./src/js/main.js",
+      "./src/js/ceo.js",
+    ],
+  },
+  {
+    name: "404",
+    scripts: [
+      "./src/libs/jquery/jquery.min.js",
+    ],
+  },
 
 
 
@@ -260,6 +245,59 @@ gulp.task("config", function () {
   return gulp.src("./admin/config.*").pipe(gulp.dest("./_site/admin/"));
 });
 
+let folders = [
+    "./_site/",
+
+    "./_site/terms",
+    "./_site/privacy",
+    "./_site/cookies",
+    "./_site/our-thinking",
+
+    "./_site/megatrends/carbon-in-construction",
+    "./_site/megatrends/changing-lifestyle",
+    "./_site/megatrends/circularity",
+    "./_site/megatrends/renovation",
+
+    "./_site/governance",
+    "./_site/governance/ceo",
+
+    "./_site/financial-review",
+    "./_site/financial-review/chairmans-statement",
+
+    "./_site/business-strategy",
+    "./_site/business-strategy/values",
+    "./_site/business-strategy/pillar/completing-the-envelope",
+    "./_site/business-strategy/pillar/global",
+    "./_site/business-strategy/pillar/innovation",
+    "./_site/business-strategy/pillar/planet-passionate"
+];
+
+
+
+gulp.task("manifest", function () {
+  let tasks = folders.map(( path ) => {
+    return gulp
+        .src("./manifest.json")
+        .pipe(gulp.dest(`${path}`))
+  });
+
+  return merge(tasks);
+
+
+});
+
+gulp.task("robots", function () {
+  return gulp.src("./robots.txt").pipe(gulp.dest("./_site/"));
+});
+
+gulp.task("sitemap", function () {
+  return gulp.src("./sitemap.xml").pipe(gulp.dest("./_site/"));
+});
+
+gulp.task("assets", function () {
+  return gulp.src("./src/assets/*.*").pipe(gulp.dest("./_site/src/assets"));
+});
+
 gulp.task("libs", function () {
   return gulp
       .src("./src/libs/lazy-load/*.js")
@@ -292,6 +330,21 @@ gulp.task("buildSW", () => {
   });
 });
 
+gulp.task("exportWebP", function() {
+  let src = ["./src/image/**/*.png", "src/images/*.png", "src/images/**/*.jpeg", "src/images/*.jpeg" ]; // Where your PNGs are coming from.
+  let dest = "./_site/src/image"; // Where your WebPs are going.
+
+  return gulp.src(src)
+      .pipe(imagemin([
+        webp({
+          quality: 75
+        })
+      ]))
+      .pipe(extReplace(".webp"))
+      .pipe(gulp.dest(dest));
+});
+
+
 /*
   Watch folders for changess
 */
@@ -304,4 +357,4 @@ gulp.task("watch", function () {
 /*
   Let's build this sucker.
 */
-gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "icons", "config"));
+gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "exportWebP",  "icons", "buildSW", "config", "manifest", "robots", "sitemap", "assets"));

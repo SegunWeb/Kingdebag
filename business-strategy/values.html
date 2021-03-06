@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ values.meta.meta_title }}</title>
+
+    <meta name="title" content="{{ values.meta.meta_title }}">
+
+    <meta name="description" content="{{ values.meta.meta_desc }}">
+    <meta name="keywords" content="{{ values.meta.meta_keys }}">
+    <meta property="og:title" content="{{ values.meta.meta_title }}">
+    <meta property="og:description" content="{{ values.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ values.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ values.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="../../src/css/values.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include values/main_basic.html %}
+    {% include values/basic_article.html %}
+    {% include values/basic_right_img.html %}
+    {% include values/basic_better.html %}
+
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+
+{% includeScript "../../src/js/values.js" %}
+
+
+</body>
+</html>

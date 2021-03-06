@@ -3,10 +3,20 @@
 <head>
     {% include Head.html %}
 
-    <title>{{  homepage.meta.meta_title }}</title>
-    <meta name="description" content="{{homepage.meta.meta_desc }}">
+    <title>{{ privacy.meta_title }}</title>
+    <meta name="title" content="{{ privacy.meta_title }}">
+    <meta name="description" content="{{ privacy.meta_desc }}">
+    <meta name="keywords" content="{{ privacy.meta_keys }}">
+    <meta property="og:title" content="{{ privacy.meta_title }}">
+    <meta property="og:description" content="{{ privacy.meta_desc }}">
 
-    <link rel="stylesheet" href="/src/css/politic.css"/>
+    <meta name="twitter:image" content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ privacy.meta_title }}">
+    <meta name="twitter:description" content="{{ privacy.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com" />
+
+    <link rel="stylesheet" href="/src/css/policy.css"/>
 </head>
 <body>
 
@@ -16,9 +26,9 @@
 </main>
 {% include component/footer_small.html %}
 
-
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
 {% lazyScript %}
-
+{% includeScript "../src/js/policy.js" %}
 
 
 </body>

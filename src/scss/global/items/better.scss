@@ -19,24 +19,22 @@
   position: absolute;
   top: 175px;
   left: 0;
-  color: $black;
+  color: $blue;
   font-family: $brownLight;
 
 
   @include mq(lg) {
     left: -2%;
-    top: 145px;
+    top: 165px;
   }
   @include mq(md) {
-    left: -6%;
+    left: 0;
+    transform: rotateZ(-90deg) translateX(1%) translateY(0);
+    transform-origin: 34% 185%!important;
   }
   @include mq(xs) {
-    left: -6%;
     font-size: $fontSizeLG - 12px;
     top: 88px;
-  }
-  @include mq(xxs) {
-    left: -45px;
   }
 
 
@@ -83,7 +81,7 @@
 
 .finance_better_item_name {
   text-transform: uppercase;
-  color: $black;
+  color: $blue;
   font-family: $nimbusStrong;
   font-size: $fontSizeSM + 2px;
 }
@@ -114,7 +112,7 @@
 }
 
 .finance_better_item_desc_desc {
-  color: $black;
+  color: $blue;
   font-size: $fontSizeSM;
   margin: 10px 0 30px 0;
   font-family: $brownLight;

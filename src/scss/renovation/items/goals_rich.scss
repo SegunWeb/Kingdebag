@@ -1,5 +1,5 @@
 .goals_rich {
-  background-color: $red;
+  background-color: $fioletLight;
   position: relative;
 }
 .goals_rich_box {
@@ -24,7 +24,7 @@
   }
 
   @include mq(sm) {
-    background: url("../image/renovation/goals.jpg")  center/cover no-repeat;
+    background: url("../image/renovation/goals.jpeg")  center/cover no-repeat;
   }
   @include mq(xs) {
       width: 85%;
@@ -133,7 +133,7 @@
   font-family: $brownLight;
 
   @include mq(xs) {
-    color: $black;
+    color: $blue;
     width: 100%;
     max-width: initial;
     margin: 0 auto 20px auto;
@@ -176,7 +176,7 @@
   @include mq(xs) {
     max-width: 280px;
     font-size:  $fontSizeXl - 44px;
-    left: 14%;
+    left: 7%;
     top: -40px;
     padding: 0;
   }

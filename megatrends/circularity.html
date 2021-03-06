@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ circularity.meta.meta_title }}</title>
+
+
+    <meta name="title" content="{{ circularity.meta.meta_title }}">
+    <meta name="description" content="{{ circularity.meta.meta_desc }}">
+    <meta name="keywords" content="{{ circularity.meta.meta_keys }}">
+    <meta property="og:title" content="{{ circularity.meta.meta_title }}">
+    <meta property="og:description" content="{{ circularity.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ circularity.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ circularity.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="../../src/css/circularity.css"/>
+</head>
+<body>
+
+{% include component/header_w.html %}
+<main>
+    {% include circularity/main_rich.html %}
+    {% include circularity/performance.html %}
+    {% include circularity/buble_rich.html %}
+    {% include circularity/goals_rich.html %}
+    {% include circularity/space_rich.html %}
+    {% include circularity/slider_rich.html %}
+    {% include circularity/article_img_right.html %}
+    {% include circularity/presentation.html %}
+    {% include circularity/next_rich.html %}
+    {% include circularity/better_rich.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+
+{% includeScript "../../src/js/circularity.js" %}
+
+
+</body>
+</html>

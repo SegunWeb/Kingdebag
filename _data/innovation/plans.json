@@ -1,7 +1,7 @@
 {
-  "map_img": "/src/image/innovation/Rectangle.png",
-
-  "info": "COMPLETING THE ENVELOPE",
+  "map_img": "/src/image/innovation/rectangle.jpeg",
+  "map_vid": "/src/image/innovation/video/QuadCore.mp4",
+  "info": "ADVANCED SOLUTIONS",
   "title_spec": "QuadCore™ Technology",
   "text_spec": "Kingspan’s QuadCore™ insulated panel technology delivers the highest performance of any closed cell insulation core across four factors: fire, thermal, environmental and longevity. \n"
 }

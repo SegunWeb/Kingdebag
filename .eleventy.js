@@ -3,6 +3,7 @@ const svgContents = require("eleventy-plugin-svg-contents");
 const Image = require("@11ty/eleventy-img");
 const sharp = require("sharp");
 const pluginInlineCss = require("@navillus/eleventy-plugin-inline-css");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = function (eleventyConfig) {
   const outputFormat = ["webp", "png"];
@@ -135,4 +136,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgContents);
 
   eleventyConfig.addPassthroughCopy("admin");
+
+  eleventyConfig.addPlugin(lazyImagesPlugin);
 };

@@ -8,16 +8,16 @@
 
 
 .main_rich {
-  background: linear-gradient(90deg, $fiolet 43%, $white 20%);
+  background: linear-gradient(90deg, $orangeLight 43%, $white 20%);
   position: relative;
 
   @include mq(xxl) {
-    background: linear-gradient(90deg, $fiolet 35%, $white 20%);
+    background: linear-gradient(90deg, $orangeLight 35%, $white 20%);
   }
 
 
   @include mq(md) {
-    background: linear-gradient(90deg, $fiolet 100%, $white 0%);
+    background: linear-gradient(90deg, $orangeLight 100%, $white 0%);
   }
 }
 .main_rich_img {
@@ -34,7 +34,7 @@
     position: absolute;
     top: 82px;
     padding: 0;
-    background: url("../image/carbon/bg_carbon.png")  center/cover no-repeat;
+    background: url("../image/carbon/bg_carbon.jpeg")  center/cover no-repeat;
     height: 345px;
     width: 76%;
     right: 0;
@@ -175,7 +175,7 @@
   z-index: 9;
 }
 .main_carbon_text {
-  width: 220px;
+  width: 187px;
   position: relative;
   border-bottom: 1px solid $white;
   padding-bottom: 5px;

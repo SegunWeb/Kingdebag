@@ -4,13 +4,13 @@
 
   "bubles": [
     {
-      "perc": "65%",
-      "text": "Building",
+      "perc": "85%",
+      "text": "Buildings",
       "id": "b-two"
     },
     {
       "perc": "1%",
-      "text": "Efficient",
+      "text": "Renovation",
       "id": "b-three"
     },
     {
@@ -19,17 +19,17 @@
       "id": "b-four"
     },
     {
-      "perc": "85%",
+      "perc": "65%",
       "text": "Energy Consumption",
       "id": "b-five"
     }
   ],
 
   "buble_desc": [
-    {"desc": "Almost 65% of EU household energy consumption is for space heating", "id_desc": "d_two"},
+    {"desc": "85-95% of today’s EU buildings will still be in use in 2050", "id_desc": "d_two"},
     {"desc": "Today’s building stock is being renovated at a rate of 1% per annum", "id_desc": "d_three"},
-    {"desc": "34 million Europeans cannot afford to keep their homes adequately heated .", "id_desc": "d_four"},
-    {"desc": "85-95% of today’s EU buildings will still be in use in 2050", "id_desc": "d_five"}
+    {"desc": "34 million Europeans cannot afford to keep their homes adequately heated", "id_desc": "d_four"},
+    {"desc": "Almost 65% of EU household energy consumption is for space heating", "id_desc": "d_five"}
   ]
 
 }

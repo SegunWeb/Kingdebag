@@ -37,12 +37,13 @@
 }
 .comm_glob_text {
     font-family: $brownLight;
-  color: $black;
+  color: $blue;
   line-height: 1.3;
+  font-size: $fontSizeSM;
 }
 .comm_glob_img_box {
   position: relative;
-  max-width: 1392px;
+  max-width: 900px;
   margin: 0 auto;
 
 }

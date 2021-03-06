@@ -36,11 +36,11 @@ $(document).ready(function () {
         dots: false,
         arrows: false,
         infinite: false,
-        slidesToShow: 3,
+        slidesToShow: 2,
         variableWidth: true,
         responsive: [
             {
-                breakpoint: 1360,
+                breakpoint: 1370,
                 settings: {
                     slidesToShow: 2,
                 }

@@ -3,14 +3,16 @@
 
         <div class="better__rich_container">
             <div class="better_rich_title">
-                <p>{{rich_story.better_rich.title}}</p>
+                <p>{{carbon.better_rich.title}}</p>
             </div>
             <div class="better_rich_box">
-                {% for item in rich_story.better_rich.items %}
+                {% for item in carbon.better_rich.items %}
                 <div class="better_rich_item">
                     <p class="better_rich_item_name">{{item.name}}</p>
                     <div class="better_rich_item_img">
-                        <img src="{{item.img}}" alt="img">
+                        <a href="{{item.link_href}}">
+                            <img src="{{item.img}}" alt="img">
+                        </a>
                     </div>
                     <div class="better_rich_item_desc">
                         <p class="better_rich_item_desc_title">{{item.titles}}</p>

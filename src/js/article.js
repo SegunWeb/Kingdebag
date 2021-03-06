@@ -65,8 +65,8 @@ function initPagination(articlesCount, pagesCount, currentPage) {
     const groups = [];
 
     for (let i = 0; i < numberOfGroups; i++) {
-        const start = i * 2;
-        const end = start + 2;
+        const start = i * 4;
+        const end = start + 4;
         groups[i] = Array.from(articles).slice(start, end);
     }
 
@@ -84,7 +84,7 @@ $(document).ready(function() {
     }
     const totalJobs = $(".job-result").length;
     const currentPage = getPage(searchParams);
-    const totalPages = Math.ceil(totalJobs / 2);
+    const totalPages = Math.ceil(totalJobs / 4);
 
     console.log(currentPage);
 

@@ -1,30 +1,30 @@
 {
-  "title": "Building Better",
+  "title": "Strategic Pillars",
 
   "items": [
     {
-      "name": "Pillar",
-      "img": "/src/image/rich_story/better1.jpg",
-      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "name": "Strategic Pillar",
+      "img": "/src/image/renovation/home.jpeg",
+      "titles": "Innovation",
+      "desc": "Kingspan is driven by a belief that advanced materials and methods of construction hold the answer to some of the great challenges that our planet and society face. From products that insulate better while creating more internal space, to those that harness more natural daylight, we are dedicated to extending the limits of ultra-performance envelope design with a core focus on energy efficiency. ",
       "link_text": "Read More",
-      "link_href": "/article/article_detail"
+      "link_href": "/business-strategy/pillar/innovation"
     },
     {
-      "name": "Case Study",
-      "img": "/src/image/rich_story/better2.jpg",
-      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "name": "Strategic Pillar Study",
+      "img": "/src/image/renovation/leo.jpeg",
+      "titles": "Planet Passionate",
+      "desc": "Launched in December 2019, Planet Passionate is our ambitious 10-year global sustainability programme where we have set ourselves hard targets to progress our positive impact on three global issues: climate change, circularity and the protection of our natural world.",
       "link_text": "Read More",
-      "link_href": "/article/article_detail"
+      "link_href": "/business-strategy/pillar/planet-passionate"
     },
     {
-      "name": "Megatrend",
-      "img": "/src/image/rich_story/better3.jpg",
-      "titles": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit.",
+      "name": "Strategic Pillar",
+      "img": "/src/image/renovation/angar.jpeg",
+      "titles": "Global",
+      "desc": "Kingspan continues to expand globally bringing ultra-performance building envelope solutions to markets which are at an earlier stage in their evolution to sustainable and efficient methods of construction. ",
       "link_text": "Read More",
-      "link_href": "/article/article_detail"
+      "link_href": "/business-strategy/pillar/global"
     }
   ]
 }

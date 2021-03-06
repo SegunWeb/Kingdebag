@@ -8,16 +8,16 @@
 
 
 .main_rich {
-  background: linear-gradient(90deg, $red 43%, $white 20%);
+  background: linear-gradient(90deg, $fioletLight 43%, $white 20%);
   position: relative;
 
   @include mq(xxl) {
-    background: linear-gradient(90deg, $red 35%, $white 20%);
+    background: linear-gradient(90deg, $fioletLight 35%, $white 20%);
   }
 
 
   @include mq(md) {
-    background: linear-gradient(90deg, $red 100%, $white 0%);
+    background: linear-gradient(90deg, $fioletLight 100%, $white 0%);
   }
 }
 .main_rich_img {
@@ -34,7 +34,7 @@
     position: absolute;
     top: 82px;
     padding: 0;
-    background: url("../image/renovation/rev_bg.png")  center/cover no-repeat;
+    background: url("../image/renovation/rev_bg.jpeg")  center/cover no-repeat;
     height: 345px;
     width: 76%;
     right: 0;

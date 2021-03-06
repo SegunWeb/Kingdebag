@@ -1,0 +1,39 @@
+<section class="presentation wrapper">
+
+    <div class="active_video">
+        <div class="close_video"></div>
+        <div class="video_size" id="youtube">
+            <iframe src="https://www.youtube.com/embed/{{ homepage_last.presentation.idVideo }}?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <div class="pres_container">
+        <div class="pres_media">
+            <div class="pres_media__image">
+                <img src="{{ homepage_last.presentation.imgPreview }}" alt="preview">
+
+            </div>
+        </div>
+        <div class="pres_description">
+
+            <div class="pres_text">
+                <img class="quote quote_top" src="{{ homepage_last.presentation.quoteTop }}" alt="quote">
+                <div class="pres_text__title">
+                    <h2>{{homepage_last.presentation.title}}</h2>
+                </div>
+                <div class="pres_text__description">
+                    <p>{{homepage_last.presentation.desc}}</p>
+                </div>
+                <div class="pres_text__author">
+                    <p>{{homepage_last.presentation.author}}</p>
+                </div>
+                <div class="pres_text__link">
+                    <a href="{{homepage_last.presentation.link_href}}">{{homepage_last.presentation.link_text}}</a>
+                </div>
+            </div>
+            <img class="quote quote_bottom" src="{{ homepage_last.presentation.quoteBottom }}" alt="quote">
+
+        </div>
+    </div>
+</section>

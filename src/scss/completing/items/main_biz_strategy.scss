@@ -1,11 +1,11 @@
 .biz_strategy_main {
-  background: url("../image/completing/bg_main.png") center/cover no-repeat;
+  background: url("../image/completing/bg_main.jpeg") center/cover no-repeat;
   width: 100vw;
   height: 100vh;
   position: relative;
 
   @include mq(xs) {
-    background: url("../image/completing/bg_main.png") center/cover no-repeat;
+    background: url("../image/completing/bg_main.jpeg") center/cover no-repeat;
   }
 }
 
@@ -65,13 +65,15 @@
 .biz_strategy_main_info {
   display: flex;
   align-items: center;
+  margin-right: 6%;
+  margin-top: -5%;
 
   @include mq(xs) {
     margin-top:0;
   }
 
   &_text {
-    width: 186px;
+    width: 170px;
     position: relative;
     border-bottom: 1px solid $white;
     padding-bottom: 5px;

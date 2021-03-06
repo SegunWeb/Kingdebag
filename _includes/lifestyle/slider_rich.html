@@ -11,10 +11,17 @@
                     <div>
                         <div class="slider_rich_item slide">
                             <div class="slider_rich_item_wrap" data-id="{{item.data_id}}">
+                                {% if item.hover_text %}
                                 <div class="slider_rich_item_img">
                                     <img src="{{item.img}}" alt="slide">
                                     <p>{{item.hover_text}}</p>
                                 </div>
+                                {% else %}
+                                <div class="slider_rich_item_img no-cursor">
+                                    <img src="{{item.img}}" alt="slide">
+                                    <p>{{item.hover_text}}</p>
+                                </div>
+                                {% endif %}
                             </div>
                             <div class="slider_rich_item_desc">
                                 <p>{{item.title_slide}}</p>
@@ -31,7 +38,7 @@
         </div>
     </div>
 
-    <!--- slider info --->
+    <!-- slider info -->
     {% for info in lifestyle.slider_rich.slider_info %}
     <div id="{{info.id}}"  class="slider_item_info_box"  style="background: url({{ info.bg }}) center/cover no-repeat;">
 
@@ -72,6 +79,17 @@
                     </div>
                 </div>
 
+                <div id="slide_three" class="box_for_slide">
+                    <div class="slider_item_info_static_2">
+                        <div class="slider_inf_static_desc">
+                            <h2 class="static_desc_subtitle">{{info.slide_title_2}}</h2>
+                            <p class="static_desc_de">{{info.slide_desc}}</p>
+                            <div class="static_desc_text">
+                                <p>{{info.slide_text_t_2}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
         </div>
     </div>

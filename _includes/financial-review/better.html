@@ -1,0 +1,27 @@
+<section class="finance_better">
+    <div class="wrapper">
+
+        <div class="finance_better_container">
+            <div class="finance_better_title">
+                <p>{{financial-review.better.title}}</p>
+            </div>
+            <div class="finance_better_box">
+                {% for item in financial-review.better.items %}
+                <div class="finance_better_item">
+
+                    <div class="finance_better_item_img">
+                        <a href="{{item.link_href}}">
+                            <img src="{{item.img}}" alt="img">
+                        </a>
+                    </div>
+                    <div class="finance_better_item_desc">
+                        <p class="finance_better_item_desc_title">{{item.titles}}</p>
+                        <p class="finance_better_item_desc_desc">{{item.desc}}</p>
+                        <a href="{{item.link_href}}" class="finance_better_item_desc_link">{{item.link_text}}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -37,6 +37,11 @@
   @include mq(md) {
    width: 100%;
   }
+
+
+  &__image {
+    position: relative;
+  }
 }
 .perf_description {
   display: flex;
@@ -45,6 +50,7 @@
   flex-direction: column;
   position: relative;
   width: 50%;
+  margin-top: 5%;
 
 
   @include mq(xxl) {
@@ -127,7 +133,7 @@
   left: 18%;
 
   &_text {
-    width: 170px;
+    width: 145px;
     position: relative;
     border-bottom: 1px solid $white;
     padding-bottom: 5px;

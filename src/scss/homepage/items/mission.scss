@@ -1,9 +1,8 @@
-.mission {
-  margin-top: 130px;
+ .mission {
 
-  @include mq(lg) {
-    margin-top: 90px;
-  }
+  position: relative;
+  z-index: 7;
+
   @include mq(md) {
     width: 80%;
     margin: 90px auto 0 auto;
@@ -14,14 +13,13 @@
     margin: 47px auto 0 auto;
   }
 }
-
 .mission_container {
   width: 1920px;
 
   @include mq(xxl) {
     width: 1200px;
     margin: 0;
-    margin-left: auto;
+
   }
 
   @include mq(lg) {
@@ -86,11 +84,11 @@
   width: 40%;
 
   @include mq(xxl) {
-    width: 625px;
+    width: 640px;
     padding: 115px 0 0 90px;
   }
   @include mq(lg) {
-    width: 385px;
+    width: 425px;
     padding: 90px 0 0 40px;
   }
   @include mq(md) {
@@ -106,27 +104,31 @@
 .text_first_title {
   @extend .title_font_spec;
   text-transform: uppercase;
+  font-size: $fontSizeXl;
+
+  @include mq(xxl){
+    font-size: $fontSizeXl - 20px;
+  }
+  @include mq(xxl){
+    font-size: $fontSizeXl - 20px;
+  }
 
   @include mq(sm) {
-    font-size: $fontSizeXl - 28px;
+    font-size: $fontSizeXl - 45px;
   }
   @include mq(xxs) {
-    font-size: $fontSizeXl - 35px;
+    font-size: $fontSizeXl - 47px;
   }
 }
 .text_first_description {
   font-size: $fontSizeLG;
   margin: 40px 0;
-  color: $black;
   font-family: $brownLight;
-
-  @include mq(xxl) {
-    font-size: $fontSizeLG - 4px;
-  }
-
+  
   @include mq(lg) {
     font-size: $fontSizeLG - 6px;
   }
+
 }
 
 // second block
@@ -182,11 +184,15 @@
   font-family: $inco;
   font-size: $fontSizeMD;
 
+
   @include mq(xxl) {
     font-size: $fontSizeMD - 4px;
   }
   @include mq(lg) {
     font-size: $fontSizeMD - 6px;
+  }
+  @include mq(sm) {
+    font-size: $fontSizeXS;
   }
 
 }

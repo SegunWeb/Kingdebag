@@ -79,7 +79,7 @@
   flex-direction: column;
   transition: .3s;
   border-radius: 100%;
-  background-color: $red;
+  background-color: $fioletLight;
   position: absolute;
   color: $white;
   font-family: $nimbusNew;
@@ -105,7 +105,7 @@
     top: 50px;
     width: 211px;
     height: 211px;
-    background: rgba(130, 27, 34, 0.6);
+    background:  rgba(146, 133, 157, 0.6);
 
     @include mq(xxl) {
       width: 160px;
@@ -126,8 +126,8 @@
     bottom: 25px;
     width: 127px;
     height: 127px;
-    background: rgba(130, 27, 34, 0.2);
-    color: $red;
+    background:  rgba(146, 133, 157, 0.2);
+    color: $fioletLight;
 
     @include mq(xxl) {
       width: 110px;
@@ -144,7 +144,7 @@
   &:nth-child(3) {
     left: 190px;
     bottom: 0;
-    background: rgba(130, 27, 34, 0.8);
+    background: rgba(146, 133, 157, 0.8);
 
     @include mq(xxl){
       left: 156px;

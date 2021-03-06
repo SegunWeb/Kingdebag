@@ -1,10 +1,10 @@
 .next_rich {
-  background: linear-gradient(90deg, $yellow_story 50%, $white 20%);
+  background: linear-gradient(90deg, $redMedium 50%, $white 20%);
   position: relative;
 
   @include mq(sm) {
     padding: 90px 0 60px 0;
-    background: linear-gradient(90deg, $yellow_story 70%, $white 20%);
+    background: linear-gradient(90deg, $redMedium 70%, $white 20%);
   }
   @include mq(xs){
     margin-top: -40px;
@@ -24,7 +24,7 @@
     padding: 120px 0 60px 0;
   }
   @include mq(sm) {
-    background: url("../image/lifestyle/next_rich.jpg") center/cover no-repeat;
+    background: url("../image/lifestyle/next_rich.jpeg") center/cover no-repeat;
     height: 340px;
     width: 55%;
     margin: 0;
@@ -51,7 +51,7 @@
   }
   & > a {
     font-size: $fontSizeSM;
-    color: $black;
+    color: $white;
     position: relative;
     margin-top: -80px;
     font-family: $nimbus;
@@ -79,7 +79,7 @@
       position: absolute;
       top: 10px;
       right: -70px;
-      background-color: $black;
+      background-color: $white;
     }
   }
 }
@@ -96,7 +96,7 @@
   }
 }
 .next_rich_info {
-  color: $black;
+  color: $white;
   font-family: $nimbusNew;
   text-transform: uppercase;
 
@@ -115,14 +115,14 @@
   }
 }
 .next_rich_title {
-  font-size: $fontSizeXl + 52px;
+  font-size: $fontSizeXl + 30px;
   color: $white;
   margin: 30px 0 60px 0;
   text-transform: uppercase;
   font-family: $nimbus;
 
   @include mq(xxl) {
-    font-size: $fontSizeXl + 42px;
+    font-size: $fontSizeXl + 20px;
   }
 
   @include mq(lg) {

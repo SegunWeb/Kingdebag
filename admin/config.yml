@@ -78,9 +78,9 @@ collections:
               - { label: "file_download", name: "value", widget: "file" }
 
 
-      - label: "Meta settings for article page"
+      - label: "Meta settings for our-thinking page"
         name: "meta"
-        file: "/_data/article/meta.json"
+        file: "/_data/our-thinking/meta.json"
         fields:
           - label: Meta Title
             name: "meta_title"
@@ -158,8 +158,8 @@ collections:
 
   # Our blog layout
   - label: "Article"
-    name: "Article"
-    folder: "/article"
+    name: "Our-thinking"
+    folder: "/our-thinking"
     create: true
     slug: "{{title}}"
     editor:

@@ -1,9 +1,9 @@
 {
-  "img": "/src/image/rich_story/next_rich.jpg",
+  "img": "/src/image/carbon/carb_next.jpeg",
   "little_text": "Megatrends",
   "big_text": "Changing Lifestyles",
-  "title": "Innovating Faster than the world is changing",
-  "btn_text": "Our Lifestyle innovations",
-  "btn_href": "/biz_strategy",
-  "next": ""
+  "title": "NEXT GENERATION SOLUTIONS FOR NEXT GENERATION INDUSTRY",
+  "btn_text": "Changing Lifestyles",
+  "btn_href": "/megatrends/changing-lifestyle",
+  "next": "/megatrends/changing-lifestyle"
 }

@@ -1,28 +1,30 @@
 {
-  "title": "Kingspan’s IMPACT ON embodied\ncarbon",
-  "talk": "See how Kingspan’s QuadCore™ can reduce upfront or embodied carbon by up to 28% versus alternative systems.",
+  "title": "KINGSPAN'S IMPACT ON OPERATIONAL CARBON",
 
   "slide": [
     {
-      "bg": "/src/image/carbon/sl_goals.png",
-      "info_big": "Kingspan insultation systems sold in 2020 will save",
-      "info_percent": "XXXm",
-      "info_small": "tonnes of carbon over their lifetime (based on a 60 year life assumption)",
-      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde"
+      "bg": "/src/image/carbon/sl_goals.jpeg",
+      "info_big": "Kingspan insulation systems sold in 2020 will save",
+      "info_percent": "164m",
+      "info_small": "tonnes of carbon over their lifetime <span> (based on a 60 year life assumption) </span>",
+      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> / Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde",
+      "talk": "The products we make enable high-performance buildings that can save more energy, carbon and water. \n"
     },
     {
-      "bg": "/src/image/carbon/sl_goals.png",
+      "bg": "/src/image/carbon/sl_goals.jpeg",
       "info_big": "",
       "info_percent": "",
-      "info_small": "The class-leading thermal performance of our insulation results in thinner, lighter solutions with significant energy and space savings. Unlike legacy insulation, it doesn’t slump or sag and so retains its performance for its lifetime    ",
-      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde"
+      "info_small": "The class-leading thermal performance of our insulation results in thinner, lighter solutions with significant energy and space savings. Unlike legacy insulation, it doesn’t slump or sag and so retains its performance for its lifetime.",
+      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> / Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde",
+      "talk": "The products we make enable high-performance buildings that can save more energy, carbon and water. \n"
     },
     {
-      "bg": "/src/image/carbon/sl_goals.png",
+      "bg": "/src/image/carbon/sl_goals.jpeg",
       "info_big": "",
       "info_percent": "",
       "info_small": "We invest to continuously improve the thermal performance of our insulation systems, with innovations such as QuadCore™ insulated panels and Kooltherm®  insulation boards. \n",
-      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde"
+      "info_desc": "<strong>Australia</strong> ECU Science Building <strong> / Insulated Panels </strong> KS 1000 Rw; Dri-Design Rainscreen Facacde",
+      "talk": "The products we make enable high-performance buildings that can save more energy, carbon and water. \n"
     }
   ]
 }

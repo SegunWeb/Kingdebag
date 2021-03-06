@@ -13,6 +13,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'BrownThin';
+  src: url("/src/fonts/Brown/Brown-Thin.ttf");
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "BrownReg";
@@ -23,6 +29,14 @@
 @font-face {
   font-family: "Inco";
   src: url("/src/fonts/Inconsolata/Inconsolata-Light.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IncoExtraBold";
+  src: url("/src/fonts/Inconsolata/Inconsolata-ExtraBold.ttf");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }

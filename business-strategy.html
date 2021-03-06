@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ business.meta.meta_title }}</title>
+
+    <meta name="title" content="{{ business.meta.meta_title }}">
+
+    <meta name="description" content="{{ business.meta.meta_desc }}">
+    <meta name="keywords" content="{{ business.meta.meta_keys }}">
+    <meta property="og:title" content="{{ business.meta.meta_title }}">
+    <meta property="og:description" content="{{ business.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ business.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ business.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+
+    <link rel="stylesheet" href="../src/css/business.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include business/main_biz_strategy.html %}
+    {% include business/presentation.html %}
+    {% include business/comm.html %}
+    {% include business/comm_2.html %}
+    {% include business/mission.html %}
+    {% include business/impact.html %}
+</main>
+{% include component/footer.html %}
+
+{% lazyScript %}
+
+{% includeScript "../src/js/business.js" %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+
+
+</body>
+</html>

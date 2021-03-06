@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ planet.meta.meta_title }}</title>
+    <meta name="title" content="{{ planet.meta.meta_title }}">
+    <meta name="description" content="{{ planet.meta.meta_desc }}">
+    <meta name="keywords" content="{{ planet.meta.meta_keys }}">
+    <meta property="og:title" content="{{ planet.meta.meta_title }}">
+    <meta property="og:description" content="{{ planet.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ planet.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ planet.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="../../../src/css/planet.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include planet/main_biz_strategy.html %}
+    {% include planet/performance.html %}
+    {% include planet/comm.html %}
+    {% include planet/slider_biz_strategy.html %}
+    {% include planet/article_detail_left_img.html %}
+    {% include planet/our_net.html %}
+    {% include planet/article_img_right.html %}
+    {% include planet/article_img_left.html %}
+    {% include planet/better.html %}
+    {% include component/back_to_top.html %}
+
+</main>
+{% include component/footer.html %}
+
+{% lazyScript %}
+{% includeScript "../../../src/js/planet.js" %}
+
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+
+
+</body>
+</html>

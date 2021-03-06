@@ -1,14 +1,9 @@
 .main_home {
   position: relative;
-  background: url("../image/homepage/bg_video.jpg") center/cover no-repeat;
+  background: url("../image/homepage_last/bg_home.jpeg") center/cover no-repeat;
   width: 100vw;
   height: 100vh;
 
-  @include mq(sm) {
-    background: url("../image/homepage/mobile/main_bg_mobile.jpg") center/cover no-repeat;
-    background-size: 100% 100%;
-    height: 100%;
-  }
 }
 .main_container {
   position: absolute;
@@ -39,10 +34,11 @@
   }
 
   @include mq(md) {
-    top: 22%;
+    top: 8%;
   }
 
   @include mq(sm) {
+    top: 2%;
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
@@ -53,6 +49,7 @@
   &__desc {
     font-size: $specSizeMD;
     font-family: $brownBold;
+    color: $white;
   }
 
   &__title {
@@ -62,20 +59,20 @@
     position: absolute;
     left: -10px;
     top: 32px;
-    width: 965px;
+    width: 1225px;
     line-height: 1.15;
     animation: fadeIn;
     animation-duration: 5s;
-
+    color: $white;
 
     @include mq(xxl) {
       font-size: $fontSizeXl + 25px;
-      width: 735px;
+      width: 985px;
       line-height: 1.15;
     }
     @include mq(lg) {
       font-size: $fontSizeXl + 5px;
-      width: 540px;
+      width: 735px;
     }
     @include mq(md) {
       font-size: $fontSizeXl - 15px;
@@ -85,43 +82,51 @@
     @include mq(sm) {
       position: relative;
       top: 10px;
+      font-size: $fontSizeXl - 32px;
     }
     @include mq(xs) {
-      font-size: $fontSizeXl - 28px;
+      font-size: $fontSizeXl - 36px;
       max-width: 330px;
       margin: 30px 0;
       top: 0;
     }
     @include mq(xxs){
-      font-size: $fontSizeXl - 35px;
+      font-size: $fontSizeXl - 42px;
     }
 
   }
   &__info {
     max-width: 220px;
     position: relative;
-    border-bottom: 1px solid $green;
+    border-bottom: 1px solid $white;
     padding-bottom: 5px;
     font-family: $inco;
+    color: $white;
 
 
     @include mq(md) {
       width: 195px;
     }
+    @include mq(sm) {
+      position: absolute;
+      right: 0;
+      bottom: -35%;
+    }
     @include mq(xs) {
       margin: 0;
       margin-left: auto;
       padding-bottom: 20px;
+      bottom: -35%;
     }
   }
 }
 .main_button_box {
   position: absolute;
-  bottom: 14%;
+  bottom: 4%;
   right: 0px;
 
   @include mq(xxl) {
-    bottom: 19%;
+    bottom: 5%;
   }
 
   @include mq(md) {
@@ -133,43 +138,7 @@
   }
 }
 
-// video
-#video-bg {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: 1;
-  background-size: cover;
 
-  @include mq(lg) {
-    display: none;
-  }
-}
-
-#video-bg > video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-}
-
-@supports (object-fit: cover) {
-  #video-bg > video {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
 
 @-webkit-keyframes fadeIn {
   from {

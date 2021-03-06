@@ -24,7 +24,7 @@
   }
 
   @include mq(sm) {
-    background: url("../image/lifestyle/goals.png")  center/cover no-repeat;
+    background: url("../image/lifestyle/goals.jpeg")  center/cover no-repeat;
   }
   @include mq(xs) {
       width: 85%;
@@ -122,7 +122,7 @@
   font-family: $brownLight;
 
   @include mq(xs) {
-    color: $black;
+    color: $blue;
     width: 100%;
     max-width: initial;
     margin: 0 auto 20px auto;

@@ -7,23 +7,28 @@
     font-size: $fontSizeSM - 4px;
   }
 
-  & > a {
+  & > * {
     margin-right: 20px;
     color: $blue;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .7;
+    }
   }
 
-  & > a:first-child {
+  & > *:first-child {
     position: relative;
 
     &:before {
       content: "/";
       position: absolute;
       right: -15px;
-      color: $yellow;
+      color: $green;
     }
   }
 
-  & > a:last-child {
+  & > *:last-child {
     font-weight: bold;
   }
 }

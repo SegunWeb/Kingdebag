@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     {% include Head.html %}
 
-    <title>{{  homepage.meta.meta_title }}</title>
-    <meta name="description" content="{{homepage.meta.meta_desc }}">
+    <title>{{ homepage.meta.meta_title }}</title>
+    <meta name="title" content="{{ homepage.meta.meta_title }}">
+    <meta name="description" content="{{ homepage.meta.meta_desc }}">
+    <meta name="keywords" content="{{ homepage.meta.meta_keys }}">
+    <meta property="og:title" content="{{ homepage.meta.meta_title }}">
+    <meta property="og:description" content="{{ homepage.meta.meta_desc }}">
 
-    <link rel="stylesheet" href="src/css/homepage_alt.css"/>
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ homepage.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ homepage.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="src/css/homepage.css"/>
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
-{% include component/header.html %}
+{% include component/header_xw.html %}
 <main>
-    {% include homepage_alt/main.html %}
-    {% include homepage_alt/mission.html %}
-    {% include homepage_alt/impact.html %}
-    {% include homepage_alt/our_goals.html %}
-    {% include homepage_alt/presentation.html %}
-    {% include homepage_alt/financial.html %}
-    {% include homepage_alt/business.html %}
+    {% include homepage_last/main.html %}
+    {% include homepage_last/impact.html %}
+    {% include homepage_last/comm.html %}
+    {% include homepage_last/mission.html %}
+    {% include homepage_last/presentation.html %}
+    {% include homepage_last/financial.html %}
+    {% include homepage_last/business.html %}
 </main>
 {% include component/footer.html %}
 
 
 {% lazyScript %}
+
 {% includeScript "./src/js/homepage.js" %}
 
-
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
 <script>
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -39,7 +51,6 @@
         });
     }
 </script>
-
 
 </body>
 </html>

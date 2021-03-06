@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ chairmans-statement.meta.meta_title }}</title>
+
+
+    <meta name="title" content="{{ chairmans-statement.meta.meta_title }}">
+    <meta name="description" content="{{ chairmans-statement.meta.meta_desc }}">
+    <meta name="keywords" content="{{ chairmans-statement.meta.meta_keys }}">
+    <meta property="og:title" content="{{ chairmans-statement.meta.meta_title }}">
+    <meta property="og:description" content="{{ chairmans-statement.meta.meta_desc }}">
+
+    <meta name="twitter:image"
+          content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ chairmans-statement.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ chairmans-statement.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
+
+    <link rel="stylesheet" href="../../src/css/chairmans-statement.css"/>
+</head>
+<body>
+
+{% include component/header_xw.html %}
+<main>
+    {% include chairmans-statement/main_basic.html %}
+    {% include chairmans-statement/basic_text_chair.html %}
+    {% include chairmans-statement/basic_testimonials.html %}
+    {% include chairmans-statement/basic_text.html %}
+    {% include chairmans-statement/basic_better.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+
+{% includeScript "../../src/js/chairmans-statement.js" %}
+
+
+</body>
+</html>

@@ -1,11 +1,11 @@
 .biz_strategy_main {
-  background: url("../image/planet/group_optimized.png") center/cover no-repeat;
+  background: url("../image/planet/group.jpeg") center/cover no-repeat;
   width: 100vw;
   height: 100vh;
   position: relative;
 
   @include mq(xs) {
-    background: url("../image/planet/group_optimized.png") center/cover no-repeat;
+    background: url("../image/planet/group.jpeg") center/cover no-repeat;
   }
 }
 

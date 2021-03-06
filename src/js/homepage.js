@@ -24,10 +24,14 @@ $(document).ready(function () {
     });
 
     $('.button_play').click(function () {
-        $('.active_video').show(300)
+
+        const popupIframe = $('.active_video').find("iframe")[0];
+        $('.active_video').show(200)
+        popupIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+
     });
     $('.close_video').click(function () {
-        $('.active_video').hide(300);
+        $('.active_video').hide(100);
     });
     $(document).on('click', '.close_video', function(){
         jQuery("iframe").each(function() {
@@ -44,6 +48,17 @@ $(document).ready(function () {
             $('#in_2019').hide(300);
             $('#in_2020').show(300);
         }
+    });
+
+
+    $(window).scroll(function() {
+        $('video').each(function() {
+            if ($(this).visible(true)) {
+                $(this)[0].play();
+            } else {
+                $(this)[0].pause();
+            }
+        })
     });
 
 });

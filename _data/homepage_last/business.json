@@ -1,0 +1,36 @@
+{
+  "strong": "2020 IN A NUTSHELL",
+  "title": "Business Model & Strategy",
+  "desc": "Our business model and our strategic pillars enable the ongoing conversion to ultra-efficient building envelopes from outdated, inefficient methods of construction.",
+  "btn_text": "VIEW BUSINESS & STRATEGY",
+  "btn_href": "/business-strategy/",
+  "graph_desc": "l",
+  "btn_skip": "",
+
+  "data_slide": [
+    {
+      "img": "/src/image/homepage_last/grp1.jpeg"
+    },
+    {
+      "img": "/src/image/homepage_last/grp2.jpeg"
+    },
+    {
+      "img": "/src/image/homepage_last/grp3.jpeg"
+    }
+  ],
+
+  "graph_menu": [
+    {
+      "name": "Products",
+      "data_num": "1"
+    },
+    {
+      "name": "Geography",
+      "data_num": "2"
+    },
+    {
+      "name": "End Market",
+      "data_num": "3"
+    }
+  ]
+}

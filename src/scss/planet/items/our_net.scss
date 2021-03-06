@@ -1,4 +1,4 @@
-.our {
+.our_glob {
   position: relative;
   margin: 160px auto;
 
@@ -10,63 +10,32 @@
   }
 }
 
-.our_wrap {
-  position: relative;
+.our_glob_box {
+  max-width: 680px;
+  margin: 0 auto 120px auto;
 
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -40px;
-    width: 46%;
-    height: 100%;
-    background-color: $backgroundGreenLight;
-    z-index: 8;
-    padding: 40px 0;
-
-    @include mq(xxxl) {
-      width: 36%;
-    }
-
-    @include mq(lg) {
-      width: 55%;
-    }
-    @include mq(md) {
-      width: 75%;
-    }
-    @include mq(sm) {
-      width: 80%;
-    }
-  }
-}
-.our_text {
-  max-width: 960px;
-}
-.our_text_title {
-  font-size: $fontSizeXl;
-  text-transform: uppercase;
-  font-family: $nimbus;
-  position: relative;
-  z-index: 9;
-
-  @include mq(xxl) {
-    font-size: $fontSizeXl - 20px;
-  }
-  @include mq(lg) {
-    font-size: $fontSizeXl - 30px;
+  @include mq(lg){
+    margin-bottom: 80px;
   }
   @include mq(sm) {
-    font-size: $fontSizeXl - 35px;
-  }
-  @include mq(xs) {
-    font-size: $fontSizeXl - 52px;
-  }
-  @include mq(xxs){
-    font-size: $fontSizeXl - 55px;
+    margin-bottom: 40px;
   }
 }
-.our_img_box {
-  margin-top: 27px;
+
+.our_glob_title {
+  font-size: $fontSizeMD + 4px;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+.our_glob_text {
+  font-family: $brownLight;
+  color: $blue;
+  line-height: 1.3;
+}
+.our_glob_img_box {
   position: relative;
-  z-index: 10;
+  max-width: 1392px;
+  margin: 0 auto;
+
 }

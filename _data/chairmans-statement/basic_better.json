@@ -1,0 +1,31 @@
+{
+  "title": "Building Better",
+
+  "items": [
+
+    {
+      "name": "Strategic Pillar",
+      "img": "/src/image/chairmans-statement/lion.jpeg",
+      "titles": "Planet Passionate",
+      "desc": "Launched in December 2019, Planet Passionate is our ambitious 10-year global sustainability programme where we have set ourselves hard targets to progress our positive impact on three global issues: climate change, circularity and the protection of our natural world.",
+      "link_text": "Read More",
+      "link_href": "/business-strategy/pillar/planet-passionate"
+    },
+    {
+      "name": "Strategic Pillar",
+      "img": "/src/image/chairmans-statement/bet1.jpeg",
+      "titles": "Global",
+      "desc": "Kingspan continues to expand globally bringing ultra-performance building envelope solutions to markets which are at an earlier stage in their evolution to sustainable and efficient methods of construction. ",
+      "link_text": "Read More",
+      "link_href": "/business-strategy/pillar/global"
+    },
+    {
+      "name": "Strategic Pillar",
+      "img": "/src/image/chairmans-statement/bet2.jpeg",
+      "titles": "Completing the Envelope",
+      "desc": "In 2016, Kingspan outlined its ambition to “Complete the Envelope”. This strategy identified key product categories which complemented our building envelope solutions through improving energy efficiency and harnessing the power of nature. The product categories identified at that time were natural daylighting and natural ventilation; industrial and technical insulation; and roofing membrane.",
+      "link_text": "Read More",
+      "link_href": "/business-strategy/pillar/completing-the-envelope"
+    }
+  ]
+}

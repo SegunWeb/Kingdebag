@@ -1,29 +1,29 @@
 {
-  "title": "KINGSPAN BREAKING DOWN  RENOVATION BARRIERS\n",
+  "title": "KINGSPAN <br> BREAKING DOWN <br> BARRIERS TO <br> RENOVATION",
   "title_text": "Our Impact",
   "text_link": "read more",
 
-  "img_one":  "/src/image/renovation/picture-1.png",
-  "one_text": "<strong>Hameln, Germany</strong>\nKingspan’s QuadCore™ KS 1000 RW\n\n",
+  "img_one":  "/src/image/renovation/picture-1.jpeg",
+  "one_text": "<strong>Hameln, Germany</strong><br>Kingspan’s QuadCore™ <br>KS 1000 RW\n\n",
 
-  "img_two":  "/src/image/renovation/picture-2.png",
-  "two_text": "<strong>Ireland, Irish Rail</strong>\nKingspan’s QuadCore™ \nKS 1000 RW and daylighting panels\n",
+  "img_two":  "/src/image/renovation/picture-2.jpeg",
+  "two_text": "<strong>Ireland, Irish Rail</strong><br>Kingspan’s QuadCore™ <br>KS 1000 RW and daylighting panels\n",
 
-  "img_three":  "/src/image/renovation/picture-3.png",
+  "img_three":  "/src/image/renovation/picture-3.jpeg",
   "three_text": "<strong>Denmark, Ryesgade 25</strong> Kingspan’s Kooltherm K17 and K12 and Therma TR26 and TT46",
 
   "title_desc_one": "Saving cost in transport and installation\n",
-  "desc_one": "\"The narrow measurement of the prefabricated QuadCore® sandwich panels allow costs to be saved in both transport and installation. This is an important part of the NetZero modernization” \nRonald Meyer, Technical Consultant, ecoworks\n",
+  "desc_one": "\"The narrow measurement of the prefabricated QuadCore™ sandwich panels allow costs to be saved in both transport and installation. This is an important part of the NetZero modernisation” \nRonald Meyer, Technical Consultant, ecoworks\n",
   "link_one": "/",
 
-  "title_desc_two": "Enabling minimum disruption\n",
-  "desc_two": "“It is vital that we use a re-roofing system that offers a fast and predictable build programme to make the building weathertight as quickly as possible and ensure minimal disruption for our clients. Our partnership with Kingspan enables us to optimise our re-roofing service to offer on energy efficient and cost-effective solutions for our clients.”\nPJ Mooney, Group Contracts Director, Gravity Construction\n",
+
+  "title_desc_two": "Preserving space and detail\n",
+  "desc_two": "\"As it was also the one that insulated best, we chose to use Kingspan again when we were going to start with Ryesgade 25, where Kingspan is used both for internal insulation in the existing homes and to minimise the thickness of the construction around.” <br>Leif Røndby, Röndby.dk\n",
   "link_two": "/",
 
-  "title_desc_three": "Preserving space and detail\n",
-  "desc_three": "\"As it was also the one that insulated best, we chose to use Kingspan again when we were going to start with Ryesgade 25, where Kingspan is used both for internal insulation in the existing homes and to minimize the thickness of the construction around.” \nLeif Røndby\u000BRöndby.dk\n",
+  "title_desc_three": "Enabling minimum disruption\n",
+  "desc_three": "“It is vital that we use a re-roofing system that offers a fast and predictable build programme to make the building weathertight as quickly as possible and ensure minimal disruption for our clients. Our partnership with Kingspan enables us to optimise our re-roofing service to offer on energy efficient and cost-effective solutions for our clients.” <br> PJ Mooney, Group Contracts Director, Gravity Construction\n",
   "link_three": "/",
-
 
 
   "close": "/src/image/icons/close_w.svg",
@@ -33,42 +33,42 @@
     {
 
       "slider_title": "Saving cost in transport and installation\n",
-      "background": "/src/image/renovation/slide/sl1_bg.png",
+      "background": "/src/image/renovation/slide/sl1_bg.jpeg",
 
       "id": "one",
       "slide_title": "Germany, Hameln\n",
       "slide_desc": "",
-      "slide_text_t": "The German Energy Agency supervises the ‘Energiesprong’ initiative in Germany with the objective of reaching climate targets. Renovating the building stock is a key element of this objective. However deep energy renovations can be expensive and disruptive. <br><br>The Dutch initiative ‘Energiespong’ developed a new principle, to attach pre-cast facades and roof elements to existing homes, this helps to  renovate homes quickly and cost-effectively while allowing the occupants to remain in situ. \n\n",
+      "slide_text_t": "The German Energy Agency supervises the ‘Energiesprong’ initiative in Germany with the objective of reaching climate targets. Renovating the building stock is a key element of this objective. However deep energy renovations can be expensive and disruptive. <br><br>The Dutch initiative ‘Energiesprong’ developed a new principle, to attach pre-cast facades and roof elements to existing homes, this helps to  renovate homes quickly and cost-effectively while allowing the occupants to remain in situ. \n\n",
 
-      "slide_img_one": "/src/image/renovation/slide/sl1_1.png",
-      "slide_img_two": "/src/image/renovation/slide/sl1_2.png",
+      "slide_img_one": "/src/image/renovation/slide/sl1_1.jpeg",
+      "slide_img_two": "/src/image/renovation/slide/sl1_2.jpeg",
       "slide_img_text_two": "Kingspan’s QuadCore™ roof panel was the ideal solution for an efficient and cost effective renovation with long-term results. \n\n"
     },
     {
       "slider_title": "Enabling minimum disruption\n",
-      "background": "/src/image/renovation/slide/sl2_bg.png",
+      "background": "/src/image/renovation/slide/sl2_bg.jpeg",
 
-      "id": "two",
+      "id": "three",
       "slide_title": "Ireland, Irish Rail\n",
       "slide_desc": "",
-      "slide_text_t": "Built in the 1970s, Irish Rail’s training centre at Thurles train station is a hive of activity. Therefore, when it came to replacing its 1000m2 twin-skin asbestos roof, it was vital that the project was completed quickly and safely. <br><br>Kingspan’s technical team worked with Gravity Construction to specify an insulated panel roof system solution. The lightweight panels achieved a faster on-site build time than would have been possible with heavier built-up systems enabling the building to quickly be made weatherproof. \n",
+      "slide_text_t": "The Running Shed at Irish Rail’s HQ is a hive of activity, located directly beside the main Dublin to Cork rail line. Therefore, when it came to replacing its 10,000㎡ asbestos roof and 2,000㎡ of side sheeting, it was vital that the project was completed as quickly and safely as possible to minimise disruption to Irish Rail’s operations.\nKingspan’s technical team worked closely with Gravity Construction to specify a new purlin and insulated panel roof system solution. The lightweight panels enabled a faster on-site build time versus heavier built-up systems, facilitating rapid weatherproofing and a swift project completion.",
 
-      "slide_img_one": "/src/image/renovation/slide/sl2_1.png",
-      "slide_img_two": "/src/image/renovation/slide/sl2_2.png",
+      "slide_img_one": "/src/image/renovation/slide/sl2_1.jpeg",
+      "slide_img_two": "/src/image/renovation/slide/sl2_2.jpeg",
       "slide_img_text_two": "Kingspan’s daylighting panels improved the energy performance and offer excellent natural light levels. \n"
     },
     {
 
       "slider_title": "Preserving space and detail\n",
-      "background": "/src/image/renovation/slide/sl3_bg.png",
+      "background": "/src/image/renovation/slide/sl3_bg.jpeg",
 
-      "id": "three",
+      "id": "two",
       "slide_title": "Denmark, Ryesgade 25\n",
       "slide_desc": "",
-      "slide_text_t": "<strong>Why did you choose Kingspan Kooltherm?\n</strong> <br>Ryesgade 25 is a typical Copenhagen property and an example of how a renovation, with great respect for conservation values, can be combined both with the addition of new qualities and with energy and indoor climate optimization. The thickness of the insulation played a role. By choosing Kingspan insulation, you can build thinner wall and roof constructions, which ultimately provide more square meters.",
+      "slide_text_t": "<strong>Why did you choose Kingspan Kooltherm?\n</strong> <br>Ryesgade 25 is a typical Copenhagen property and an example of how a renovation, with great respect for conservation values, can be combined both with the addition of new qualities and with energy and indoor climate optimisation. The thickness of the insulation played a role. By choosing Kingspan insulation, you can build thinner wall and roof constructions, which ultimately provide more square metres.",
 
-      "slide_img_one": "/src/image/renovation/slide/sl3_1.png",
-      "slide_img_two": "/src/image/renovation/slide/sl3_2.png",
+      "slide_img_one": "/src/image/renovation/slide/sl3_1.jpeg",
+      "slide_img_two": "/src/image/renovation/slide/sl3_2.jpeg",
       "slide_img_text_two": "Kingspan has provided complete insulation for this project. The insulation on the new roof (K12), post-insulation of the existing walls (K17) and insulation for the newly created roof terraces (Therma TR26 and TT46). "
     }
   ]

@@ -1,7 +1,7 @@
 .slider_rich {
   padding: 120px 0;
   position: relative;
-  background: url("../image/lifestyle/slider_bg.png") center/cover no-repeat;
+  background: url("../image/lifestyle/slider_bg.jpeg") center/cover no-repeat;
   z-index: 2;
 
   @include mq(lg) {
@@ -58,6 +58,16 @@
     & > div:first-child {
       & > p {
         display: flex;
+      }
+    }
+  }
+
+  &[data-id="one"]:hover {
+    border: initial;
+
+    & > div:first-child {
+      & > p {
+        display: none;
       }
     }
   }
@@ -200,12 +210,30 @@
     top: 0;
   }
 }
+.slider_item_info_static_2 {
+  position: relative;
+  top: 150px;
+
+  @include mq(sm) {
+    top: 0;
+  }
+}
 .slider_inf_static_desc {
   width: 360px;
   color: $white;
 
   @include mq(xs) {
     width: 290px;
+  }
+}
+.static_desc_subtitle {
+  font-size: $fontSizeXl - 40px;
+
+  @include mq(md) {
+    font-size: $fontSizeXl - 45px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXl - 52px;
   }
 }
 .static_desc_title {
@@ -239,7 +267,7 @@
   max-width: 715px;
 
   @include mq(xxl) {
-    max-width: 700px;
+    max-width: 600px;
   }
   @include mq(lg) {
     max-width: 590px;
@@ -303,4 +331,13 @@
   cursor: pointer;
   text-transform: uppercase;
   font-family: $nimbusNew;
+}
+.slick-list {
+  overflow: initial;
+}
+
+div[data-id="one"] {
+  &:hover {
+    border: initial;
+  }
 }

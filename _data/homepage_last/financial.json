@@ -1,0 +1,65 @@
+{
+  "title": "Financial Summary",
+  "revenue": "REVENUE",
+  "btn_text": "VIEW FINANCIAL Review",
+  "btn_href": "/financial-review/",
+  "text_one": "<strong>1.</strong> Earnings before finance costs, income taxes, depreciation, amortisation and the impact of IFRS 16",
+  "text_two": "<strong> 2 </strong> Operating profit before amortisation of intangibles",
+  "text_three": "<strong>3 </strong> Trading profit divided by total revenue",
+  "graph": "/src/image/homepage_last/video/graph25years_final.mp4",
+  "graph_img": "/src/image/homepage_last/graph25years.png",
+
+  "graph_two": "/src/image/homepage_last/video/graph10years_final.mp4",
+  "graph_img_two": "/src/image/homepage_last/graph10years.png",
+
+  "btn_load": "DOWNLOAD FINANCIAL SUMMARY",
+  "btn_load_href": "#",
+  "load_icon": "/src/image/icons/download_blue.svg",
+  "switch_title": "REVENUE",
+
+  "info_data": [
+    {
+      "info": "REVENUE",
+      "up": "€4.6bn",
+      "percent": "-2%",
+      "data": "2019: €4.7bn",
+      "img": "/src/image/icons/path_up.svg"
+    },
+    {
+      "info": "EBITDA ¹",
+      "up": "€596.5m",
+      "percent": "+3%",
+      "data": "2019: €579.8m",
+      "img": "/src/image/icons/path_up.svg"
+    },
+    {
+      "info": "TRADING PROFIT ²",
+      "up": "€508.2m",
+      "percent": "+2%",
+      "data": "2019: €497.1m",
+      "img": "/src/image/icons/path_up.svg"
+    },
+    {
+      "info": "TRADING MARGIN",
+      "up": "11.1%",
+      "percent": "+40bps",
+      "data": "2019: 10.7%",
+      "img": "/src/image/icons/path_up.svg"
+    },
+    {
+      "info": "PROFIT AFTER TAX",
+      "up": "€384.8m",
+      "percent": "+2%",
+      "data": "2019: €377.8m",
+      "img": "/src/image/icons/path_up.svg"
+    },
+    {
+      "info": "EPS",
+      "up": "206.2c",
+      "percent": "+1%",
+      "data": "2019: 204.6c",
+      "img": "/src/image/icons/path_up.svg"
+    }
+
+  ]
+}

@@ -1,0 +1,68 @@
+.basic_main {
+  background: url("../image/chairmans-statement/chairmans_statement_bg.jpeg") center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.basic_main_wrap {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  width: 92%;
+  display: flex;
+
+  @include mq(xxl) {
+    left: 12%;
+  }
+  @include mq(md) {
+    left: 0;
+  }
+  @include mq(sm) {
+    width: 100%;
+  }
+}
+.basic_main_content_box {
+  width: 515px;
+}
+.basic_main_title {
+  font-size: $fontSizeXl;
+  color: $white;
+  margin: 30px 0 16px 0;
+  font-weight: bold;
+  line-height: 1.1;
+
+  @include mq(sm) {
+    font-size: $fontSizeXl - 15px;
+    width: 465px;
+  }
+  @include mq(xs){
+    font-size: $fontSizeXl - 40px;
+    width: 290px;
+  }
+}
+.basic_main_desc {
+  font-size: $fontSizeMD - 2px;
+  line-height: 1.2;
+  color: $white;
+  margin: 20px 0 40px 0;
+
+  @include mq(xs){
+    font-size: $fontSizeSM;
+  }
+}
+
+.basic_main_button_box {
+  & > a {
+    width: 382px;
+
+    @include mq(sm) {
+      margin: 0;
+    }
+    @include mq(xs) {
+      max-width: 350px;
+      width: 100%;
+    }
+  }
+}

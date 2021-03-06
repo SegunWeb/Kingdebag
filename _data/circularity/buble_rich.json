@@ -1,0 +1,29 @@
+ {
+  "title": "Converting the construction industry to a more circular model will lead to considerable environmental benefits for the future \n \n",
+
+
+  "bubles": [
+    {
+      "perc": "25% - 30%",
+      "text": "EU Waste",
+      "id": "b-two"
+    },
+    {
+      "perc": "11%",
+      "text": "Carbon Emissions",
+      "id": "b-four"
+    },
+    {
+      "perc": "42.4 billion",
+      "text": "Tons of Materials",
+      "id": "b-five"
+    }
+  ],
+
+  "buble_desc": [
+    {"desc": "<strong> Waste: </strong> <br>\nConstruction and demolition waste currently account for approximately 25% - 30% of all waste generated in the EU. \n\n ", "id_desc": "d_two"},
+    {"desc": "<strong> Make: </strong>  <br>\n 11% of all energy-related carbon emissions arise from the energy used to produce building and construction materials \n\n\n", "id_desc": "d_four"},
+    {"desc": "<strong> Take: </strong> <br>\nThe construction industry consumes 42.4bn tonnes of materials each year\n ", "id_desc": "d_five"}
+  ]
+
+}

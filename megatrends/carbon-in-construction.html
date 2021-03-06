@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include Head.html %}
+
+    <title>{{ carbon.meta.meta_title }}</title>
+    <meta name="title" content="{{ carbon.meta.meta_title }}">
+    <meta name="description" content="{{ carbon.meta.meta_desc }}">
+    <meta name="keywords" content="{{ carbon.meta.meta_keys }}">
+    <meta property="og:title" content="{{ carbon.meta.meta_title }}">
+    <meta property="og:description" content="{{ carbon.meta.meta_desc }}">
+
+    <meta name="twitter:image" content="https://ks-kentico-prod-cdn-endpoint.azureedge.net/netxstoreviews/webHeroSuperLarge/128527.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ carbon.meta.meta_title }}">
+    <meta name="twitter:description" content="{{ carbon.meta.meta_desc }}">
+    <meta name="twitter:url" content="https://www.annual-report.kingspan.com" />
+
+    <link rel="stylesheet" href="../../src/css/carbon.css"/>
+</head>
+<body>
+
+{% include component/header_w.html %}
+<main>
+    {% include carbon/main_rich.html %}
+    {% include carbon/performance.html %}
+    {% include carbon/testimonials.html %}
+    {% include carbon/space_carbon.html %}
+    {% include carbon/basic_article_left.html %}
+    {% include carbon/goals_rich.html %}
+    {% include carbon/basic_article_right.html %}
+    {% include carbon/space_rich.html %}
+    {% include carbon/next_rich.html %}
+    {% include carbon/better_rich.html %}
+</main>
+{% include component/footer.html %}
+
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+{% lazyScript %}
+
+{% includeScript "../../src/js/carbon.js" %}
+
+
+</body>
+</html>
