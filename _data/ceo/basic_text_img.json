@@ -1,6 +1,6 @@
 {
   "desc_2": "Financial Highlights",
-  "img": "/src/image/ceo/img_1.webp",
+  "img": "/src/image/ceo/img_1.png",
   "img_2":"/src/image/ceo/stats.jpeg",
 
 
@@ -42,7 +42,7 @@
     {
       "title": "Insulation Board",
       "desc": "During the second half of the year the division delivered a strong performance across most of the markets in which it operates. Volumes were in line with the second half of 2019, a recovery from the sharp decreases seen in the first half. Western Europe posted a record year with revenue well ahead in the Benelux and Germany, whilst in Southern Europe the outcome was still below prior year despite a marked recovery in the second half. Spain suffered a particularly deep downturn during the earlier part of the year. <br><br>North America and Australasia both performed ahead of 2019 and in the Middle East the business performed well in the circumstances, albeit below prior year.<br><br>Ireland and the UK were both severely impacted during the first half but delivered strong recoveries through the second half. The Grenfell Inquiry commenced in May 2018. The report on Module One of the Inquiry was completed in October 2019, a central conclusion of which was that the PE-Cored ACM cladding was the principal reason for the fire spread on the tower itself. 0% of the ACM was Kingspan product, and just 5% of the insulation material on the building was inadvertently Kingspan product, supplied via a distributor, without our knowledge or advice.<br><br>Module Two of the Inquiry commenced in the first half of 2020, this phase of the Inquiry attracted considerable commentary in relation to testimony of former and current Kingspan employees. A number of totally unacceptable process shortcomings in our UK Insulation Boards business were highlighted by us and submitted to the Inquiry. In addition, some employee communications displayed a culture which is not reflective of the greater ethos of the group and were completely unacceptable. We acknowledge that these issues, although limited to a small part of our overall business should not have occurred.<br><br>We are resolute in our efforts to address these issues and are actively engaged for some time implementing concrete actions throughout the Group that will ensure that this cannot happen again. This is set out in detail in our statement of 19 February 2021 which is available on our micro-site <a href=\"https://inquiry.kingspan.com\">https://inquiry.kingspan.com</a>.",
-      "img": "/src/image/ceo/turnover.webp"
+      "img": "/src/image/ceo/turnover.png"
     },
     {
       "title": "Light & Air",
@@ -52,12 +52,12 @@
     {
       "title": "Water & Energy",
       "desc": " This business unit delivered a strong operating performance in 2020 despite the challenging revenue performance, owing largely to tight margin management across the units.\\nThe energy storage business had a steady year and the water unit delivered a result well ahead of prior year, particularly in the UK. In Australia, where rainwater harvesting still dominates the offering, the business performed well in both residential and the rural and commercial end markets.",
-      "img": "/src/image/ceo/turnover2.webp"
+      "img": "/src/image/ceo/turnover2.png"
     },
     {
       "title": "Data & Flooring",
       "desc": "Last year proved to be a positive year for this business, primarily driven by its growing exposure to the datacenter market, predominantly in North America and Europe.<br><br>Clients in this particular segment demand flexibility in how their buildings are configured and the combination of our access floors, structural ceiling grids and airflow management systems provide an integrated solution to the world’s largest data management companies.<br><br>In contrast, the office segment was less buoyant and we would anticipate this remaining the case for the foreseeable future.",
-      "img": "/src/image/ceo/turnover3.webp"
+      "img": "/src/image/ceo/turnover3.png"
     }
   ]
 

@@ -5,11 +5,11 @@
   "btn_href": "/biz_strategy",
   "text_one": "<strong>1</strong> Earnings before finance costs, income taxes, depreciation, 2018: 184.0c amortisation and the impact of IFRS 16",
   "text_two": "<strong>2</strong> Operating profit before amortisation of intangibles",
-  "graph": "/src/image/finance/graph.webp",
-  "graph_mob": "/src/image/finance/graph_mobile.webp",
+  "graph": "/src/image/finance/graph.png",
+  "graph_mob": "/src/image/finance/graph_mobile.png",
 
-  "graph_two": "/src/image/homepage_alt/graph1.webp",
-  "graph_mob_two": "/src/image/homepage_alt/mobile/graph_mobile1.webp",
+  "graph_two": "/src/image/homepage_alt/graph1.png",
+  "graph_mob_two": "/src/image/homepage_alt/mobile/graph_mobile1.png",
 
   "btn_load": "DOWNLOAD FINANCIAL SUMMARY",
   "btn_load_href": "#",

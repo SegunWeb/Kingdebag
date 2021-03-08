@@ -9,14 +9,14 @@
 
   "card": [
     {
-      "info_img": "/src/image/icons/animation_globeplane_v2.mp4",
+      "info_img": "/src/image/icons/animation_globeplane_v2.gif",
       "info_title": "164m TONNES",
       "info_desc": "164 million tonnes of\nCO2e will be saved over the life of our insulation systems sold in 2020",
       "info_title_two": "15 years",
       "info_desc_two": "Enough to power\na major airline\nfor 15 years"
     },
     {
-      "info_img": "/src/image/icons/animation_bathcloud_v2.mp4",
+      "info_img": "/src/image/icons/animation_bathcloud_v2.gif",
       "info_title": "34bn LITRES",
 
       "info_desc": "Over 34 billion litres of rainwater will be harvested by our tanks produced in 2020",
@@ -24,14 +24,14 @@
       "info_desc_two": "Enough water to fill over 400 million baths"
     },
     {
-      "info_img": "/src/image/icons/animation_pitchbottles_v2.mp4",
+      "info_img": "/src/image/icons/animation_pitchbottles_v2.gif",
       "info_title": "573<span>m<span>",
       "info_desc": "In 2020 alone we upcycled 573 million waste plastic bottles",
       "info_title_two": "800 PITCHES",
       "info_desc_two": "Enough recycled bottles to fill over \n800 football pitches"
     },
     {
-      "info_img": "/src/image/icons/animation_housesun_v2.mp4",
+      "info_img": "/src/image/icons/animation_housesun_v2.gif",
       "info_title": "9bn lumens",
 
       "info_desc": "The capacity to create 9 billion lumens of natural light annually \nthrough our daylighting systems",

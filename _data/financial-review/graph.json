@@ -1,13 +1,13 @@
 {
   "title": "Income statement",
-  "img": "/src/image/financial-review/text.webp",
+  "img": "/src/image/financial-review/text.png",
 
   "title2": "Statement of cash flows",
-  "img2": "/src/image/financial-review/text2.webp",
+  "img2": "/src/image/financial-review/text2.png",
 
   "title3": "Balance sheet",
-  "img3": "/src/image/financial-review/list.webp",
+  "img3": "/src/image/financial-review/list.png",
 
   "title4": "Progress so far",
-  "img4": "/src/image/financial-review/grph_last.webp"
+  "img4": "/src/image/financial-review/grph_last.png"
 }
