@@ -28,11 +28,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  // eleventyConfig.addPlugin(pluginInlineCss, {
-  //   input: "_site/src",
-  //   selector: 'link[rel="stylesheet"][data-inline]',
-  //   cleanCss: false,
-  // });
+  eleventyConfig.addPlugin(pluginInlineCss, {
+      input: "_site/src",
+      selector: 'link[rel="stylesheet"][data-inline]',
+      cleanCss: false,
+    });
 
   eleventyConfig.addShortcode("myImage", async function (src, alt) {
     if (!alt) {

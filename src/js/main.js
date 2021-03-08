@@ -300,3 +300,5 @@ var config = {
 };
 CookieControl.load(config);
 
+let copy = new Date();
+$('.copy').text(copy.getFullYear());

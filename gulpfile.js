@@ -357,4 +357,4 @@ gulp.task("watch", function () {
 /*
   Let's build this sucker.
 */
-gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "exportWebP",  "icons", "buildSW", "config", "manifest", "robots", "sitemap", "assets"));
+gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "exportWebP",  "icons",  "config", "manifest", "robots", "sitemap", "assets"));
