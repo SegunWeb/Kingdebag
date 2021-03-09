@@ -198,9 +198,6 @@ let pages = [
       "./src/libs/jquery/jquery.min.js",
     ],
   },
-
-
-
 ];
 
 // let scssHeads = pages.map(({ name }) => `./src/scss/${name}/${name}-head.scss`);

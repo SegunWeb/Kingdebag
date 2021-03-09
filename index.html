@@ -17,7 +17,11 @@
     <meta name="twitter:description" content="{{ homepage.meta.meta_desc }}">
     <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
 
-    <link rel="stylesheet" href="src/css/homepage.css"/>
+    <link rel="preload" href="./src/js/homepage.js" as="script" />
+
+
+    <link rel="stylesheet" href="/src/css/homepage.css" media="print" onload="this.media='all'"/>
+
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>

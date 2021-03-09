@@ -17,7 +17,9 @@
     <meta name="twitter:description" content="{{ financial-review.meta.meta_desc }}">
     <meta name="twitter:url" content="https://www.annual-report.kingspan.com" />
 
-    <link rel="stylesheet" href="../src/css/financial-review.css"/>
+    <link rel="preload" href="../src/js/financial-review.js" as="script" />
+
+    <link rel="stylesheet" href="../src/css/financial-review.css" media="print" onload="this.media='all'"/>
 </head>
 <body>
 

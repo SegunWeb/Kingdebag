@@ -17,7 +17,9 @@
     <meta name="twitter:description" content="{{ planet.meta.meta_desc }}">
     <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
 
-    <link rel="stylesheet" href="../../../src/css/planet.css"/>
+    <link rel="preload" href="../../../src/js/planet.js" as="script" />
+
+    <link rel="stylesheet" href="../../../src/css/planet.css" media="print" onload="this.media='all'"/>
 </head>
 <body>
 
