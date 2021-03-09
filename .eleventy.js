@@ -127,6 +127,7 @@ module.exports = function (eleventyConfig) {
     </script>
     `;
   });
+
   eleventyConfig.addShortcode("lazyScript", function () {
     return `
       <script async src="/src/js/lazy-load.js"></script>
@@ -137,5 +138,5 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("admin");
 
-  eleventyConfig.addPlugin(lazyImagesPlugin);
+  // eleventyConfig.addPlugin(lazyImagesPlugin);
 };
