@@ -1,8 +1,67 @@
+$('.slider_info_wrap').slick({
+    dots: false,
+    arrows: false,
+    infinite: false,
+    slidesToShow: 2,
+    variableWidth: true,
+
+    responsive: [
+        {
+            breakpoint: 1370,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1.3,
+            }
+        },
+    ]
+
+});
+
+
+// slider
+$('.slider_img').slick({
+    dots: false,
+    arrows: false,
+    infinite: false,
+    speed: 300,
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1.3,
+            }
+        },
+    ]
+});
 
 
 $(document).ready(function(){
     //Check to see if the window is top if not then display button
-
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
             $('.back_to_top').addClass("back_to_top-show");
@@ -39,35 +98,7 @@ $(document).ready(function(){
         $('.slider_graph').slick('slickGoTo', slideno - 1);
     });
 
-    // slider
-    $('.slider_img').slick({
-        dots: false,
-        arrows: false,
-        infinite: false,
-        speed: 300,
-        slidesToScroll: 1,
-        slidesToShow: 4,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1.3,
-                }
-            },
-        ]
-    });
+
 
     // open youtube video
     $('span[data-id]').click(function(e) {
@@ -143,35 +174,7 @@ $(document).ready(function(){
         }
     });
 
-    $('.slider_info_wrap').slick({
-        dots: false,
-        arrows: false,
-        infinite: false,
-        slidesToShow: 2,
-        variableWidth: true,
 
-        responsive: [
-            {
-                breakpoint: 1370,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1.3,
-                }
-            },
-        ]
-
-    });
 
     $(window).scroll(function() {
         $('video').each(function() {
