@@ -1,63 +1,69 @@
-$('.slider_info_wrap').slick({
-    dots: false,
-    arrows: false,
-    infinite: false,
-    slidesToShow: 2,
-    variableWidth: true,
 
-    responsive: [
-        {
-            breakpoint: 1370,
-            settings: {
-                slidesToShow: 2,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-            }
-        },
-        {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1.3,
-            }
-        },
-    ]
 
-});
+$ (function () {
+
+    $('.slider_info_wrap').slick({
+        dots: false,
+        arrows: false,
+        infinite: false,
+        slidesToShow: 2,
+        variableWidth: true,
+
+        responsive: [
+            {
+                breakpoint: 1370,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1.3,
+                }
+            },
+        ]
+
+    });
 
 
 // slider
-$('.slider_img').slick({
-    dots: false,
-    arrows: false,
-    infinite: false,
-    speed: 300,
-    slidesToScroll: 1,
-    slidesToShow: 4,
-    responsive: [
-        {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-            }
-        },
-        {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1.3,
-            }
-        },
-    ]
-});
+    $('.slider_img').slick({
+        dots: false,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1.3,
+                }
+            },
+        ]
+    });
+
+}())
 
 
 $(document).ready(function(){
