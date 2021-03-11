@@ -205,8 +205,13 @@ $(document).ready(function(){
 
 
     $(window).scroll(function() {
+
+
+
         $('video').each(function() {
             if ($(this).visible(true)) {
+                let source = $(this).data('source');
+                $(this).append('<source  src='+source+' type="video/mp4" />');
                 $(this)[0].play();
             } else {
                 $(this)[0].pause();
