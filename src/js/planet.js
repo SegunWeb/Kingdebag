@@ -3,7 +3,28 @@
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 4,
     spaceBetween: 30,
-    centeredSlides: true
+    breakpoints: {
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 60,
+        },
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 60,
+        }
+    }
 });
 
 

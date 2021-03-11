@@ -6,11 +6,11 @@
         </div>
 
         <div class="slider">
-            <div class="slider-list">
-                <div class="slider_img  slider_biz_strategy_box slider-track">
+            <div class="slider-list swiper-container">
+                <div class="swiper-wrapper  slider_biz_strategy_box ">
                     {% for item in planet.slider_biz_strategy.slide %}
-                    <div>
-                        <div class="item slider_biz_strategy_item slide" id="{{item.hover_id}}">
+
+                        <div class="swiper-slide item slider_biz_strategy_item slide" id="{{item.hover_id}}">
                             <div class="slider_biz_strategy_item_wrap" data-id="{{item.data_id}}">
                                 <div class="slider_biz_strategy_item_img">
                                     <img src="{{item.img}}" alt="slide">
@@ -27,7 +27,7 @@
                             <span class="slider_biz_strategy_item_link" data-id="{{item.data_id}}" >{{ item.label }}</span>
 
                         </div>
-                    </div>
+
 
                     {% endfor %}
                 </div>
