@@ -1,22 +1,6 @@
 
 
-let swiper = new Swiper('.swiper-container', {
-    direction: 'horizontal',
-    slidesPerView: 1.25,
 
-    breakpoints: {
-        1400: {
-            slidesPerView: 4,
-        },
-        1200: {
-            slidesPerView: 3.25,
-        },
-        568: {
-
-            slidesPerView: 2.25,
-        }
-    }
-});
 
 
 $(document).ready(function(){

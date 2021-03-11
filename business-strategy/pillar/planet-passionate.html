@@ -17,6 +17,27 @@
     <meta name="twitter:description" content="{{ planet.meta.meta_desc }}">
     <meta name="twitter:url" content="https://www.annual-report.kingspan.com"/>
 
+
+    <script>
+        let swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            slidesPerView: 1.25,
+
+            breakpoints: {
+                1400: {
+                    slidesPerView: 4,
+                },
+                1200: {
+                    slidesPerView: 3.25,
+                },
+                568: {
+
+                    slidesPerView: 2.25,
+                }
+            }
+        });
+    </script>
+
     <link rel="preload" href="../../../src/js/planet.js" as="script" />
 
     <link rel="stylesheet" href="../../../src/css/planet.css" media="print" onload="this.media='all'"/>
