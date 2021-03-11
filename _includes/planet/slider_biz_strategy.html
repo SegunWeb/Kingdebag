@@ -11,11 +11,7 @@
                     {% for item in planet.slider_biz_strategy.slide %}
                     <div>
                         <div class="item slider_biz_strategy_item slide" id="{{item.hover_id}}">
-                            {% if item.hover_text %}
                             <div class="slider_biz_strategy_item_wrap" data-id="{{item.data_id}}">
-                            {% else %}
-                            <div class="slider_biz_strategy_item_wrap no-cursor" data-id="{{item.data_id}}">
-                            {% endif %}
                                 <div class="slider_biz_strategy_item_img">
                                     <img src="{{item.img}}" alt="slide">
                                     <p>{{item.hover_text}}</p>
