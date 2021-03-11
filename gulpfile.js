@@ -57,6 +57,7 @@ let pages = [
     name: "planet",
     scripts: [
       "./src/libs/jquery/jquery.min.js",
+      "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/planet.js",
