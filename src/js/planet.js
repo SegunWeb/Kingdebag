@@ -1,28 +1,19 @@
 
 
-var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 4,
-    spaceBetween: 30,
+let swiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    slidesPerView: 1.25,
+
     breakpoints: {
+        1400: {
+            slidesPerView: 4,
+        },
         1200: {
-            slidesPerView: 3,
-            spaceBetween: 30,
+            slidesPerView: 3.25,
         },
-        992: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-        },
-        576: {
-            slidesPerView: 1,
-            spaceBetween: 60,
-        },
-        320: {
-            slidesPerView: 1,
-            spaceBetween: 60,
+        568: {
+
+            slidesPerView: 2.25,
         }
     }
 });
