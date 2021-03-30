@@ -1,13 +1,13 @@
 <section class="article_detail_video">
-    <div id="{{ five_video }}" class="active_video">
+    <div id="{{ module.five_video }}" class="active_video">
         <div class="close_video"></div>
         <div class="video_size" id="youtube"></div>
     </div>
 
     <div class="wrapper">
         <div class="article_detail_video_box">
-            <span data-id="{{ five_video }}" class="article_detail_video_btn_play button_play">{{ article_detail.article_detail_video.btnPlay | svgContents }}</span>
-            <img class="article_detail_video_preview" src="{{five_img}}" alt="{{five_img_alt}}">
+            <span data-id="{{ module.five_video }}" class="article_detail_video_btn_play button_play">{{ article_detail.article_detail_video.btnPlay | svgContents }}</span>
+            <img class="article_detail_video_preview" src="{{module.five_img}}" alt="{{module.five_img_alt}}">
         </div>
     </div>
 </section>
