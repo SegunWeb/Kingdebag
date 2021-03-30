@@ -12,7 +12,7 @@
   @include mq(xxl) {
     background: linear-gradient(90deg, $white 35%, $greenLight -50%)
   }
-  @include mq(sm) {
+  @include mq(md) {
     background: linear-gradient(90deg, $white 0%, $greenLight -100%)
   }
 }
@@ -26,6 +26,8 @@
 }
 .article_detail_img_box {
   margin-top: -80px;
+  width: 100%;
+  padding-bottom: 80px;
 
   @include mq(xs) {
     margin-top: -160px;
@@ -69,7 +71,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 60px 20px;
   }
   @include mq(xs) {
     padding: 40px 0;
@@ -100,7 +102,7 @@
       left: 0;
       right: 0;
       margin: 0 auto;
-      padding: 100px 0;
+      padding: 60px 20px;
     }
     @include mq(xs) {
       padding: 23px 0;

@@ -23,4 +23,8 @@ $(document).ready(function () {
         jQuery("iframe").each(function() {
             jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')});
     });
+
+
+
+
 });

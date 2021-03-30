@@ -298,6 +298,7 @@ var config = {
         removeAbout: true
     }
 };
+
 CookieControl.load(config);
 
 let copy = new Date();

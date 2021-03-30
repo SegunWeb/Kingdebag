@@ -108,7 +108,7 @@
 }
 .section_two_article_title {
   font-size: $fontSizeXl - 20px;
-  margin: 75px 0 88px 0;
+  margin: 75px 0 100px 0;
   line-height: 1.2;
   letter-spacing: 1px;
 
@@ -159,4 +159,18 @@
 #uSocial .ico_uscl.uscl-email:hover, .uSocial-Share .ico_uscl.uscl-email:hover {
   opacity: .8 !important;
   transition: .3s;
+}
+
+#strong:first-letter {
+  font-weight: bold;
+  font-family: $brown;
+  font-size: $fontSizeXl - 20px;
+  letter-spacing: 4px;
+
+  @include mq(md) {
+    font-size: $fontSizeXl - 40px;
+  }
+  @include mq(xs) {
+    font-size: $fontSizeXl - 50px;
+  }
 }

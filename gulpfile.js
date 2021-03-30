@@ -4,11 +4,6 @@ const uglify = require("gulp-uglify-es").default;
 const cleanCSS = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const merge = require("merge-stream");
-
-const imagemin = require("gulp-imagemin");
-const webp = require("imagemin-webp");
-const extReplace = require("gulp-ext-replace");
-
 const workboxBuild = require("workbox-build");
 
 const babel = require("gulp-babel");
@@ -57,7 +52,6 @@ let pages = [
     name: "planet",
     scripts: [
       "./src/libs/jquery/jquery.min.js",
-      "./src/libs/swiper/swiper-bundle.min.js",
       "./src/libs/slider/slick.min.js",
       "./src/js/main.js",
       "./src/js/planet.js",
@@ -199,6 +193,9 @@ let pages = [
       "./src/libs/jquery/jquery.min.js",
     ],
   },
+
+
+
 ];
 
 // let scssHeads = pages.map(({ name }) => `./src/scss/${name}/${name}-head.scss`);
@@ -328,21 +325,6 @@ gulp.task("buildSW", () => {
   });
 });
 
-gulp.task("exportWebP", function() {
-  let src = ["./src/image/**/*.png", "src/images/*.png", "src/images/**/*.jpeg", "src/images/*.jpeg" ]; // Where your PNGs are coming from.
-  let dest = "./_site/src/image"; // Where your WebPs are going.
-
-  return gulp.src(src)
-      .pipe(imagemin([
-        webp({
-          quality: 75
-        })
-      ]))
-      .pipe(extReplace(".webp"))
-      .pipe(gulp.dest(dest));
-});
-
-
 /*
   Watch folders for changess
 */
@@ -355,4 +337,4 @@ gulp.task("watch", function () {
 /*
   Let's build this sucker.
 */
-gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "exportWebP",  "icons",  "config", "manifest", "robots", "sitemap", "assets"));
+gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "icons", "config", "manifest", "robots", "sitemap", "assets"));

@@ -4,26 +4,26 @@
   "first_img": "/src/image/governance/g1.jpeg",
   "first_text_btn": "Report of nomination & governance committee",
 
-  "first_href_btn": "/src/assets/Kingspan_AR20_Digital_Nomination_FA.pdf#page=66",
+  "first_href_btn": "/src/assets/Kingspan_AR20_Digital_Nomination_FA.pdf",
 
   "second_img_one": "/src/image/governance/g2.jpeg",
   "second_img_two": "/src/image/governance/g3.png",
   "second_text_btn": "report of remuneration committee",
 
-  "second_href_btn": "/src/assets/Kingspan_AR20_Digital_Remuneration_FA.pdf#page=74",
+  "second_href_btn": "/src/assets/Kingspan_AR20_Digital_Remuneration_FA.pdf",
   "second_text_btn_two": "REPORT OF AUDIT & COMPLIANCE COMMITTEE",
 
-  "second_href_btn_two": "/src/assets/Kingspan_AR20_Digital_Audit_FA.pdf#page=86",
+  "second_href_btn_two": "/src/assets/Kingspan_AR20_Digital_Audit_FA.pdf",
 
   "three_img_one": "/src/image/governance/g4.png",
   "three_img_two": "/src/image/governance/g5.jpeg",
   "three_text_btn": "report of the directors",
 
-  "three_href_btn": "/src/assets/Kingspan_AR20_Digital_ReportofDirectors_FA.pdf#page=96",
+  "three_href_btn": "/src/assets/Kingspan_AR20_Digital_ReportofDirectors_FA.pdf",
 
   "three_text_btn_two": "the board",
 
-  "three_href_btn_two": "/src/assets/Kingspan_AR20_Digital_TheBoard_FA.pdf#page=62",
+  "three_href_btn_two": "/src/assets/Kingspan_AR20_Digital_TheBoard_FA.pdf",
 
 
   "mobile_img_one": "/src/image/governance/g1.jpeg",

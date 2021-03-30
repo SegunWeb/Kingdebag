@@ -9,7 +9,7 @@
 .article_detail_better_container {
   position: relative;
 }
-.article_detail_better_title {
+.article_detail_better_title  {
   transform: rotate(-90deg);
   font-size: $fontSizeLG + 4px;
   text-transform: uppercase;
@@ -22,18 +22,16 @@
 
   @include mq(lg) {
     left: -2%;
-    top: 145px;
+    top: 165px;
   }
   @include mq(md) {
-    left: -6%;
+    left: 0;
+    transform: rotateZ(-90deg) translateX(1%) translateY(0);
+    transform-origin: 34% 185%!important;
   }
   @include mq(xs) {
-    left: -6%;
     font-size: $fontSizeLG - 12px;
     top: 88px;
-  }
-  @include mq(xxs) {
-    left: -45px;
   }
 
 
@@ -51,7 +49,7 @@
 .article_detail_better_box {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+
   width: 100%;
 
   @include mq(md) {

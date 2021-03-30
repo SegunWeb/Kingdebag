@@ -176,7 +176,12 @@ $(document).ready(function(){
     $(window).scroll(function() {
         $('video').each(function() {
             if ($(this).visible(true)) {
+                let source = $(this).data('source');
                 $(this)[0].play();
+
+                if($(this).children().length === 0) {
+                    $(this).append('<source  src='+source+' type="video/mp4" />');
+                }
             } else {
                 $(this)[0].pause();
             }

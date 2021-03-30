@@ -7,7 +7,7 @@
         </div>
         <div class="video_box">
             <video class="video" muted autoplay playsinline loop>
-                <source src="/src/image/uploads/kingspan-footer-blocks_new.mp4" type="video/mp4" />
+                <source src="/src/image/uploads/kingspan-footer-blocks.mp4" type="video/mp4" />
             </video>
         </div>
         <div class="footer_report_file">
@@ -77,7 +77,7 @@
                 <ul class="footer_socials__list">
                     {% for soc_link_item in footer.socials_link_footer %}
                     <li class="footer_socials__item">
-                        <a  rel="nofollow" class="footer_socials__link" href="{{soc_link_item.link_href}}" target="_blank">
+                        <a class="footer_socials__link" href="{{soc_link_item.link_href}}" target="_blank">
                             {{ soc_link_item.socials | svgContents }}
                         </a>
                     </li>

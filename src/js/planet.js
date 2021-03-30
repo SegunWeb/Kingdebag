@@ -1,24 +1,3 @@
-
-
-let swiper = new Swiper('.swiper-container', {
-    direction: 'horizontal',
-    slidesPerView: 1.25,
-
-    breakpoints: {
-        1400: {
-            slidesPerView: 4,
-        },
-        1200: {
-            slidesPerView: 3.25,
-        },
-        568: {
-
-            slidesPerView: 2.25,
-        }
-    }
-});
-
-
 $(document).ready(function(){
 
 
@@ -205,14 +184,14 @@ $(document).ready(function(){
 
 
     $(window).scroll(function() {
-
-
-
         $('video').each(function() {
             if ($(this).visible(true)) {
                 let source = $(this).data('source');
-                $(this).append('<source  src='+source+' type="video/mp4" />');
                 $(this)[0].play();
+
+                if($(this).children().length === 0) {
+                    $(this).append('<source  src='+source+' type="video/mp4" />');
+                }
             } else {
                 $(this)[0].pause();
             }
