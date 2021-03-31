@@ -44,7 +44,7 @@ page_modules:
     five_img_alt: video
     five_video: EBAkVFPXXYk
   - type: vertical_text
-    sixth_title: "***`text name`***"
+    sixth_title: "`text name`"
     sixth_desc: text name @markdown@
     sixth_title_list: "# `text name`"
     sixth_list: |-
