@@ -43,9 +43,4 @@ page_modules:
     five_img: /src/image/uploads/9306035e-9de1-4659-aeee-ae87d98e8187-airpod_pros.jpg
     five_img_alt: video
     five_video: EBAkVFPXXYk
-  - type: vertical_text
-    sixth_title: "`123123`"
-    sixth_desc: "2112312312"
-    sixth_title_list: "###### `12`"
-    sixth_list: "123"
 ---
