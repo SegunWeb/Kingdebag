@@ -218,7 +218,7 @@ collections:
             widget: "object"
             collapsed: true
             required: false
-            summary: '{{fields.img_right}}'
+            summary: 'Image Right Text Left Block: {{fields.img_right}}'
             fields:
               - { label: "name_this_section", name: "img_right", widget: "string" }
               - { label: "7_section_image", name: "seventh_img", widget: "image" }
@@ -234,7 +234,7 @@ collections:
             widget: "object"
             collapsed: true
             required: false
-            summary: '{{fields.quote_section}}'
+            summary: 'Quote Block: {{fields.quote_section}}'
             fields:
               - { label: "name_this_section", name: "quote_section", widget: "string" }
               - { label: "3_section_name", name: "third_desc", widget: "string" }
@@ -246,7 +246,7 @@ collections:
             widget: "object"
             collapsed: true
             required: false
-            summary: '{{fields.centered_image_text_sect}}'
+            summary: 'Centered Text Image Block: {{fields.centered_image_text_sect}}'
             fields:
               - { label: "name_this_section", name: "centered_image_text_sect", widget: "string" }
               - { label: "4_section_image", name: "fourth_img", widget: "image" }
@@ -274,7 +274,7 @@ collections:
             widget: "object"
             collapsed: true
             required: false
-            summary: '{{fields.vertical_text_sect}}'
+            summary: 'Custom editor block: {{fields.vertical_text_sect}}'
             fields:
               - { label: "name_this_section", name: "vertical_text_sect", widget: "string" }
               - { label: "6_section_name", name: "sixth_title", widget: "markdown" }
