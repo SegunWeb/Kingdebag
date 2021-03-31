@@ -52,9 +52,17 @@ page_modules:
   - type: vertical_text
     sixth_title: |-
       * 1
-      * 2
-      * 3
-      * 4
+
+        2
+      * 2323233
+
+        e
+
+        e
+
+        e
+
+        e
     sixth_desc: |-
       \- 1
 
