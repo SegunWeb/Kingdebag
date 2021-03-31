@@ -191,8 +191,9 @@ collections:
             name: "title_desc"
             widget: "object"
             required: false
-            summary: 'Title Description Block: {{fields.first_title}}: {{fields.first_desc}}'
+            summary: 'Title Description Block: {{fields.name_section_title_desc}}'
             fields:
+              - { label: "name_title_desc", name: "name_section_title_desc", widget: "text" }
               - { label: "1_section_title", name: "first_title", widget: "string" }
               - { label: "1_section_desc", name: "first_desc", widget: "text" }
 

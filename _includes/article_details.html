@@ -28,16 +28,40 @@
 
 <main>
     {% include post_detail/main_article_detail.html %}
+    {% include post_detail/article_detail_breadcrumb_title.html %}
+
+    {% for module in page_modules  %}
+    {% if module.type == "title_desc" %}
     {% include post_detail/article_detail_section_two.html %}
+    {% endif %}
+
+    {% if module.type == "img_left_text_right" %}
     {% include post_detail/article_detail_left_img.html %}
-    {% include post_detail/article_detail_testimonials.html %}
-    {% include post_detail/article_detail_small_img.html %}
-    {% include post_detail/article_detail_video.html %}
-    {% include post_detail/article_detail_text.html %}
+    {% endif %}
+
+    {% if module.type == "img_right_text_left" %}
     {% include post_detail/article_detail_right_img.html %}
-    {% include article_detail/article_detail_better.html %}
+    {% endif %}
 
+    {% if module.type == "quote_block" %}
+    {% include post_detail/article_detail_testimonials.html %}
+    {% endif %}
 
+    {% if module.type == "centered_image_text" %}
+    {% include post_detail/article_detail_small_img.html %}
+    {% endif %}
+
+    {% if module.type == "video" %}
+    {% include post_detail/article_detail_video.html %}
+    {% endif %}
+
+    {% if module.type == "vertical_text" %}
+    {% include post_detail/article_detail_text.html %}
+    {% endif %}
+
+    {% endfor %}
+
+    {% include post_detail/article_detail_better.html %}
 </main>
 
 {% include component/footer.html %}

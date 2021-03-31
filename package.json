@@ -41,6 +41,7 @@
     "gulp-ext-replace": "^0.3.0",
     "gulp-imagemin": "^7.1.0",
     "imagemin-webp": "^6.0.0",
+    "markdown-it": "^12.0.4",
     "netlify-cli": "^3.4.2"
   }
 }
