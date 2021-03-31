@@ -43,4 +43,31 @@ page_modules:
     five_img: /src/image/uploads/9306035e-9de1-4659-aeee-ae87d98e8187-airpod_pros.jpg
     five_img_alt: video
     five_video: EBAkVFPXXYk
+  - type: vertical_text
+    sixth_title: |-
+      * 1
+      * 2
+      * 3
+      * 4
+    sixth_desc: |-
+      
+
+      * 1
+      * 2
+      * 3
+      * 4
+    sixth_title_list: |-
+      
+
+      * 1
+      * 2
+      * 3
+      * 4
+    sixth_list: |-
+      
+
+      * 1
+      * 2
+      * 3
+      * 4
 ---
