@@ -44,11 +44,8 @@ page_modules:
     five_img_alt: video
     five_video: EBAkVFPXXYk
   - type: vertical_text
-    sixth_title: "`text name`"
-    sixth_desc: text name @markdown@
-    sixth_title_list: "# `text name`"
-    sixth_list: |-
-      * text name
-      * text name
-      * text name
+    sixth_title: "`123123`"
+    sixth_desc: "2112312312"
+    sixth_title_list: "###### `12`"
+    sixth_list: "123"
 ---
