@@ -51,39 +51,26 @@ page_modules:
     video_sect: "31232132"
   - type: vertical_text
     sixth_title: |-
-      * 1
-
-        2
-      * 2323233
-
-        e
-
-        e
-
-        e
-
-        e
+      - First item
+      - Second item
+      - Third item
+          - Indented item
+          - Indented item
+      - Fourth item
     sixth_desc: |-
-      \- 1
-
-      \- 2
-
-      \- 3
-
-      \- 4
+      + First item
+      + Second item
+      + Third item
+      + Fourth item
     sixth_title_list: |-
-      
-
-      * 1
-      * 2
-      * 3
-      * 4
+      * First item
+      * Second item
+      * Third item
+      * Fourth item
     sixth_list: |-
-      
-
-      * 1
-      * 2
-      * 3
-      * 4
+      - First item
+      - Second item
+      - Third item
+      - Fourth item
     vertical_text_sect: "3213123"
 ---
