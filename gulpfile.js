@@ -308,7 +308,7 @@ gulp.task("icons", function () {
 gulp.task("buildSW", () => {
   return workboxBuild.generateSW({
     globDirectory: "_site",
-    globPatterns: ["**/*.{html,eot,ttf,woff,woff2,js,css}"],
+    globPatterns: ["**/*.{html,md,eot,ttf,woff,woff2,js,css}"],
     swDest: "_site/sw.js",
     runtimeCaching: [
       {
