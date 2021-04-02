@@ -37,4 +37,5 @@ page_modules:
       * Second item
       * Third item
       * Fourth item
+    vertical_text_sect_q: test
 ---
