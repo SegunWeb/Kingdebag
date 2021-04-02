@@ -277,10 +277,10 @@ collections:
             summary: 'Custom editor block: {{fields.vertical_text_sect}}'
             fields:
               - { label: "name_this_section", name: "vertical_text_sect", widget: "string" }
-              - { label: "6_section_name", name: "sixth_title", widget: "markdown" }
-              - { label: "6_section_title", name: "sixth_desc", widget: "markdown" }
-              - { label: "6_section_desc", name: "sixth_title_list", widget: "text" }
-              - { label: "6_section_list", name: "sixth_list", widget: "list" }
+              - { label: "6_section_name", name: "sixth_title", widget: "markdown", required: false }
+              - { label: "6_section_title", name: "sixth_desc", widget: "markdown", required: false }
+              - { label: "6_section_desc", name: "sixth_title_list", widget: "text", required: false }
+              - { label: "6_section_list", name: "sixth_list", widget: "list", required: false }
 
 
 
