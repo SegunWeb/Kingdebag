@@ -272,7 +272,6 @@ collections:
 
           - label: "Test"
             name: "vertical_text"
-            widget: "markdown"
             collapsed: true
             required: false
             summary: 'Custom editor block: {{fields.vertical_text_sect_q}}'
