@@ -5,9 +5,10 @@ const sharp = require("sharp");
 const pluginInlineCss = require("@navillus/eleventy-plugin-inline-css");
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
-const markdownIt = require("markdown-it");
-const markdownItPrism = require("markdown-it-prism");
-const markdownItFootnote = require("markdown-it-footnote");
+const markdownIt = require('markdown-it')
+const markdownItAttrs = require('markdown-it-attrs')
+
+
 
 
 
@@ -15,16 +16,15 @@ const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function (eleventyConfig) {
 
-
-  let markdownItOpts = {
+  const markdownItOptions = {
     html: true,
-    linkify: true,
-    typographer: true
-  };
-  const markdownEngine = markdownIt(markdownItOpts);
-  markdownEngine.use(markdownItFootnote);
-  markdownEngine.use(markdownItPrism);
-  eleventyConfig.setLibrary("md", markdownEngine);
+    breaks: true,
+    linkify: true
+  }
+
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+  eleventyConfig.setLibrary('md', markdownLib)
+
 
 
   const outputFormat = ["webp", "png"];
