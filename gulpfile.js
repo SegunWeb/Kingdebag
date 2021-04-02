@@ -5,7 +5,7 @@ const cleanCSS = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const merge = require("merge-stream");
 const workboxBuild = require("workbox-build");
-const markdown = require('gulp-multimarkdown');
+
 const babel = require("gulp-babel");
 const autoprefixer = require("gulp-autoprefixer");
 
@@ -334,15 +334,11 @@ gulp.task("watch", function () {
   gulp.watch("./src/js/*.js", gulp.parallel("js"));
 });
 
-gulp.task('mark', function () {
-  return gulp.src('./our-thinking/*.md')
-      .pipe(mulmarkdown())
-      .pipe(gulp.dest('./_site/our-thinking/*'))
-});
+
 
 
 
 /*
   Let's build this sucker.
 */
-gulp.task("build", gulp.parallel("mark","scss", "fonts", "js", "libs", "icons", "config", "manifest", "robots", "sitemap", "assets"));
+gulp.task("build", gulp.parallel("scss", "fonts", "js", "libs", "icons", "config", "manifest", "robots", "sitemap", "assets"));
