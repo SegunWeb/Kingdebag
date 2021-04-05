@@ -273,7 +273,6 @@ collections:
             name: "vertical_text"
             widget: "object"
             collapsed: true
-            required: false
             summary: 'Custom editor block: {{fields.vertical_text_sect}}'
             fields:
               - { label: "name_this_section", name: "vertical_text_sect", widget: "string", required: false  }
