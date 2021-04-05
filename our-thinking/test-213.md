@@ -13,11 +13,10 @@ page_modules:
     sixth_title: |-
       test 213
 
-      - First item
-      - Second item
-      - Third item
-      - Fourth item
-
+      * First item
+      * Second item
+      * Third item
+      * Fourth item
       * First item
       * Second item
       * Third item
@@ -33,5 +32,5 @@ page_modules:
     sixth_title_list: ewfwef
     sixth_list:
       - eqeqwedcsddsjsddsdf
-    vertical_text_sect: wedwe
+    vertical_text_sect: fsdf wedwe
 ---
