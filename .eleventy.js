@@ -19,18 +19,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter('toHTML', markdownLib.render.bind(markdownLib));
 
-  eleventyConfig.addShortcode("alert",  function (content, options = {}) {
-    const {
-      variant = ""
-    } = options;
-
-    console.log(content);
-
+  eleventyConfig.addShortcode("alert",  function (content) {
+    const filter =  eleventyConfig.getFilter('toHTML');
     if(content !== ''){
-      return ` <div>${content}</div>`
+      return ` <div>${filter(content)}</div>`
+    }
+    else {
+      return "";
     }
   });
-
 
   const outputFormat = ["webp", "png"];
 

@@ -25,5 +25,7 @@ page_modules:
     sixth_title_list: ""
     sixth_list:
       - eqeqwedcsddsjsddsdf
+      - eqeqwedcsddsjsddsdf
+      - eqeqwedcsddsjsddsdf
     vertical_text_sect: fsdf wedwe
 ---
