@@ -278,8 +278,8 @@ collections:
               - { label: "name_this_section", name: "vertical_text_sect", widget: "string", required: false  }
               - { label: "6_section_name", name: "sixth_title", widget: "markdown", required: false   }
               - { label: "6_section_title", name: "sixth_desc", widget: "markdown", required: false  }
-              - { label: "6_section_desc", name: "sixth_title_list", widget: "text", required: false  }
-              - { label: "6_section_list", name: "sixth_list", widget: "list",  required: false }
+              - { label: "6_section_desc", name: "sixth_title_list", widget: "markdown", required: false  }
+              - { label: "6_section_list", name: "sixth_list", widget: "markdown",  required: false }
 
 
 
