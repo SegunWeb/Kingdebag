@@ -20,7 +20,10 @@ const markdownLib = markdownIt({
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addFilter('toHTML', (v) => {  console.log(v); return markdownLib.render(v) });
+  eleventyConfig.addFilter('toHTML', (value = '') => {
+    console.log(value);
+    markdownLib.render.bind(markdownLib)(value)
+  });
 
 
 
