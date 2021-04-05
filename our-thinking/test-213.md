@@ -21,15 +21,8 @@ page_modules:
       * Second item
       * Third item
       * Fourth itemw
-    sixth_desc: |-
-      > ### dqwdwqd
-
-      * 1
-      * ed
-      * ee
-      * e
-      * e
-    sixth_title_list: ewfwef
+    sixth_desc: ""
+    sixth_title_list: ""
     sixth_list:
       - eqeqwedcsddsjsddsdf
     vertical_text_sect: fsdf wedwe
