@@ -22,4 +22,3 @@ page_modules:
       * Second item
       * Third item
       * Fourth item
----
