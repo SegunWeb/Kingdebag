@@ -22,3 +22,11 @@ page_modules:
       * Second item
       * Third item
       * Fourth item
+
+    sixth_desc: wefwef
+    sixth_title_list: fwf
+    sixth_list:
+      - fwfwe
+    vertical_text_sect: wedwe
+---
+
