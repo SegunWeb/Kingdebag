@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/post_detail/article_detail_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post_detail/article_detail_text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <workItem from="1617171712214" duration="4549000" />
       <workItem from="1617181980308" duration="10002000" />
       <workItem from="1617347012367" duration="16758000" />
-      <workItem from="1617607908976" duration="4649000" />
+      <workItem from="1617607908976" duration="5740000" />
     </task>
     <servers />
   </component>
