@@ -16,12 +16,12 @@ page_modules:
       - 3
       - 5
     sixth_title_list: |-
-      *1
-      *2
-      *3
+      * 1
+      * 2
+      * 3
     sixth_list: |-
-      #h1
-      ###h3
+      # h1
+      ### h3
     sixth_title: |-
       **bo**
 
