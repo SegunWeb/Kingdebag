@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("alert",  function (content) {
     const filter =  eleventyConfig.getFilter('toHTML');
     if(content !== ''){
-      return ` <div>${filter(content)}</div>`
+      return ` <div class="alert_text">${filter(content)}</div>`
     }
     else {
       return "";
