@@ -17,17 +17,11 @@ const markdownLib = markdownIt({
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addFilter('toHTML', markdownLib.render.bind(markdownLib));
-
-  eleventyConfig.addShortcode("alert",  function (content) {
-    const filter =  eleventyConfig.getFilter('toHTML');
-    if(content !== ''){
-      return ` <div class="alert_text">${filter(content)}</div>`
-    }
-    else {
-      return "";
-    }
-  });
+  eleventyConfig.addShortcode("alert", (content) =>
+    content
+      ? `<div class="alert_text">${markdownLib.render(content)}</div>`
+      : ''
+  );
 
   const outputFormat = ["webp", "png"];
 
@@ -168,5 +162,5 @@ module.exports = function (eleventyConfig) {
 
 
 
-  // eleventyConfig.addPlugin(lazyImagesPlugin);
+  eleventyConfig.addPlugin(lazyImagesPlugin);
 };
